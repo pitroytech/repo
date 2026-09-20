@@ -1,0 +1,44 @@
+# Dựng lại chỉ mục mỗi khi có .deb mới.
+#
+# Không dựng bằng tay: `Packages` phải khớp từng byte với file trong `debs/`,
+# và một chỉ mục lệch thì Sileo báo "package not found" chứ không báo sai chỗ
+# nào. Máy làm việc đếm byte, người làm việc quyết định.
+name: Build repo index
+
+on:
+  push:
+    paths: ["debs/**", ".github/workflows/index.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dpkg-dev
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends dpkg-dev
+
+      - name: Generate Packages
+        run: |
+          set -eu
+          dpkg-scanpackages --multiversion debs /dev/null > Packages
+          gzip -9kf Packages
+          bzip2 -9kf Packages
+          # Sileo đọc Packages.zst ở một số bản; bỏ qua nếu không có zstd.
+          command -v zstd >/dev/null && zstd -19 -f Packages -o Packages.zst || true
+          wc -c Packages
+          grep -c '^Package:' Packages
+
+      - name: Commit index
+        run: |
+          set -eu
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Packages Packages.gz Packages.bz2 Packages.zst 2>/dev/null || git add Packages Packages.gz Packages.bz2
+          git diff --cached --quiet && echo "chỉ mục không đổi" && exit 0
+          git commit -m "chore: rebuild package index"
+          git push

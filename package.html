@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PitroyTech</title>
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <a class="back" href="index.html">← Tất cả gói</a>
+  <div id="page"></div>
+
+  <footer>
+    <a href="https://github.com/pitroytech">github.com/pitroytech</a>
+  </footer>
+
+</div>
+
+<script>
+const escape = (s) => String(s).replace(/[&<>"']/g,
+  (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const wanted = new URLSearchParams(location.search).get('id');
+const page = document.getElementById('page');
+
+fetch('packages.json')
+  .then((r) => r.json())
+  .then((data) => {
+    const p = data.packages.find((item) => item.id === wanted);
+    if (!p) {
+      page.innerHTML = '<div class="glass card"><p>Không có gói nào mang mã đó.</p></div>';
+      return;
+    }
+    document.title = p.name + ' — PitroyTech';
+
+    const pro = p.pro ? `
+      <section class="glass card">
+        <h3>${escape(p.pro.name)}</h3>
+        <p style="margin:0;font-size:15px">${escape(p.pro.note)}</p>
+      </section>` : '';
+
+    page.innerHTML = `
+      <section class="glass card">
+        <div class="pkg-top">
+          <span class="glyph" aria-hidden="true">
+            <i><b></b><b></b><b></b><b></b><b></b></i>
+            <i><b></b><b></b><b></b><b></b><b></b></i>
+          </span>
+          <span>
+            <h2>${escape(p.name)}</h2>
+            <p>${escape(p.tagline)}</p>
+            <span class="badges">
+              <span class="badge">${escape(p.price)}</span>
+              <span class="badge plain">${escape(p.version)}</span>
+            </span>
+          </span>
+        </div>
+      </section>
+
+      <section class="glass card body">
+        ${p.description.map((line) => `<p>${escape(line)}</p>`).join('')}
+      </section>
+
+      <section class="glass card">
+        <h3>Chi tiết</h3>
+        <div class="meta">
+          <div><span>Mã gói</span><span>${escape(p.id)}</span></div>
+          <div><span>Phiên bản</span><span>${escape(p.version)}</span></div>
+          <div><span>Mục</span><span>${escape(p.section)}</span></div>
+          <div><span>Tương thích</span><span>${escape(p.compatibility)}</span></div>
+        </div>
+      </section>
+      ${pro}`;
+  })
+  .catch(() => {
+    page.innerHTML = '<div class="glass card"><p>Không đọc được dữ liệu gói.</p></div>';
+  });
+</script>
+</body>
+</html>

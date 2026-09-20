@@ -1,0 +1,27 @@
+{
+  "repo": {
+    "name": "PitroyTech",
+    "url": "https://pitroytech.github.io/repo/",
+    "description": "Tweak miễn phí của PitroyTech. Bản trả phí bán trên Havoc."
+  },
+  "packages": [
+    {
+      "id": "com.pitroytech.5row",
+      "name": "5Row",
+      "tagline": "Hàng phím thứ năm cho bàn phím gốc",
+      "version": "1.0.0",
+      "section": "Keyboard",
+      "price": "Miễn phí",
+      "compatibility": "iOS 15.0 trở lên. Đã thử trên iPhone 12 Pro Max (iOS 15) và iPhone 14 Pro Max (iOS 17.2.1), Dopamine rootless.",
+      "description": [
+        "Thêm một hàng phím số nằm trên bàn phím gốc. Không thay bàn phím, không bàn phím thứ ba — chỉ chèn thêm một hàng vào chính bàn phím bạn đang dùng.",
+        "Chạy cả với bàn phím không phải Latin: đã thử Kana, Pinyin và Pinyin10.",
+        "Bản miễn phí có bật tắt và loại trừ ứng dụng. Bản Pro thêm chỉnh chiều cao, tuỳ chỉnh mười phím ở hàng số 5, và công tắc cho nhãn ABC lẫn khoá năm hàng."
+      ],
+      "pro": {
+        "name": "5Row Pro",
+        "note": "Bán trên Havoc."
+      }
+    }
+  ]
+}

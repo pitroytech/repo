@@ -1,0 +1,17 @@
+Package: com.pitroytech.5row
+Name: 5Row
+Description: Thêm hàng phím thứ năm cho bàn phím gốc. Bản miễn phí: bật tắt và loại trừ ứng dụng. Bản Pro thêm chỉnh chiều cao, tuỳ chỉnh mười phím, và tắt được nhãn / năm hàng.
+Maintainer: PitroyTech
+Author: PitroyTech
+Section: Keyboard
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro
+Replaces: com.pitroytech.5rowpro
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Installed-Size: 420
+Filename: debs/com.pitroytech.5row_1.0.0_iphoneos-arm64.deb
+Size: 34070
+MD5sum: 276cef6c4d12594c9bf01cc803c65e55
+SHA1: 5e4c993ab6beaf0dca87d0e0f1293483741d9e36
+SHA256: 582266260b9d9908189ac4f0cea2dd0935ffbabe0568281b3622250b0fa1a11a

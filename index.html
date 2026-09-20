@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PitroyTech</title>
+<meta name="description" content="Kho tweak miễn phí của PitroyTech.">
+<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <h1>PitroyTech</h1>
+    <span class="by">kho tweak</span>
+    <p class="lede">Tweak miễn phí. Bản trả phí bán trên Havoc.</p>
+  </header>
+
+  <section class="glass card">
+    <h3>Thêm nguồn</h3>
+    <div class="source">
+      <span id="src">https://pitroytech.github.io/repo/</span>
+      <button class="copy" id="copy" type="button">Sao chép</button>
+    </div>
+    <ol class="steps">
+      <li>Mở Sileo hoặc Zebra.</li>
+      <li>Sang mục Nguồn, bấm thêm, dán địa chỉ trên.</li>
+      <li>Tải gói bạn muốn.</li>
+    </ol>
+  </section>
+
+  <div id="list"></div>
+
+  <footer>
+    <a href="https://github.com/pitroytech">github.com/pitroytech</a>
+  </footer>
+
+</div>
+
+<script>
+// Một tệp dữ liệu, hai trang đọc chung.
+//
+// Trang chủ và trang chi tiết cùng đọc packages.json, nên thêm một gói là sửa
+// một chỗ. Chép tay nội dung sang hai trang HTML là cách chắc chắn để hai nơi
+// nói hai phiên bản khác nhau.
+const escape = (s) => String(s).replace(/[&<>"']/g,
+  (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+fetch('packages.json')
+  .then((r) => r.json())
+  .then((data) => {
+    document.getElementById('src').textContent = data.repo.url;
+    document.getElementById('list').innerHTML = data.packages.map((p) => `
+      <a class="glass card pkg" href="package.html?id=${encodeURIComponent(p.id)}">
+        <div class="pkg-top">
+          <span class="glyph" aria-hidden="true">
+            <i><b></b><b></b><b></b><b></b><b></b></i>
+            <i><b></b><b></b><b></b><b></b><b></b></i>
+          </span>
+          <span>
+            <h2>${escape(p.name)}</h2>
+            <p>${escape(p.tagline)}</p>
+            <span class="badges">
+              <span class="badge">${escape(p.price)}</span>
+              <span class="badge plain">${escape(p.version)}</span>
+              <span class="badge plain">${escape(p.section)}</span>
+            </span>
+          </span>
+        </div>
+      </a>`).join('');
+  })
+  .catch(() => {
+    document.getElementById('list').innerHTML =
+      '<div class="glass card"><p>Không đọc được danh sách gói.</p></div>';
+  });
+
+document.getElementById('copy').addEventListener('click', async (event) => {
+  const button = event.currentTarget;
+  const text = document.getElementById('src').textContent;
+  try {
+    await navigator.clipboard.writeText(text);
+    button.textContent = 'Đã chép';
+  } catch (error) {
+    // Safari từ chối clipboard ở ngữ cảnh không an toàn. Bôi đen để người
+    // dùng tự chép, thay vì một nút bấm không làm gì và không nói gì.
+    const range = document.createRange();
+    range.selectNodeContents(document.getElementById('src'));
+    const selection = getSelection();
+    selection.removeAllRanges();
+    selection.addRange(range);
+    button.textContent = 'Chép tay';
+  }
+  setTimeout(() => { button.textContent = 'Sao chép'; }, 2000);
+});
+</script>
+</body>
+</html>
