@@ -1,18 +1,18 @@
 Package: com.pitroytech.5row
-Version: 1.0.5
+Version: 1.0.7
 Architecture: iphoneos-arm64
 Maintainer: PitroyTech
 Installed-Size: 420
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
 Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.0.5_iphoneos-arm64.deb
-Size: 31550
-MD5sum: b71b7f0f8b47634a0e87828209705d37
-SHA1: f76480806eb860f9cea4278e802bd7baf5834ce8
-SHA256: 18059ea10a90cd1648c9b145638bbffc935725d7611755ddbdf1aa075676d66b
+Filename: debs/com.pitroytech.5row_1.0.7_iphoneos-arm64.deb
+Size: 32032
+MD5sum: 2d11f6ed57083d8012be02a5ca247c3c
+SHA1: 0467404212b713bdb2f8db3de4f4a1aac1295a8c
+SHA256: 51dbb05569c80052541a939e41e1464a1413e45fd037cc744c11053609fea69a
 Section: Keyboard
-Description: Thêm hàng phím thứ năm cho bàn phím gốc. Bản miễn phí: bật tắt và loại trừ ứng dụng. Bản Pro thêm chỉnh chiều cao, tuỳ chỉnh mười phím, và tắt được nhãn / năm hàng.
+Description: Adds a fifth row to the stock keyboard: a number row, and punctuation when you hold Shift. Not a custom keyboard — it patches the one you already use, so autocorrect, swipe and every installed language keep working. Works on Latin layouts and many non-Latin ones. Free: on/off and a per-app exclusion list. Pro adds key customisation, height, and more. Tested on iPhone 12 Pro Max (iOS 15) and iPhone 14 Pro Max (iOS 17.2.1), Dopamine rootless. — Thêm hàng phím thứ 5 vào bàn phím gốc: hàng số, và hàng ký tự chức năng khi giữ Shift. Không phải bàn phím thay thế — nó vá chính bàn phím bạn đang dùng, nên gõ tự động, vuốt và mọi ngôn ngữ đã cài vẫn nguyên. Bản miễn phí: bật tắt và loại trừ ứng dụng. Bản Pro thêm tuỳ chỉnh phím, chiều cao, và nhiều nữa.
 Author: PitroyTech
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
 Icon: https://pitroytech.github.io/repo/icons/5row.png
