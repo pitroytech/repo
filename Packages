@@ -1,16 +1,16 @@
 Package: com.pitroytech.5row
-Version: 1.0.3
+Version: 1.0.4
 Architecture: iphoneos-arm64
 Maintainer: PitroyTech
 Installed-Size: 420
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
 Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.0.3_iphoneos-arm64.deb
-Size: 34160
-MD5sum: 738485a751c196a2dacbb79451ff76af
-SHA1: d6cedd8d09ab0e2d4ab2baf910ed1b04474070cf
-SHA256: 0597711b09da4e38572d85a15d9847552325f7fe6be69223c971bc6d24e359a1
+Filename: debs/com.pitroytech.5row_1.0.4_iphoneos-arm64.deb
+Size: 34174
+MD5sum: 7b78605909186bef6ba89e44e4324311
+SHA1: 0533bf38373caf669d67086f7b463d821e4a2541
+SHA256: e14789b383c1bb9482d0e66a8c63dec343277e38fe55f7ed44b07072ab3c7330
 Section: Keyboard
 Description: Thêm hàng phím thứ năm cho bàn phím gốc. Bản miễn phí: bật tắt và loại trừ ứng dụng. Bản Pro thêm chỉnh chiều cao, tuỳ chỉnh mười phím, và tắt được nhãn / năm hàng.
 Author: PitroyTech
