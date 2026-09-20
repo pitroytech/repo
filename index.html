@@ -55,10 +55,7 @@ fetch('packages.json')
     document.getElementById('list').innerHTML = data.packages.map((p) => `
       <a class="glass card pkg" href="package.html?id=${encodeURIComponent(p.id)}">
         <div class="pkg-top">
-          <span class="glyph" aria-hidden="true">
-            <i><b></b><b></b><b></b><b></b><b></b></i>
-            <i><b></b><b></b><b></b><b></b><b></b></i>
-          </span>
+          <img class="glyph" src="${escape(p.icon)}" alt="" width="62" height="62">
           <span>
             <h2>${escape(p.name)}</h2>
             <p>${escape(p.tagline)}</p>

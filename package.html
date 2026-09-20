@@ -37,19 +37,21 @@ fetch('packages.json')
     }
     document.title = p.name + ' — PitroyTech';
 
-    const pro = p.pro ? `
+    // Gói free giới thiệu bản Pro qua `pro`; gói Pro tự nói nó bán ở đâu qua
+    // `note`. Một khối, hai nguồn, để không có gói nào im lặng về chỗ tải.
+    const aside = p.pro
+      ? { title: p.pro.name, text: p.pro.note }
+      : (p.note ? { title: 'Mua ở đâu', text: p.note } : null);
+    const pro = aside ? `
       <section class="glass card">
-        <h3>${escape(p.pro.name)}</h3>
-        <p style="margin:0;font-size:15px">${escape(p.pro.note)}</p>
+        <h3>${escape(aside.title)}</h3>
+        <p style="margin:0;font-size:15px">${escape(aside.text)}</p>
       </section>` : '';
 
     page.innerHTML = `
       <section class="glass card">
         <div class="pkg-top">
-          <span class="glyph" aria-hidden="true">
-            <i><b></b><b></b><b></b><b></b><b></b></i>
-            <i><b></b><b></b><b></b><b></b><b></b></i>
-          </span>
+          <img class="glyph" src="${escape(p.icon)}" alt="" width="62" height="62">
           <span>
             <h2>${escape(p.name)}</h2>
             <p>${escape(p.tagline)}</p>

@@ -21,7 +21,24 @@
       "pro": {
         "name": "5Row Pro",
         "note": "Bán trên Havoc."
-      }
+      },
+      "icon": "icons/5row.png"
+    },
+    {
+      "id": "com.pitroytech.5rowpro",
+      "name": "5Row Pro",
+      "tagline": "Hàng phím thứ năm, tuỳ chỉnh được từng phím",
+      "version": "1.0.3",
+      "section": "Keyboard",
+      "price": "Trả phí",
+      "icon": "icons/5rowpro.png",
+      "compatibility": "iOS 15.0 trở lên. Đã thử trên iPhone 12 Pro Max (iOS 15) và iPhone 14 Pro Max (iOS 17.2.1), Dopamine rootless.",
+      "description": [
+        "Thêm một hàng phím số nằm trên bàn phím gốc. Không thay bàn phím, không bàn phím thứ ba — chỉ chèn thêm một hàng vào chính bàn phím bạn đang dùng.",
+        "Chạy cả với bàn phím không phải Latin: đã thử Kana, Pinyin và Pinyin10.",
+        "Tuỳ chỉnh mười phím của hàng số 5, riêng cho lúc có Shift và không Shift. Chỉnh chiều cao bàn phím. Tắt bật nhãn ABC và khoá năm hàng. Loại trừ từng ứng dụng."
+      ],
+      "note": "Bán trên Havoc. Kho này chỉ phát hành bản miễn phí."
     }
   ]
 }
