@@ -266,3 +266,21 @@ footer a { color: var(--ink-dim); }
 .srclink svg { flex: none; }
 
 .avail { margin: 12px 0 0; font-size: 14px; color: var(--ink-dim); }
+
+/* --- chọn ngôn ngữ ----------------------------------------------------- */
+
+.lang { display: flex; gap: 6px; margin: 10px 0 0; }
+
+.lang button {
+    border: 0;
+    border-radius: 999px;
+    padding: 5px 12px;
+    font: 600 12px/1 inherit;
+    font-family: inherit;
+    letter-spacing: .04em;
+    color: var(--ink-dim);
+    background: var(--glass-line);
+    cursor: pointer;
+}
+
+.lang button.on { color: #fff; background: var(--tint); }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -11,7 +11,8 @@
 <body>
 <div class="wrap">
 
-  <a class="back" href="index.html">← Tất cả gói</a>
+  <a class="back" href="index.html">←</a>
+  <div id="lang" class="lang"></div>
   <div id="page"></div>
 
   <footer>
@@ -24,6 +25,67 @@
 const escape = (s) => String(s).replace(/[&<>"']/g,
   (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
+// Chọn ngôn ngữ một lần, dùng cho cả trang.
+//
+// Mọi trường hiển thị nay là {vi, en}. Một hàm đọc duy nhất, để không có chỗ
+// nào quên rồi in ra `[object Object]` — thứ chỉ lộ ra trên máy người đọc.
+const LANGS = ['en', 'vi'];
+
+// Mặc định tiếng Anh, kể cả khi trình duyệt đặt tiếng Việt.
+//
+// Tweak này bán ra quốc tế, nên người lạ mở trang phải đọc được ngay; người
+// Việt bấm một nút. Chọn theo `navigator.language` nghe có vẻ chu đáo hơn,
+// nhưng nó khiến trang hiện hai thứ tiếng khác nhau cho hai người cùng đọc
+// một link — và ảnh chụp trong bài giới thiệu sẽ không khớp trang họ thấy.
+function pickLang() {
+    const saved = localStorage.getItem('lang');
+    return LANGS.includes(saved) ? saved : 'en';
+}
+let LANG = pickLang();
+const t = (v) => (v && typeof v === 'object' && !Array.isArray(v)) ? (v[LANG] ?? v.en ?? '') : v;
+
+// Nhãn cố định của trang. Song ngữ nửa vời — nội dung đổi mà khung không đổi —
+// đọc khó hơn một ngữ, nên khung đi cùng nội dung.
+const UI = {
+    vi: { all: 'Tất cả gói', addSource: 'Thêm nguồn', copy: 'Sao chép',
+          copied: 'Đã chép', manual: 'Chép tay', details: 'Chi tiết',
+          kind: 'kho tweak', id: 'Mã gói', version: 'Phiên bản', section: 'Mục',
+          compat: 'Tương thích', source: 'Nguồn',
+          steps: ['Mở Sileo hoặc Zebra.',
+                  'Sang mục Nguồn, bấm thêm, dán địa chỉ trên.',
+                  'Tải gói bạn muốn.'],
+          missing: 'Không có gói nào mang mã đó.',
+          failed: 'Không đọc được danh sách gói.' },
+    en: { all: 'All packages', addSource: 'Add the repo', copy: 'Copy',
+          copied: 'Copied', manual: 'Select it', details: 'Details',
+          kind: 'tweak repo', id: 'Identifier', version: 'Version', section: 'Section',
+          compat: 'Compatibility', source: 'Links',
+          steps: ['Open Sileo or Zebra.',
+                  'Go to Sources, add, and paste the address above.',
+                  'Install the package you want.'],
+          missing: 'No package with that identifier.',
+          failed: 'Could not load the package list.' },
+};
+const u = (k) => UI[LANG][k];
+
+function langSwitch(render) {
+    const bar = document.getElementById('lang');
+    if (!bar) return;
+    bar.innerHTML = LANGS.map((l) =>
+        `<button type="button" data-l="${l}"${l === LANG ? ' class="on"' : ''}>${l.toUpperCase()}</button>`
+    ).join('');
+    bar.querySelectorAll('button').forEach((b) => b.addEventListener('click', () => {
+        LANG = b.dataset.l;
+        localStorage.setItem('lang', LANG);
+        document.documentElement.lang = LANG;
+        langSwitch(render);
+        render();
+    }));
+    document.documentElement.lang = LANG;
+}
+
+
+
 const wanted = new URLSearchParams(location.search).get('id');
 const page = document.getElementById('page');
 
@@ -32,10 +94,11 @@ fetch('packages.json')
   .then((data) => {
     const p = data.packages.find((item) => item.id === wanted);
     if (!p) {
-      page.innerHTML = '<div class="glass card"><p>Không có gói nào mang mã đó.</p></div>';
+      page.innerHTML = `<div class="glass card"><p>${escape(u('missing'))}</p></div>`;
       return;
     }
     document.title = p.name + ' — PitroyTech';
+    const render = () => {
 
     // Nguồn, kèm icon GitHub vẽ thẳng bằng SVG.
     //
@@ -56,9 +119,9 @@ fetch('packages.json')
       </a>`).join('');
     const pro = `
       <section class="glass card">
-        <h3>Nguồn</h3>
+        <h3>${escape(u('source'))}</h3>
         <div class="srclinks">${links}</div>
-        ${p.availability ? `<p class="avail">${escape(p.availability)}</p>` : ''}
+        ${p.availability ? `<p class="avail">${escape(t(p.availability))}</p>` : ''}
       </section>`;
 
     page.innerHTML = `
@@ -67,9 +130,9 @@ fetch('packages.json')
           <img class="glyph" src="${escape(p.icon)}" alt="" width="62" height="62">
           <span>
             <h2>${escape(p.name)}</h2>
-            <p>${escape(p.tagline)}</p>
+            <p>${escape(t(p.tagline))}</p>
             <span class="badges">
-              <span class="badge">${escape(p.price)}</span>
+              <span class="badge">${escape(t(p.price))}</span>
               <span class="badge plain">${escape(p.version)}</span>
             </span>
           </span>
@@ -77,22 +140,25 @@ fetch('packages.json')
       </section>
 
       <section class="glass card body">
-        ${p.description.map((line) => `<p>${escape(line)}</p>`).join('')}
+        ${t(p.description).map((line) => `<p>${escape(line)}</p>`).join('')}
       </section>
 
       <section class="glass card">
-        <h3>Chi tiết</h3>
+        <h3>${escape(u('details'))}</h3>
         <div class="meta">
-          <div><span>Mã gói</span><span>${escape(p.id)}</span></div>
-          <div><span>Phiên bản</span><span>${escape(p.version)}</span></div>
-          <div><span>Mục</span><span>${escape(p.section)}</span></div>
-          <div><span>Tương thích</span><span>${escape(p.compatibility)}</span></div>
+          <div><span>${escape(u('id'))}</span><span>${escape(p.id)}</span></div>
+          <div><span>${escape(u('version'))}</span><span>${escape(p.version)}</span></div>
+          <div><span>${escape(u('section'))}</span><span>${escape(p.section)}</span></div>
+          <div><span>${escape(u('compat'))}</span><span>${escape(t(p.compatibility))}</span></div>
         </div>
       </section>
       ${pro}`;
+    };
+    langSwitch(render);
+    render();
   })
   .catch(() => {
-    page.innerHTML = '<div class="glass card"><p>Không đọc được dữ liệu gói.</p></div>';
+    page.innerHTML = `<div class="glass card"><p>${escape(u('failed'))}</p></div>`;
   });
 </script>
 </body>
