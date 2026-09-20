@@ -2,43 +2,69 @@
   "repo": {
     "name": "PitroyTech",
     "url": "https://pitroytech.github.io/repo/",
-    "description": "Tweak miễn phí của PitroyTech. Bản trả phí bán trên Havoc."
+    "description": "Tweak của PitroyTech."
   },
   "packages": [
     {
       "id": "com.pitroytech.5row",
       "name": "5Row",
-      "tagline": "Hàng phím thứ năm cho bàn phím gốc",
-      "version": "1.0.4",
+      "tagline": "Hàng phím thứ 5 cho bàn phím gốc",
+      "version": "1.0.5",
       "section": "Keyboard",
       "price": "Miễn phí",
       "compatibility": "iOS 15.0 trở lên. Đã thử trên iPhone 12 Pro Max (iOS 15) và iPhone 14 Pro Max (iOS 17.2.1), Dopamine rootless.",
       "description": [
-        "Thêm một hàng phím số nằm trên bàn phím gốc. Không thay bàn phím, không bàn phím thứ ba — chỉ chèn thêm một hàng vào chính bàn phím bạn đang dùng.",
-        "Chạy cả với bàn phím không phải Latin: đã thử Kana, Pinyin và Pinyin10.",
-        "Bản miễn phí có bật tắt và loại trừ ứng dụng. Bản Pro thêm chỉnh chiều cao, tuỳ chỉnh mười phím ở hàng số 5, và công tắc cho nhãn ABC lẫn khoá năm hàng."
+        "Tweak này sẽ làm điều Apple không bao giờ chịu lắng nghe bạn.",
+        "Nó thêm hàng phím thứ 5 vào bàn phím gốc: đó là hàng phím số, và hơn thế nữa.",
+        "Khi nhấn Shift, hàng phím số sẽ chuyển thành hàng phím với rất nhiều phím chức năng hữu ích.",
+        "Hỗ trợ toàn bộ phím Latin và nhiều phím Non-Latin.",
+        "Bản Free chỉ cho bật tắt, loại trừ app.",
+        "Bản Pro có tất cả những gì bạn muốn: tùy chỉnh hàng phím số 5, tăng giảm chiều cao các phím, bật tắt nhãn 5Row, bật tắt khóa luôn hiện 5 hàng, và nhiều nữa trong tương lai..."
       ],
-      "pro": {
-        "name": "5Row Pro",
-        "note": "Bán trên Havoc."
-      },
-      "icon": "icons/5row.png"
+      "icon": "icons/5row.png",
+      "links": [
+        {
+          "kind": "github",
+          "label": "PitroyTech",
+          "url": "https://github.com/pitroytech"
+        },
+        {
+          "kind": "repo",
+          "label": "pitroytech.github.io/repo",
+          "url": "https://pitroytech.github.io/repo/"
+        }
+      ]
     },
     {
       "id": "com.pitroytech.5rowpro",
       "name": "5Row Pro",
-      "tagline": "Hàng phím thứ năm, tuỳ chỉnh được từng phím",
-      "version": "1.0.4",
+      "tagline": "Hàng phím thứ 5 cho bàn phím gốc",
+      "version": "1.0.5",
       "section": "Keyboard",
       "price": "Trả phí",
       "icon": "icons/5rowpro.png",
       "compatibility": "iOS 15.0 trở lên. Đã thử trên iPhone 12 Pro Max (iOS 15) và iPhone 14 Pro Max (iOS 17.2.1), Dopamine rootless.",
       "description": [
-        "Thêm một hàng phím số nằm trên bàn phím gốc. Không thay bàn phím, không bàn phím thứ ba — chỉ chèn thêm một hàng vào chính bàn phím bạn đang dùng.",
-        "Chạy cả với bàn phím không phải Latin: đã thử Kana, Pinyin và Pinyin10.",
-        "Tuỳ chỉnh mười phím của hàng số 5, riêng cho lúc có Shift và không Shift. Chỉnh chiều cao bàn phím. Tắt bật nhãn ABC và khoá năm hàng. Loại trừ từng ứng dụng."
+        "Tweak này sẽ làm điều Apple không bao giờ chịu lắng nghe bạn.",
+        "Nó thêm hàng phím thứ 5 vào bàn phím gốc: đó là hàng phím số, và hơn thế nữa.",
+        "Khi nhấn Shift, hàng phím số sẽ chuyển thành hàng phím với rất nhiều phím chức năng hữu ích.",
+        "Hỗ trợ toàn bộ phím Latin và nhiều phím Non-Latin.",
+        "Bản Free chỉ cho bật tắt, loại trừ app.",
+        "Bản Pro có tất cả những gì bạn muốn: tùy chỉnh hàng phím số 5, tăng giảm chiều cao các phím, bật tắt nhãn 5Row, bật tắt khóa luôn hiện 5 hàng, và nhiều nữa trong tương lai..."
       ],
-      "note": "Bán trên Havoc. Kho này chỉ phát hành bản miễn phí."
+      "links": [
+        {
+          "kind": "github",
+          "label": "PitroyTech",
+          "url": "https://github.com/pitroytech"
+        },
+        {
+          "kind": "repo",
+          "label": "pitroytech.github.io/repo",
+          "url": "https://pitroytech.github.io/repo/"
+        }
+      ],
+      "availability": "Chưa phát hành. Kho này chỉ có bản miễn phí."
     }
   ]
 }

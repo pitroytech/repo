@@ -244,3 +244,25 @@ footer {
 }
 
 footer a { color: var(--ink-dim); }
+
+/* --- khối nguồn -------------------------------------------------------- */
+
+.srclinks { display: flex; flex-wrap: wrap; gap: 8px; }
+
+.srclink {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: var(--glass-line);
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.srclink:hover { background: color-mix(in srgb, var(--tint) 16%, transparent); color: var(--tint); }
+.srclink svg { flex: none; }
+
+.avail { margin: 12px 0 0; font-size: 14px; color: var(--ink-dim); }
