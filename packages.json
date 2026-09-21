@@ -15,15 +15,15 @@
         "vi": "Hàng phím thứ 5 cho bàn phím gốc",
         "en": "A fifth row on the stock keyboard"
       },
-      "version": "0.17.1test",
+      "version": "1.08~beta1",
       "section": "Keyboard",
       "price": {
         "vi": "Miễn phí",
         "en": "Free"
       },
       "compatibility": {
-        "vi": "iOS 15.0 trở lên. Đã thử trên iPhone 12 Pro Max (iOS 15) và iPhone 14 Pro Max (iOS 17.2.1), Dopamine rootless.",
-        "en": "iOS 15.0 and later. Tested on iPhone 12 Pro Max (iOS 15) and iPhone 14 Pro Max (iOS 17.2.1), Dopamine rootless."
+        "vi": "iOS 15 trở lên. Có gói beta riêng cho Rootless và RootHide. Khả năng chạy thực tế trên iOS 16 / RootHide vẫn đang được kiểm chứng.",
+        "en": "iOS 15+. Separate Rootless and RootHide beta packages. iOS 16 / RootHide runtime compatibility is still being validated."
       },
       "description": {
         "vi": [
