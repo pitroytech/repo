@@ -26,21 +26,33 @@
         "en": "iOS 15+. Separate Rootless and RootHide beta packages. iOS 16 / RootHide runtime compatibility is still being validated."
       },
       "description": {
-        "vi": [
-          "Tweak này sẽ làm điều Apple không bao giờ chịu lắng nghe bạn.",
-          "Nó thêm hàng phím thứ 5 vào bàn phím gốc: đó là hàng phím số, và hơn thế nữa.",
-          "Khi nhấn Shift, hàng phím số sẽ chuyển thành hàng phím với rất nhiều phím chức năng hữu ích.",
-          "Hỗ trợ toàn bộ phím Latin và nhiều phím Non-Latin.",
-          "Bản Free chỉ cho bật tắt, loại trừ app.",
-          "Bản Pro có tất cả những gì bạn muốn: tùy chỉnh hàng phím số 5, tăng giảm chiều cao các phím, bật tắt nhãn 5Row, bật tắt khóa luôn hiện 5 hàng, và nhiều nữa trong tương lai..."
-        ],
         "en": [
-          "This does the thing Apple has never listened to you about.",
-          "It adds a fifth row to the stock keyboard: a number row, and more than that.",
-          "Hold Shift and that row turns into a row of genuinely useful punctuation and symbols.",
-          "Works across every Latin layout and many non-Latin ones.",
-          "Free: on/off and a per-app exclusion list.",
-          "Pro gives you everything you want: customise all ten keys on the fifth row, raise or lower the key height, toggle the 5Row label, toggle the always-five-rows lock — and more to come."
+          "Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.",
+          "Features:",
+          "Adds an extra row that feels at home on the stock keyboard. Press Shift to switch the number row to punctuation and commonly used symbols.",
+          "Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.",
+          "Turn the tweak on or off and exclude individual apps.",
+          "Pro features:",
+          "Customise all ten keys on the fifth row, including their Shift characters. Adjust key height, toggle the five-row lock when switching with 123/ABC, and customise the 5Row label on the ABC key.",
+          "Separate packages are available for Rootless and RootHide.",
+          "Notes:",
+          "iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.",
+          "The beta is being tested on iOS 15 (RootHide) and iOS 17 (Rootless). Compatibility issues reported on iOS 16 are still under investigation.",
+          "If something goes wrong or the tweak does not work, please send a diagnostic log to asdlkjlkjasd@gmail.com. Use Copy diagnostic log or Export diagnostic log in Settings."
+        ],
+        "vi": [
+          "Thêm hàng phím số thứ 5 mà Apple bao nhiêu năm qua vẫn không làm cho iPhone.",
+          "Tính năng:",
+          "5Row thêm một hàng phím vào bàn phím gốc một cách tự nhiên. Nhấn Shift để chuyển hàng số sang dấu câu và ký tự thường dùng.",
+          "Hỗ trợ bàn phím Latin và nhiều bố cục non-Latin. Các bố cục hoạt động có thể khác nhau theo phiên bản iOS.",
+          "Bật/tắt và loại trừ từng ứng dụng.",
+          "Bản Pro:",
+          "Tùy chỉnh 10 phím của hàng thứ 5, bao gồm ký tự khi nhấn Shift. Chỉnh chiều cao phím, bật/tắt giữ 5 hàng khi chuyển bằng 123/ABC và tùy chỉnh nhãn 5Row trên phím ABC.",
+          "Có gói riêng cho Rootless và RootHide.",
+          "Lưu ý:",
+          "Chỉ dành cho iPhone và bàn phím theo chiều dọc. Chưa hỗ trợ bàn phím viết tay và bàn phím bên thứ ba.",
+          "Bản beta đang được kiểm chứng trên iOS 15 (RootHide) và iOS 17 (Rootless). Các lỗi tương thích được báo trên iOS 16 vẫn đang được điều tra.",
+          "Nếu có lỗi hoặc không dùng được, hãy gửi log tới asdlkjlkjasd@gmail.com. Dùng Sao chép log chẩn đoán hoặc Xuất log chẩn đoán trong Cài đặt."
         ]
       },
       "icon": "icons/5row.png",
@@ -54,6 +66,11 @@
           "kind": "repo",
           "label": "pitroytech.github.io/repo",
           "url": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "kind": "support",
+          "label": "Support",
+          "url": "mailto:asdlkjlkjasd@gmail.com"
         }
       ]
     },
@@ -76,21 +93,33 @@
         "en": "iOS 15.0 and later. Tested on iPhone 12 Pro Max (iOS 15) and iPhone 14 Pro Max (iOS 17.2.1), Dopamine rootless."
       },
       "description": {
-        "vi": [
-          "Tweak này sẽ làm điều Apple không bao giờ chịu lắng nghe bạn.",
-          "Nó thêm hàng phím thứ 5 vào bàn phím gốc: đó là hàng phím số, và hơn thế nữa.",
-          "Khi nhấn Shift, hàng phím số sẽ chuyển thành hàng phím với rất nhiều phím chức năng hữu ích.",
-          "Hỗ trợ toàn bộ phím Latin và nhiều phím Non-Latin.",
-          "Bản Free chỉ cho bật tắt, loại trừ app.",
-          "Bản Pro có tất cả những gì bạn muốn: tùy chỉnh hàng phím số 5, tăng giảm chiều cao các phím, bật tắt nhãn 5Row, bật tắt khóa luôn hiện 5 hàng, và nhiều nữa trong tương lai..."
-        ],
         "en": [
-          "This does the thing Apple has never listened to you about.",
-          "It adds a fifth row to the stock keyboard: a number row, and more than that.",
-          "Hold Shift and that row turns into a row of genuinely useful punctuation and symbols.",
-          "Works across every Latin layout and many non-Latin ones.",
-          "Free: on/off and a per-app exclusion list.",
-          "Pro gives you everything you want: customise all ten keys on the fifth row, raise or lower the key height, toggle the 5Row label, toggle the always-five-rows lock — and more to come."
+          "Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.",
+          "Features:",
+          "Adds an extra row that feels at home on the stock keyboard. Press Shift to switch the number row to punctuation and commonly used symbols.",
+          "Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.",
+          "Turn the tweak on or off and exclude individual apps.",
+          "Pro features:",
+          "Customise all ten keys on the fifth row, including their Shift characters. Adjust key height, toggle the five-row lock when switching with 123/ABC, and customise the 5Row label on the ABC key.",
+          "Separate packages are available for Rootless and RootHide.",
+          "Notes:",
+          "iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.",
+          "The beta is being tested on iOS 15 (RootHide) and iOS 17 (Rootless). Compatibility issues reported on iOS 16 are still under investigation.",
+          "If something goes wrong or the tweak does not work, please send a diagnostic log to asdlkjlkjasd@gmail.com. Use Copy diagnostic log or Export diagnostic log in Settings."
+        ],
+        "vi": [
+          "Thêm hàng phím số thứ 5 mà Apple bao nhiêu năm qua vẫn không làm cho iPhone.",
+          "Tính năng:",
+          "5Row thêm một hàng phím vào bàn phím gốc một cách tự nhiên. Nhấn Shift để chuyển hàng số sang dấu câu và ký tự thường dùng.",
+          "Hỗ trợ bàn phím Latin và nhiều bố cục non-Latin. Các bố cục hoạt động có thể khác nhau theo phiên bản iOS.",
+          "Bật/tắt và loại trừ từng ứng dụng.",
+          "Bản Pro:",
+          "Tùy chỉnh 10 phím của hàng thứ 5, bao gồm ký tự khi nhấn Shift. Chỉnh chiều cao phím, bật/tắt giữ 5 hàng khi chuyển bằng 123/ABC và tùy chỉnh nhãn 5Row trên phím ABC.",
+          "Có gói riêng cho Rootless và RootHide.",
+          "Lưu ý:",
+          "Chỉ dành cho iPhone và bàn phím theo chiều dọc. Chưa hỗ trợ bàn phím viết tay và bàn phím bên thứ ba.",
+          "Bản beta đang được kiểm chứng trên iOS 15 (RootHide) và iOS 17 (Rootless). Các lỗi tương thích được báo trên iOS 16 vẫn đang được điều tra.",
+          "Nếu có lỗi hoặc không dùng được, hãy gửi log tới asdlkjlkjasd@gmail.com. Dùng Sao chép log chẩn đoán hoặc Xuất log chẩn đoán trong Cài đặt."
         ]
       },
       "links": [
@@ -103,6 +132,11 @@
           "kind": "repo",
           "label": "pitroytech.github.io/repo",
           "url": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "kind": "support",
+          "label": "Support",
+          "url": "mailto:asdlkjlkjasd@gmail.com"
         }
       ],
       "availability": {
