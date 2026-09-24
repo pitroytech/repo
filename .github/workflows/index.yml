@@ -1,4 +1,4 @@
-# Dựng lại chỉ mục mỗi khi có .deb mới.
+# Dựng lại chỉ mục APT mỗi khi có .deb mới.
 #
 # Không dựng bằng tay: `Packages` phải khớp từng byte với file trong `debs/`,
 # và một chỉ mục lệch thì Sileo báo "package not found" chứ không báo sai chỗ
@@ -7,7 +7,10 @@ name: Build repo index
 
 on:
   push:
-    paths: ["debs/**", ".github/workflows/index.yml"]
+    paths:
+      - "debs/**"
+      - "CydiaIcon.png"
+      - ".github/workflows/index.yml"
   workflow_dispatch:
 
 permissions:
@@ -19,30 +22,72 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install dpkg-dev
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends dpkg-dev
+      # `apt-ftparchive` chứ không phải `dpkg-scanpackages`.
+      #
+      # `dpkg-scanpackages` chỉ chép ra những trường nó biết, nên nó **vứt**
+      # `SileoDepiction` — trường duy nhất Sileo dùng để vẽ trang gói.
+      # `apt-ftparchive` giữ nguyên mọi trường control, nên không cần chèn lại
+      # bằng tay và không có chỗ nào để hai bên lệch nhau.
+      - name: Install apt-utils
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends apt-utils xz-utils
 
       - name: Generate Packages
         run: |
           set -eu
-          dpkg-scanpackages --multiversion debs /dev/null > Packages
-          # `dpkg-scanpackages` vứt `SileoDepiction`, mà Sileo chỉ vẽ từ trường
-          # đó. Chèn lại ở đây thì người dùng chỉ cần làm mới nguồn, không phải
-          # cập nhật gói. Lý do đầy đủ nằm trong script.
-          python3 tools/inject-sileo-depiction.py Packages
+          apt-ftparchive packages debs > Packages
+
+          # Sileo đòi `Section:`. Thiếu nó thì gói không hiện trong danh sách và
+          # không có thông báo nào nói vì sao.
+          awk 'BEGIN{RS="";FS="\n"}
+               {pkg="";sec="";
+                for(i=1;i<=NF;i++){
+                  if($i ~ /^Package: /) pkg=substr($i,10)
+                  if($i ~ /^Section: /) sec=substr($i,10)}
+                if(pkg!="" && sec==""){
+                  printf "FAIL: %s thiếu Section, Sileo sẽ không hiện nó\n", pkg > "/dev/stderr"; exit 1}}' Packages
+
           gzip -9kf Packages
           bzip2 -9kf Packages
-          # Sileo đọc Packages.zst ở một số bản; bỏ qua nếu không có zstd.
-          command -v zstd >/dev/null && zstd -19 -f Packages -o Packages.zst || true
-          wc -c Packages
+          xz -9e -kf Packages
+          echo "--- chỉ mục ---"
           grep -c '^Package:' Packages
+          grep -c '^SileoDepiction:' Packages || echo "0 SileoDepiction"
+
+      # `Release` phải mang checksum của `Packages`.
+      #
+      # Bản cũ là một file tĩnh viết tay: chỉ có Origin/Label/Suite, **không có
+      # khối MD5Sum/SHA256 nào**. Sileo đối chiếu checksum trong `Release` với
+      # file tải về; không có thì nó từ chối nguồn. Zebra dễ tính hơn, nên suốt
+      # nhiều bản "Zebra chạy, Sileo lỗi" — và đó là nguyên nhân thật, không
+      # phải trường depiction.
+      #
+      # Sinh ở thư mục khác rồi chép vào để `Release` không tự băm chính nó.
+      - name: Generate Release
+        run: |
+          set -eu
+          mkdir -p .release-build
+          cp Packages Packages.gz Packages.bz2 Packages.xz .release-build/
+          apt-ftparchive \
+            -o APT::FTPArchive::Release::Origin="PitroyTech" \
+            -o APT::FTPArchive::Release::Label="PitroyTech" \
+            -o APT::FTPArchive::Release::Suite="stable" \
+            -o APT::FTPArchive::Release::Version="1.0" \
+            -o APT::FTPArchive::Release::Codename="ios" \
+            -o APT::FTPArchive::Release::Architectures="iphoneos-arm64 iphoneos-arm64e" \
+            -o APT::FTPArchive::Release::Components="main" \
+            -o APT::FTPArchive::Release::Description="Tweaks by PitroyTech" \
+            release .release-build > Release
+          rm -rf .release-build
+          echo "--- Release ---"
+          cat Release
 
       - name: Commit index
         run: |
           set -eu
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add Packages Packages.gz Packages.bz2 Packages.zst 2>/dev/null || git add Packages Packages.gz Packages.bz2
+          git add Packages Packages.gz Packages.bz2 Packages.xz Release
+          git rm --cached --ignore-unmatch Packages.zst >/dev/null
           git diff --cached --quiet && echo "chỉ mục không đổi" && exit 0
           git commit -m "chore: rebuild package index"
           git push
