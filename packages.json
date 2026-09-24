@@ -9,7 +9,7 @@
       "id": "com.pitroytech.5row",
       "name": "5Row",
       "tagline": "A fifth row on the stock keyboard",
-      "version": "1.16.4",
+      "version": "1.16.5",
       "section": "Keyboard",
       "price": "Free",
       "compatibility": "iOS 15 and later. Separate Rootless and RootHide packages. Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.",
@@ -46,7 +46,7 @@
       ],
       "changelog": [
         {
-          "version": "1.16.4",
+          "version": "1.16.5",
           "date": "2026-09-24",
           "notes": [
             "Minor fixes"
@@ -77,7 +77,7 @@
       "id": "com.pitroytech.5rowpro",
       "name": "5Row Pro",
       "tagline": "A fifth row on the stock keyboard",
-      "version": "1.16.4",
+      "version": "1.16.5",
       "section": "Keyboard",
       "price": "Paid",
       "icon": "icons/5rowpro.png",
@@ -112,7 +112,7 @@
       "availability": "Not released yet. This repo carries the free build only.",
       "changelog": [
         {
-          "version": "1.16.4",
+          "version": "1.16.5",
           "date": "2026-09-24",
           "notes": [
             "Minor fixes"
