@@ -11,10 +11,9 @@
           "title": "5Row Pro"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Everything in the free build, with the parts it keeps locked opened up.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "Everything in the free build, with the parts it keeps locked opened up.",
+          "useSpacing": true
         },
         {
           "class": "DepictionLabelView",
@@ -23,28 +22,9 @@
           "usePadding": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Edit all ten keys on both rows, including the characters they show on Shift.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Choose which row appears in each situation: normally, on Shift, and on 123.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Adjust the keyboard height.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Keep five rows when switching with 123 or ABC.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "Edit all ten keys on both rows, including the characters they show on Shift.\n\nChoose which row appears in each situation: normally, on Shift, and on 123.\n\nAdjust the keyboard height.\n\nKeep five rows when switching with 123 or ABC.",
+          "useSpacing": true
         },
         {
           "class": "DepictionLabelView",
@@ -53,10 +33,9 @@
           "usePadding": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Not released yet. This repo carries the free build only.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "Not released yet. This repo carries the free build only.",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -87,16 +66,9 @@
           "title": "1.16.3  ·  2026-09-24"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• Fixed the package page showing an error in Sileo",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Refreshed the package description to match what the build actually does",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed the package page showing an error in Sileo\n- Refreshed the package description to match what the build actually does",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -106,40 +78,9 @@
           "title": "1.16.2  ·  2026-09-24"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• Shift and 123 now show the punctuation row you actually use (fixes the doubled number row)",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Rename the ABC and 123 keys, up to five characters each",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Added a reset-to-defaults button",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Always show five rows is now on by default",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Better diagnostic logging, plus a support email",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Various interface and stability fixes",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- Shift and 123 now show the punctuation row you actually use (fixes the doubled number row)\n- Rename the ABC and 123 keys, up to five characters each\n- Added a reset-to-defaults button\n- Always show five rows is now on by default\n- Better diagnostic logging, plus a support email\n- Various interface and stability fixes",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -149,10 +90,9 @@
           "title": "1.08~beta3  ·  2026-09-22"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• First public beta, posted on r/jailbreak",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- First public beta, posted on r/jailbreak",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"

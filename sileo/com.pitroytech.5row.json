@@ -11,10 +11,9 @@
           "title": "5Row"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.",
+          "useSpacing": true
         },
         {
           "class": "DepictionLabelView",
@@ -23,28 +22,9 @@
           "usePadding": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use — no more doubled number row.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Rename the ABC and 123 keys, up to five characters each.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use — no more doubled number row.\n\nRename the ABC and 123 keys, up to five characters each.\n\nSupports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.\n\nTurn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.",
+          "useSpacing": true
         },
         {
           "class": "DepictionLabelView",
@@ -53,10 +33,9 @@
           "usePadding": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "All ten keys on both rows, which row appears in each situation, keyboard height, and the always-five-rows switch.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "All ten keys on both rows, which row appears in each situation, keyboard height, and the always-five-rows switch.",
+          "useSpacing": true
         },
         {
           "class": "DepictionLabelView",
@@ -65,16 +44,9 @@
           "usePadding": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "If something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.\n\nIf something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com.",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -105,16 +77,9 @@
           "title": "1.16.3  ·  2026-09-24"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• Fixed the package page showing an error in Sileo",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Refreshed the package description to match what the build actually does",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed the package page showing an error in Sileo\n- Refreshed the package description to match what the build actually does",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -124,40 +89,9 @@
           "title": "1.16.2  ·  2026-09-24"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• Shift and 123 now show the punctuation row you actually use (fixes the doubled number row)",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Rename the ABC and 123 keys, up to five characters each",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Added a reset-to-defaults button",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Always show five rows is now on by default",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Better diagnostic logging, plus a support email",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Various interface and stability fixes",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- Shift and 123 now show the punctuation row you actually use (fixes the doubled number row)\n- Rename the ABC and 123 keys, up to five characters each\n- Added a reset-to-defaults button\n- Always show five rows is now on by default\n- Better diagnostic logging, plus a support email\n- Various interface and stability fixes",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -167,10 +101,9 @@
           "title": "1.08~beta3  ·  2026-09-22"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• First public beta, posted on r/jailbreak",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- First public beta, posted on r/jailbreak",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"

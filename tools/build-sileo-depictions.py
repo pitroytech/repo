@@ -17,20 +17,40 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 LANGS = ("en", "vi")
 
 
-def label(text, *, bold=False, dim=False):
-    return {
-        "class": "DepictionLabelView",
-        "text": text,
-        "fontWeight": "bold" if bold else "normal",
-        "usePadding": True,
-        **({"fontSize": 13} if dim else {}),
-    }
+def heading(text):
+    """Tiêu đề một dòng. `DepictionLabelView` vừa đúng việc này."""
+    return {"class": "DepictionLabelView", "text": text,
+            "fontWeight": "bold", "usePadding": True}
+
+
+def paragraph(lines):
+    """Đoạn văn nhiều dòng.
+
+    **Không dùng `DepictionLabelView`.** Lớp đó là nhãn MỘT DÒNG: gặp câu dài
+    nó cắt cụt bằng dấu ba chấm thay vì xuống dòng. Đo trên máy 24/09 — mọi câu
+    mô tả trong Sileo đều đứt giữa chừng. `DepictionMarkdownView` mới bọc chữ
+    theo bề ngang màn hình.
+    """
+    return {"class": "DepictionMarkdownView",
+            "markdown": "\n\n".join(lines),
+            "useSpacing": True}
 
 
 def details_tab(package, lang):
     views = [{"class": "DepictionSubheaderView", "title": package["name"]}]
+    # Gom các câu liền nhau thành MỘT khối markdown; tiêu đề tách riêng.
+    # Mỗi câu một view thì khoảng cách giữa chúng doãng ra rất xa.
+    buffer = []
     for line in package["description"][lang]:
-        views.append(label(line, bold=line.rstrip().endswith(":")))
+        if line.rstrip().endswith(":"):
+            if buffer:
+                views.append(paragraph(buffer))
+                buffer = []
+            views.append(heading(line))
+        else:
+            buffer.append(line)
+    if buffer:
+        views.append(paragraph(buffer))
     views.append({"class": "DepictionSeparatorView"})
     views.append({"class": "DepictionTableTextView", "title": "Identifier",
                   "text": package["id"]})
@@ -46,10 +66,12 @@ def changelog_tab(package, lang):
     for entry in package.get("changelog", []):
         views.append({"class": "DepictionSubheaderView",
                       "title": f"{entry['version']}  ·  {entry.get('date', '')}".strip(" ·")})
-        for note in entry["notes"][lang]:
-            views.append(label("• " + note))
+        # Một khối markdown cho cả danh sách: Sileo tự dựng bullet và tự bọc chữ.
+        views.append({"class": "DepictionMarkdownView",
+                      "markdown": "\n".join("- " + note for note in entry["notes"][lang]),
+                      "useSpacing": True})
         views.append({"class": "DepictionSeparatorView"})
-    return views or [label("—")]
+    return views or [heading("—")]
 
 
 def build(package, lang):

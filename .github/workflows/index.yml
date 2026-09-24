@@ -26,6 +26,8 @@ jobs:
         run: |
           set -eu
           dpkg-scanpackages --multiversion debs /dev/null > Packages
+          # `dpkg-scanpackages` vứt `SileoDepiction`; chèn lại. Xem script.
+          python3 tools/inject-sileo-depiction.py Packages
           gzip -9kf Packages
           bzip2 -9kf Packages
           # Sileo đọc Packages.zst ở một số bản; bỏ qua nếu không có zstd.

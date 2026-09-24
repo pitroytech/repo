@@ -11,10 +11,9 @@
           "title": "5Row Pro"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Mọi thứ của bản miễn phí, cộng những phần bản đó khoá lại.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "Mọi thứ của bản miễn phí, cộng những phần bản đó khoá lại.",
+          "useSpacing": true
         },
         {
           "class": "DepictionLabelView",
@@ -23,28 +22,9 @@
           "usePadding": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Sửa cả mười phím của hai hàng, gồm cả ký tự khi nhấn Shift.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Chọn hàng nào hiện ra trong từng trường hợp: bình thường, khi nhấn Shift, khi nhấn 123.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Chỉnh chiều cao bàn phím.",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "Giữ năm hàng khi chuyển bằng 123 hoặc ABC.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "Sửa cả mười phím của hai hàng, gồm cả ký tự khi nhấn Shift.\n\nChọn hàng nào hiện ra trong từng trường hợp: bình thường, khi nhấn Shift, khi nhấn 123.\n\nChỉnh chiều cao bàn phím.\n\nGiữ năm hàng khi chuyển bằng 123 hoặc ABC.",
+          "useSpacing": true
         },
         {
           "class": "DepictionLabelView",
@@ -53,10 +33,9 @@
           "usePadding": true
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Chưa phát hành. Kho này chỉ có bản miễn phí.",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "Chưa phát hành. Kho này chỉ có bản miễn phí.",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -87,16 +66,9 @@
           "title": "1.16.3  ·  2026-09-24"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• Sửa trang gói trong Sileo hiển thị lỗi",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Cập nhật lại phần mô tả gói cho đúng tính năng hiện tại",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- Sửa trang gói trong Sileo hiển thị lỗi\n- Cập nhật lại phần mô tả gói cho đúng tính năng hiện tại",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -106,40 +78,9 @@
           "title": "1.16.2  ·  2026-09-24"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• Khi nhấn Shift hoặc 123 sẽ hiển thị hàng phím ký tự hay dùng (sửa lỗi lặp bàn phím số)",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Thêm tùy chọn nhãn phím Abc và 123, tối đa 5 ký tự",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Thêm nút đặt lại toàn bộ thiết lập",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Luôn hiển thị 5 hàng nay bật sẵn",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Cải thiện log chẩn đoán và thêm email hỗ trợ",
-          "fontWeight": "normal",
-          "usePadding": true
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "• Một số fix khác về giao diện và tính ổn định",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- Khi nhấn Shift hoặc 123 sẽ hiển thị hàng phím ký tự hay dùng (sửa lỗi lặp bàn phím số)\n- Thêm tùy chọn nhãn phím Abc và 123, tối đa 5 ký tự\n- Thêm nút đặt lại toàn bộ thiết lập\n- Luôn hiển thị 5 hàng nay bật sẵn\n- Cải thiện log chẩn đoán và thêm email hỗ trợ\n- Một số fix khác về giao diện và tính ổn định",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -149,10 +90,9 @@
           "title": "1.08~beta3  ·  2026-09-22"
         },
         {
-          "class": "DepictionLabelView",
-          "text": "• Bản beta công khai đầu tiên trên r/jailbreak",
-          "fontWeight": "normal",
-          "usePadding": true
+          "class": "DepictionMarkdownView",
+          "markdown": "- Bản beta công khai đầu tiên trên r/jailbreak",
+          "useSpacing": true
         },
         {
           "class": "DepictionSeparatorView"
