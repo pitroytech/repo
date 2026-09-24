@@ -1,63 +1,16 @@
 Package: com.pitroytech.5row
-Version: 1.16.3
-Architecture: iphoneos-arm64e
-Maintainer: PitroyTech
-Installed-Size: 508
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.16.3_iphoneos-arm64e.deb
-Size: 56070
-MD5sum: 34294fa90fd9c9e6b7d04391f402d478
-SHA1: 4f291ba578fdeb1399d335e7c711ccf7124b34ca
-SHA256: 0e5a4a37634631766ac55908ef6fbfeb3df4af002271d479ead174e6ba41cdd5
-Section: Keyboard
-Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
- Features:
- Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
- Rename the ABC and 123 keys, up to five characters each.
- Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
- Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
- Pro adds:
- All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
- Separate packages are available for Rootless and RootHide.
- Notes:
- iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
- Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
- If something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com.
- .
- Thêm hàng phím số thứ 5 mà Apple bao nhiêu năm qua vẫn không làm cho iPhone.
- Tính năng:
- 5Row thêm một hàng phím vào bàn phím gốc một cách tự nhiên. Nhấn Shift hoặc 123 thì hàng đó chuyển sang ký tự hay dùng, nên không còn cảnh hai hàng chữ số.
- Đổi nhãn phím ABC và phím 123, tối đa năm ký tự mỗi phím.
- Hỗ trợ bàn phím Latin và nhiều bố cục non-Latin. Các bố cục hoạt động có thể khác nhau theo phiên bản iOS.
- Bật/tắt, loại trừ từng ứng dụng, và đặt lại toàn bộ về mặc định bằng một chạm.
- Bản Pro có thêm:
- Cả mười phím của hai hàng, chọn hàng nào hiện ra trong từng trường hợp, chiều cao bàn phím, và công tắc luôn 5 hàng.
- Có gói riêng cho Rootless và RootHide.
- Lưu ý:
- Chỉ dành cho iPhone và bàn phím theo chiều dọc. Chưa hỗ trợ bàn phím viết tay và bàn phím bên thứ ba.
- Đã có người dùng xác nhận chạy trên iOS 15.4, 16.4, 16.5, 16.6, 16.7 và 17.0.
- Nếu có lỗi, hãy bật log chẩn đoán trong Cài đặt, tái hiện lỗi, rồi sao chép log và gửi tới asdlkjlkjasd@gmail.com.
-Author: PitroyTech
-Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
-Icon: https://pitroytech.github.io/repo/icons/5row.png
-Name: 5Row
-Sileodepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
-
-Package: com.pitroytech.5row
-Version: 1.16.3
+Version: 1.16.4
 Architecture: iphoneos-arm64
 Maintainer: PitroyTech
 Installed-Size: 508
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
 Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.16.3_iphoneos-arm64.deb
-Size: 55994
-MD5sum: 0f5671c110be3f5829b0696b6962465c
-SHA1: f760bf827b3fb300e5ebdcf9a375f0609dfcc4cd
-SHA256: 43ef3adb6f50dfe0783a7868fe7e27391db3de5595a128410af8e1bad686d1be
+Filename: debs/com.pitroytech.5row_1.16.4_iphoneos-arm64.deb
+Size: 55938
+MD5sum: fc2667b27c8a80f1c2e00ea30aa5f951
+SHA1: a14a7194c8ea41f18f2a541aed795df7ffff6040
+SHA256: 52c1bd922e47eaf0703f53b7854677c635f96de478149af3ce0d9f631351541a
 Section: Keyboard
 Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
  Features:
@@ -90,5 +43,50 @@ Author: PitroyTech
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
 Icon: https://pitroytech.github.io/repo/icons/5row.png
 Name: 5Row
-Sileodepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
+
+Package: com.pitroytech.5row
+Version: 1.16.4
+Architecture: iphoneos-arm64e
+Maintainer: PitroyTech
+Installed-Size: 508
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: debs/com.pitroytech.5row_1.16.4_iphoneos-arm64e.deb
+Size: 56112
+MD5sum: 1bb7d8754b14ef8d9d4025915d6a3d41
+SHA1: 8667a7aeda6437565bdca53cc5e7a7c12593ac90
+SHA256: b82c6edc075c1b47c6f628ae7bec2527a7d8ddf81b217e85e49951441b99e09b
+Section: Keyboard
+Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
+ Features:
+ Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
+ Rename the ABC and 123 keys, up to five characters each.
+ Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
+ Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
+ Pro adds:
+ All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
+ Separate packages are available for Rootless and RootHide.
+ Notes:
+ iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
+ Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
+ If something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com.
+ .
+ Thêm hàng phím số thứ 5 mà Apple bao nhiêu năm qua vẫn không làm cho iPhone.
+ Tính năng:
+ 5Row thêm một hàng phím vào bàn phím gốc một cách tự nhiên. Nhấn Shift hoặc 123 thì hàng đó chuyển sang ký tự hay dùng, nên không còn cảnh hai hàng chữ số.
+ Đổi nhãn phím ABC và phím 123, tối đa năm ký tự mỗi phím.
+ Hỗ trợ bàn phím Latin và nhiều bố cục non-Latin. Các bố cục hoạt động có thể khác nhau theo phiên bản iOS.
+ Bật/tắt, loại trừ từng ứng dụng, và đặt lại toàn bộ về mặc định bằng một chạm.
+ Bản Pro có thêm:
+ Cả mười phím của hai hàng, chọn hàng nào hiện ra trong từng trường hợp, chiều cao bàn phím, và công tắc luôn 5 hàng.
+ Có gói riêng cho Rootless và RootHide.
+ Lưu ý:
+ Chỉ dành cho iPhone và bàn phím theo chiều dọc. Chưa hỗ trợ bàn phím viết tay và bàn phím bên thứ ba.
+ Đã có người dùng xác nhận chạy trên iOS 15.4, 16.4, 16.5, 16.6, 16.7 và 17.0.
+ Nếu có lỗi, hãy bật log chẩn đoán trong Cài đặt, tái hiện lỗi, rồi sao chép log và gửi tới asdlkjlkjasd@gmail.com.
+Author: PitroyTech
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
+Icon: https://pitroytech.github.io/repo/icons/5row.png
+Name: 5Row
 
