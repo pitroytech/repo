@@ -9,6 +9,10 @@ on:
   push:
     paths:
       - "debs/**"
+      - "descriptions/**"
+      - "sileo/**"
+      - "tools/**"
+      - "packages.json"
       - "CydiaIcon.png"
       - ".github/workflows/index.yml"
   workflow_dispatch:
