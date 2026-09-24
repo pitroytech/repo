@@ -15,7 +15,7 @@
         "vi": "Hàng phím thứ 5 cho bàn phím gốc",
         "en": "A fifth row on the stock keyboard"
       },
-      "version": "1.16.2",
+      "version": "1.16.3",
       "section": "Keyboard",
       "price": {
         "vi": "Miễn phí",
@@ -73,6 +73,20 @@
       ],
       "changelog": [
         {
+          "version": "1.16.3",
+          "date": "2026-09-24",
+          "notes": {
+            "vi": [
+              "Sửa trang gói trong Sileo hiển thị lỗi",
+              "Cập nhật lại phần mô tả gói cho đúng tính năng hiện tại"
+            ],
+            "en": [
+              "Fixed the package page showing an error in Sileo",
+              "Refreshed the package description to match what the build actually does"
+            ]
+          }
+        },
+        {
           "version": "1.16.2",
           "date": "2026-09-24",
           "notes": {
@@ -115,7 +129,7 @@
         "vi": "Hàng phím thứ 5 cho bàn phím gốc",
         "en": "A fifth row on the stock keyboard"
       },
-      "version": "1.16.2",
+      "version": "1.16.3",
       "section": "Keyboard",
       "price": {
         "vi": "Trả phí",
@@ -170,6 +184,20 @@
         "en": "Not released yet. This repo carries the free build only."
       },
       "changelog": [
+        {
+          "version": "1.16.3",
+          "date": "2026-09-24",
+          "notes": {
+            "vi": [
+              "Sửa trang gói trong Sileo hiển thị lỗi",
+              "Cập nhật lại phần mô tả gói cho đúng tính năng hiện tại"
+            ],
+            "en": [
+              "Fixed the package page showing an error in Sileo",
+              "Refreshed the package description to match what the build actually does"
+            ]
+          }
+        },
         {
           "version": "1.16.2",
           "date": "2026-09-24",

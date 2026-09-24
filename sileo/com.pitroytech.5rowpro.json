@@ -69,7 +69,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.16.2"
+          "text": "1.16.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -82,6 +82,25 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.16.3  ·  2026-09-24"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Fixed the package page showing an error in Sileo",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Refreshed the package description to match what the build actually does",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.16.2  ·  2026-09-24"

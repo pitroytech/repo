@@ -69,7 +69,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.16.2"
+          "text": "1.16.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -82,6 +82,25 @@
       "tabname": "Nhật ký",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.16.3  ·  2026-09-24"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Sửa trang gói trong Sileo hiển thị lỗi",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Cập nhật lại phần mô tả gói cho đúng tính năng hiện tại",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.16.2  ·  2026-09-24"
