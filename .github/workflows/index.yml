@@ -46,6 +46,12 @@ jobs:
                 if(pkg!="" && sec==""){
                   printf "FAIL: %s thiếu Section, Sileo sẽ không hiện nó\n", pkg > "/dev/stderr"; exit 1}}' Packages
 
+          # Viết đè `Description:` bằng nội dung trong `descriptions/`.
+          #
+          # Sileo hiện trường đó thô trên trang gói, mà nó nằm trong `.deb` —
+          # sửa mấy dòng chữ lẽ ra phải build lại tweak và chờ mọi người cập
+          # nhật. Chỉ mục thì dựng lại mỗi lần đẩy. Lý do đầy đủ trong script.
+          python3 tools/rewrite-descriptions.py Packages
           gzip -9kf Packages
           bzip2 -9kf Packages
           xz -9e -kf Packages

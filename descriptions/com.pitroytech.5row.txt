@@ -1,0 +1,13 @@
+Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
+Features:
+Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
+Rename the ABC and 123 keys, up to five characters each.
+Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
+Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
+Pro adds:
+All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
+Separate packages are available for Rootless and RootHide.
+Notes:
+iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
+Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
+If the newest build misbehaves on your device, 1.16.2 is still on this repo — pick it from the version list.
