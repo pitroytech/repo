@@ -79,12 +79,23 @@ def changelog_tab(package):
 
 
 def build(package):
+    # Gốc PHẢI có `class`, và mỗi tab cũng vậy.
+    #
+    # Template Sidia bỏ cả hai, và với khuôn đó Sileo không dựng gì — đo trên
+    # máy 24/09, trang gói rơi về `Description:` thô. Template ấy từ 2019.
+    #
+    # Khuôn dưới đây là khuôn ĐÃ dựng được trên chính máy này ở lần thử đầu;
+    # cái sai lần đó chỉ là dùng `DepictionLabelView` cho đoạn văn, vốn là nhãn
+    # một dòng nên cắt cụt mọi câu dài. Thân bài nay là markdown.
     return {
         "minVersion": "0.1",
+        "class": "DepictionTabView",
         "tintColor": TINT,
         "tabs": [
-            {"tabname": "Details", "views": details_tab(package)},
-            {"tabname": "Changelog", "views": changelog_tab(package)},
+            {"tabname": "Details", "class": "DepictionStackView",
+             "views": details_tab(package)},
+            {"tabname": "Changelog", "class": "DepictionStackView",
+             "views": changelog_tab(package)},
         ],
     }
 
