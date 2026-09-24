@@ -77,26 +77,10 @@
           "date": "2026-09-24",
           "notes": {
             "vi": [
-              "Sửa trang gói trong Sileo: hết lỗi và hết cắt chữ giữa câu",
-              "Thêm nút thêm nguồn cho Sileo và Zebra"
+              "Sửa một số lỗi nhỏ"
             ],
             "en": [
-              "Fixed the package page in Sileo: no more error, no more truncated sentences",
-              "Added Add to Sileo and Add to Zebra buttons"
-            ]
-          }
-        },
-        {
-          "version": "1.16.3",
-          "date": "2026-09-24",
-          "notes": {
-            "vi": [
-              "Sửa trang gói trong Sileo hiển thị lỗi",
-              "Cập nhật lại phần mô tả gói cho đúng tính năng hiện tại"
-            ],
-            "en": [
-              "Fixed the package page showing an error in Sileo",
-              "Refreshed the package description to match what the build actually does"
+              "Minor fixes"
             ]
           }
         },
@@ -203,26 +187,10 @@
           "date": "2026-09-24",
           "notes": {
             "vi": [
-              "Sửa trang gói trong Sileo: hết lỗi và hết cắt chữ giữa câu",
-              "Thêm nút thêm nguồn cho Sileo và Zebra"
+              "Sửa một số lỗi nhỏ"
             ],
             "en": [
-              "Fixed the package page in Sileo: no more error, no more truncated sentences",
-              "Added Add to Sileo and Add to Zebra buttons"
-            ]
-          }
-        },
-        {
-          "version": "1.16.3",
-          "date": "2026-09-24",
-          "notes": {
-            "vi": [
-              "Sửa trang gói trong Sileo hiển thị lỗi",
-              "Cập nhật lại phần mô tả gói cho đúng tính năng hiện tại"
-            ],
-            "en": [
-              "Fixed the package page showing an error in Sileo",
-              "Refreshed the package description to match what the build actually does"
+              "Minor fixes"
             ]
           }
         },
