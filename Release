@@ -1,8 +1,29 @@
-Origin: PitroyTech
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Codename: ios
+Components: main
+Date: Thu, 24 Sep 2026 03:24:37 +0000
+Description: Tweaks by PitroyTech
 Label: PitroyTech
+Origin: PitroyTech
 Suite: stable
 Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm64 iphoneos-arm64e
-Components: main
-Description: Tweak miễn phí của PitroyTech. Bản trả phí bán trên Havoc.
+MD5Sum:
+ 366e67269f0931d1ca1fb0d5efdb0972             6270 Packages
+ e7cf37a33bae498952eab80d021163f5             2355 Packages.bz2
+ aa696324482dd31b94d4c78f73202d9d             2026 Packages.gz
+ 61ac5012984e4e538e90d1316ed603a4             2020 Packages.xz
+SHA1:
+ bb7a4fe1f9a4ff33a47eedaafc8b10b32961a2bf             6270 Packages
+ 4d9d083bf265a2c1e09b2839b719197ac098732c             2355 Packages.bz2
+ 9af9af8d20f3d3ad8fc2568048294a3a2bf4e6cb             2026 Packages.gz
+ e93b1a96be78a67d08322dfaf4222538bf01d780             2020 Packages.xz
+SHA256:
+ 67245a2728f00291c4e3095e9b080e47df00217ef780df7e9d88c83a7b6e4541             6270 Packages
+ f33c56adcdadf4510504362416c2d54e6c120aa10b04b39084319e4fc7150255             2355 Packages.bz2
+ 9f70e46dbc543e4d8e2903924913c20e51548c1a6dcaf17f586a1b22ab61e885             2026 Packages.gz
+ b7a2a487fafbde055e7629133e96da559f5745d9f5cc24094dbd6c3c92624c6d             2020 Packages.xz
+SHA512:
+ b4285c03d8dbcf26a4a0c1441ddf46e2d9c76e9dc43f0055c6b91102b58b83a1f4140c6fee1a7d0f2d7c024e0f1ba2063bb50a9b586ee195e5990a88a349e884             6270 Packages
+ e27ea36ff8fc5473e6b02053bd418df7ad279dbd76819600c8001930b2f6e94438e1ebc983b0877141773c9e47f8405ee94c1cfff757be7470b5f24e231f048d             2355 Packages.bz2
+ 16cc338c7993cec62daa0160141395c4a370569eea7a36210f76e659eb935d10ca8d5acc0df9332ebcf44a807d0364cf9a7a9529e2444e629e348a81042f0ce5             2026 Packages.gz
+ 624be38996be8b95446f24f3dd5286775668f79259772c64185973b2a466957e12682df63e054cc043c72ac7eac3ff7f06e1ecf1af604e370ed607443a8bfdc2             2020 Packages.xz
