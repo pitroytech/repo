@@ -1,18 +1,18 @@
 Package: com.pitroytech.5row
 Architecture: iphoneos-arm64
-Version: 1.16.4
+Version: 1.16.5
 Section: Keyboard
 Maintainer: PitroyTech
 Installed-Size: 508
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
 Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.16.4_iphoneos-arm64.deb
-Size: 55938
-MD5sum: fc2667b27c8a80f1c2e00ea30aa5f951
-SHA1: a14a7194c8ea41f18f2a541aed795df7ffff6040
-SHA256: 52c1bd922e47eaf0703f53b7854677c635f96de478149af3ce0d9f631351541a
-SHA512: c0d74d546f4d5c7cd4cee8164bd8c1b4902c76a277a5cd4e1855fe27e48659f31f29b5ebe21d33557dd43af78914905b0fdd3becfb5dfddc5d5712c377c5591b
+Filename: debs/com.pitroytech.5row_1.16.5_iphoneos-arm64.deb
+Size: 56088
+MD5sum: 0712efc69b0a774bfebd34914c1f2b08
+SHA1: d0fbb32a5af05037ad33a703aa559afcbe005d95
+SHA256: b55e90b06d9b3e17c37951381681a987416336cb5c442e681591a564021e44f3
+SHA512: a16672c8177e0dfc27a6e272b395fd3bd8dd4e5aee4bdd9dca9d8ad080b9c0f427ccf93ec175ef1df8257f6313fbafb8ce941687e28f17be1351e10aaf3ad337
 Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
  Features:
  Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
@@ -43,23 +43,24 @@ Description: Adds the fifth number row Apple still hasn't brought to the iPhone 
 Name: 5Row
 Author: PitroyTech
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
+SileoDepiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
 Icon: https://pitroytech.github.io/repo/icons/5row.png
 
 Package: com.pitroytech.5row
 Architecture: iphoneos-arm64e
-Version: 1.16.4
+Version: 1.16.5
 Section: Keyboard
 Maintainer: PitroyTech
 Installed-Size: 508
 Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
 Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.16.4_iphoneos-arm64e.deb
-Size: 56112
-MD5sum: 1bb7d8754b14ef8d9d4025915d6a3d41
-SHA1: 8667a7aeda6437565bdca53cc5e7a7c12593ac90
-SHA256: b82c6edc075c1b47c6f628ae7bec2527a7d8ddf81b217e85e49951441b99e09b
-SHA512: 2add0745e5f0be3170943bff2eff7b042d3b9d6cf7754ec11c111a573987cc442bdb5d33d1bf964066c51483379f00f589c3e07b32da132407ead73f6a5f001c
+Filename: debs/com.pitroytech.5row_1.16.5_iphoneos-arm64e.deb
+Size: 56106
+MD5sum: d801b9dfac97fd7bf6f321819720a06b
+SHA1: 8370470a0ea6694d8eb4746e8663a28581789312
+SHA256: 382b0bd657fd46e37eb46d060a3421ada424f7f66bc7406f11c097fc827f1f27
+SHA512: b3f24bbd5f0a33e823a6ead860e37aa8041d7233b53a8dfbc3e936235e79b93e3cf2291a8f8a4b8aae0153b92c44a05f476a02489938aee409087f4434ea8f0a
 Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
  Features:
  Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
@@ -90,5 +91,6 @@ Description: Adds the fifth number row Apple still hasn't brought to the iPhone 
 Name: 5Row
 Author: PitroyTech
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
+SileoDepiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
 Icon: https://pitroytech.github.io/repo/icons/5row.png
 
