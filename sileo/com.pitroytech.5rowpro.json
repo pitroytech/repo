@@ -1,9 +1,11 @@
 {
   "minVersion": "0.1",
+  "class": "DepictionTabView",
   "tintColor": "#0a84ff",
   "tabs": [
     {
       "tabname": "Details",
+      "class": "DepictionStackView",
       "views": [
         {
           "class": "DepictionMarkdownView",
@@ -83,6 +85,7 @@
     },
     {
       "tabname": "Changelog",
+      "class": "DepictionStackView",
       "views": [
         {
           "class": "DepictionHeaderView",
