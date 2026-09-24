@@ -339,3 +339,24 @@ footer a { color: var(--ink-dim); }
 
 .release ul { margin: 0; padding-left: 20px; }
 .release li { margin: 5px 0; font-size: 15px; }
+
+/* --- nút thêm nguồn ---------------------------------------------------- */
+
+.addbtns { display: flex; gap: 10px; margin-top: 12px; }
+
+.addbtn {
+    flex: 1;
+    padding: 11px 16px;
+    border-radius: 14px;
+    text-align: center;
+    text-decoration: none;
+    font: 600 15px/1 inherit;
+    font-family: inherit;
+    color: #fff;
+    background: var(--tint);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.addbtn:active { opacity: .75; }
+
+#addzebra { background: color-mix(in srgb, var(--tint) 22%, transparent); color: var(--tint); }

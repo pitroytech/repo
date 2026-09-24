@@ -25,6 +25,10 @@
       <span id="src">https://pitroytech.github.io/repo/</span>
       <button class="copy" id="copy" type="button"></button>
     </div>
+    <div class="addbtns">
+      <a class="addbtn" id="addsileo" href="#">Sileo</a>
+      <a class="addbtn" id="addzebra" href="#">Zebra</a>
+    </div>
     <ol class="steps" id="steps"></ol>
   </section>
 
@@ -110,6 +114,11 @@ fetch('packages.json?v=' + SCHEMA)
   .then((r) => r.json())
   .then((data) => {
     document.getElementById('src').textContent = data.repo.url;
+    // Hai trình quản lý, hai lược đồ URL. Máy nào không cài thì nút đơn giản
+    // không mở được gì — không có cách nào dò từ trang web, và một nút xám vì
+    // đoán sai còn tệ hơn một nút bấm không ăn.
+    document.getElementById('addsileo').href = 'sileo://source/' + data.repo.url;
+    document.getElementById('addzebra').href = 'zbra://sources/add/' + data.repo.url;
     const render = () => {
       document.querySelector('.lede').textContent = t(data.repo.description);
       document.getElementById('kind').textContent = u('kind');
