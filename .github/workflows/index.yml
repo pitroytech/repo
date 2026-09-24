@@ -25,13 +25,11 @@ jobs:
       - name: Generate Packages
         run: |
           set -eu
-          # Không khai `SileoDepiction` ở đâu cả.
-          #
-          # Không khai thì Sileo rơi về `Depiction:` và render trang HTML trong
-          # webview — nó tự bọc chữ theo bề ngang máy. Khai depiction gốc bằng
-          # JSON thì `DepictionLabelView` cắt cụt mọi câu dài, và đó là thứ đã
-          # phải gỡ ở 1.16.4. Một trang, hai trình quản lý, một nguồn sự thật.
           dpkg-scanpackages --multiversion debs /dev/null > Packages
+          # `dpkg-scanpackages` vứt `SileoDepiction`, mà Sileo chỉ vẽ từ trường
+          # đó. Chèn lại ở đây thì người dùng chỉ cần làm mới nguồn, không phải
+          # cập nhật gói. Lý do đầy đủ nằm trong script.
+          python3 tools/inject-sileo-depiction.py Packages
           gzip -9kf Packages
           bzip2 -9kf Packages
           # Sileo đọc Packages.zst ở một số bản; bỏ qua nếu không có zstd.
