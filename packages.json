@@ -15,7 +15,7 @@
         "vi": "Hàng phím thứ 5 cho bàn phím gốc",
         "en": "A fifth row on the stock keyboard"
       },
-      "version": "1.16.3",
+      "version": "1.16.4",
       "section": "Keyboard",
       "price": {
         "vi": "Miễn phí",
@@ -73,6 +73,20 @@
       ],
       "changelog": [
         {
+          "version": "1.16.4",
+          "date": "2026-09-24",
+          "notes": {
+            "vi": [
+              "Sửa trang gói trong Sileo: hết lỗi và hết cắt chữ giữa câu",
+              "Thêm nút thêm nguồn cho Sileo và Zebra"
+            ],
+            "en": [
+              "Fixed the package page in Sileo: no more error, no more truncated sentences",
+              "Added Add to Sileo and Add to Zebra buttons"
+            ]
+          }
+        },
+        {
           "version": "1.16.3",
           "date": "2026-09-24",
           "notes": {
@@ -129,7 +143,7 @@
         "vi": "Hàng phím thứ 5 cho bàn phím gốc",
         "en": "A fifth row on the stock keyboard"
       },
-      "version": "1.16.3",
+      "version": "1.16.4",
       "section": "Keyboard",
       "price": {
         "vi": "Trả phí",
@@ -184,6 +198,20 @@
         "en": "Not released yet. This repo carries the free build only."
       },
       "changelog": [
+        {
+          "version": "1.16.4",
+          "date": "2026-09-24",
+          "notes": {
+            "vi": [
+              "Sửa trang gói trong Sileo: hết lỗi và hết cắt chữ giữa câu",
+              "Thêm nút thêm nguồn cho Sileo và Zebra"
+            ],
+            "en": [
+              "Fixed the package page in Sileo: no more error, no more truncated sentences",
+              "Added Add to Sileo and Add to Zebra buttons"
+            ]
+          }
+        },
         {
           "version": "1.16.3",
           "date": "2026-09-24",
