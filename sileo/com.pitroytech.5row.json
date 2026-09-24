@@ -1,0 +1,162 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "5Row"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Features:",
+          "fontWeight": "bold",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use — no more doubled number row.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Rename the ABC and 123 keys, up to five characters each.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Pro adds:",
+          "fontWeight": "bold",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "All ten keys on both rows, which row appears in each situation, keyboard height, and the always-five-rows switch.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Notes:",
+          "fontWeight": "bold",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "If something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Identifier",
+          "text": "com.pitroytech.5row"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.16.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15 and later. Separate Rootless and RootHide packages. Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0."
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.16.2  ·  2026-09-24"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Shift and 123 now show the punctuation row you actually use (fixes the doubled number row)",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Rename the ABC and 123 keys, up to five characters each",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Added a reset-to-defaults button",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Always show five rows is now on by default",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Better diagnostic logging, plus a support email",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Various interface and stability fixes",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.08~beta3  ·  2026-09-22"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• First public beta, posted on r/jailbreak",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ]
+}

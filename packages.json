@@ -70,6 +70,140 @@
           "label": "Support",
           "url": "mailto:asdlkjlkjasd@gmail.com"
         }
+      ],
+      "changelog": [
+        {
+          "version": "1.16.2",
+          "date": "2026-09-24",
+          "notes": {
+            "vi": [
+              "Khi nhấn Shift hoặc 123 sẽ hiển thị hàng phím ký tự hay dùng (sửa lỗi lặp bàn phím số)",
+              "Thêm tùy chọn nhãn phím Abc và 123, tối đa 5 ký tự",
+              "Thêm nút đặt lại toàn bộ thiết lập",
+              "Luôn hiển thị 5 hàng nay bật sẵn",
+              "Cải thiện log chẩn đoán và thêm email hỗ trợ",
+              "Một số fix khác về giao diện và tính ổn định"
+            ],
+            "en": [
+              "Shift and 123 now show the punctuation row you actually use (fixes the doubled number row)",
+              "Rename the ABC and 123 keys, up to five characters each",
+              "Added a reset-to-defaults button",
+              "Always show five rows is now on by default",
+              "Better diagnostic logging, plus a support email",
+              "Various interface and stability fixes"
+            ]
+          }
+        },
+        {
+          "version": "1.08~beta3",
+          "date": "2026-09-22",
+          "notes": {
+            "vi": [
+              "Bản beta công khai đầu tiên trên r/jailbreak"
+            ],
+            "en": [
+              "First public beta, posted on r/jailbreak"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "com.pitroytech.5rowpro",
+      "name": "5Row Pro",
+      "tagline": {
+        "vi": "Hàng phím thứ 5 cho bàn phím gốc",
+        "en": "A fifth row on the stock keyboard"
+      },
+      "version": "1.16.2",
+      "section": "Keyboard",
+      "price": {
+        "vi": "Trả phí",
+        "en": "Paid"
+      },
+      "icon": "icons/5rowpro.png",
+      "compatibility": {
+        "vi": "iOS 15 trở lên. Có gói riêng cho Rootless và RootHide. Đã chạy trên iOS 15.4, 16.4, 16.5, 16.6, 16.7 và 17.0 theo báo cáo người dùng.",
+        "en": "iOS 15 and later. Separate Rootless and RootHide packages. Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0."
+      },
+      "description": {
+        "en": [
+          "Everything in the free build, with the parts it keeps locked opened up.",
+          "Pro adds:",
+          "Edit all ten keys on both rows, including the characters they show on Shift.",
+          "Choose which row appears in each situation: normally, on Shift, and on 123.",
+          "Adjust the keyboard height.",
+          "Keep five rows when switching with 123 or ABC.",
+          "Availability:",
+          "Not released yet. This repo carries the free build only."
+        ],
+        "vi": [
+          "Mọi thứ của bản miễn phí, cộng những phần bản đó khoá lại.",
+          "Bản Pro có thêm:",
+          "Sửa cả mười phím của hai hàng, gồm cả ký tự khi nhấn Shift.",
+          "Chọn hàng nào hiện ra trong từng trường hợp: bình thường, khi nhấn Shift, khi nhấn 123.",
+          "Chỉnh chiều cao bàn phím.",
+          "Giữ năm hàng khi chuyển bằng 123 hoặc ABC.",
+          "Tình trạng:",
+          "Chưa phát hành. Kho này chỉ có bản miễn phí."
+        ]
+      },
+      "links": [
+        {
+          "kind": "github",
+          "label": "PitroyTech",
+          "url": "https://github.com/pitroytech"
+        },
+        {
+          "kind": "repo",
+          "label": "pitroytech.github.io/repo",
+          "url": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "kind": "support",
+          "label": "Support",
+          "url": "mailto:asdlkjlkjasd@gmail.com"
+        }
+      ],
+      "availability": {
+        "vi": "Chưa phát hành. Kho này chỉ có bản miễn phí.",
+        "en": "Not released yet. This repo carries the free build only."
+      },
+      "changelog": [
+        {
+          "version": "1.16.2",
+          "date": "2026-09-24",
+          "notes": {
+            "vi": [
+              "Khi nhấn Shift hoặc 123 sẽ hiển thị hàng phím ký tự hay dùng (sửa lỗi lặp bàn phím số)",
+              "Thêm tùy chọn nhãn phím Abc và 123, tối đa 5 ký tự",
+              "Thêm nút đặt lại toàn bộ thiết lập",
+              "Luôn hiển thị 5 hàng nay bật sẵn",
+              "Cải thiện log chẩn đoán và thêm email hỗ trợ",
+              "Một số fix khác về giao diện và tính ổn định"
+            ],
+            "en": [
+              "Shift and 123 now show the punctuation row you actually use (fixes the doubled number row)",
+              "Rename the ABC and 123 keys, up to five characters each",
+              "Added a reset-to-defaults button",
+              "Always show five rows is now on by default",
+              "Better diagnostic logging, plus a support email",
+              "Various interface and stability fixes"
+            ]
+          }
+        },
+        {
+          "version": "1.08~beta3",
+          "date": "2026-09-22",
+          "notes": {
+            "vi": [
+              "Bản beta công khai đầu tiên trên r/jailbreak"
+            ],
+            "en": [
+              "First public beta, posted on r/jailbreak"
+            ]
+          }
+        }
       ]
     }
   ]

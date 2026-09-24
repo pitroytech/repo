@@ -1,0 +1,162 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "Chi tiết",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "5Row"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Thêm hàng phím số thứ 5 mà Apple bao nhiêu năm qua vẫn không làm cho iPhone.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Tính năng:",
+          "fontWeight": "bold",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "5Row thêm một hàng phím vào bàn phím gốc một cách tự nhiên. Nhấn Shift hoặc 123 thì hàng đó chuyển sang ký tự hay dùng — hết cảnh hai hàng chữ số.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Đổi nhãn phím ABC và phím 123, tối đa năm ký tự mỗi phím.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Hỗ trợ bàn phím Latin và nhiều bố cục non-Latin. Các bố cục hoạt động có thể khác nhau theo phiên bản iOS.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Bật/tắt, loại trừ từng ứng dụng, và đặt lại toàn bộ về mặc định bằng một chạm.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Bản Pro có thêm:",
+          "fontWeight": "bold",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Cả mười phím của hai hàng, chọn hàng nào hiện ra trong từng trường hợp, chiều cao bàn phím, và công tắc luôn 5 hàng.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Lưu ý:",
+          "fontWeight": "bold",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Chỉ dành cho iPhone và bàn phím theo chiều dọc. Chưa hỗ trợ bàn phím viết tay và bàn phím bên thứ ba.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Nếu có lỗi, hãy bật log chẩn đoán trong Cài đặt, tái hiện lỗi, rồi sao chép log và gửi tới asdlkjlkjasd@gmail.com.",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Identifier",
+          "text": "com.pitroytech.5row"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.16.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15 trở lên. Có gói riêng cho Rootless và RootHide. Đã chạy trên iOS 15.4, 16.4, 16.5, 16.6, 16.7 và 17.0 theo báo cáo người dùng."
+        }
+      ]
+    },
+    {
+      "tabname": "Nhật ký",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.16.2  ·  2026-09-24"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Khi nhấn Shift hoặc 123 sẽ hiển thị hàng phím ký tự hay dùng (sửa lỗi lặp bàn phím số)",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Thêm tùy chọn nhãn phím Abc và 123, tối đa 5 ký tự",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Thêm nút đặt lại toàn bộ thiết lập",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Luôn hiển thị 5 hàng nay bật sẵn",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Cải thiện log chẩn đoán và thêm email hỗ trợ",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Một số fix khác về giao diện và tính ổn định",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.08~beta3  ·  2026-09-22"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "• Bản beta công khai đầu tiên trên r/jailbreak",
+          "fontWeight": "normal",
+          "usePadding": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ]
+}

@@ -29,7 +29,7 @@ const escape = (s) => String(s).replace(/[&<>"']/g,
 //
 // Mọi trường hiển thị nay là {vi, en}. Một hàm đọc duy nhất, để không có chỗ
 // nào quên rồi in ra `[object Object]` — thứ chỉ lộ ra trên máy người đọc.
-const SCHEMA = 3;   // tăng khi ĐỔI hình dạng packages.json
+const SCHEMA = 4;   // tăng khi ĐỔI hình dạng packages.json
 const LANGS = ['en', 'vi'];
 
 // Mặc định tiếng Anh, kể cả khi trình duyệt đặt tiếng Việt.
@@ -43,6 +43,7 @@ function pickLang() {
     return LANGS.includes(saved) ? saved : 'en';
 }
 let LANG = pickLang();
+let TAB = 'info';
 const t = (v) => (v && typeof v === 'object' && !Array.isArray(v)) ? (v[LANG] ?? v.en ?? '') : v;
 
 // Nhãn cố định của trang. Song ngữ nửa vời — nội dung đổi mà khung không đổi —
@@ -52,6 +53,7 @@ const UI = {
           copied: 'Đã chép', manual: 'Chép tay', details: 'Chi tiết',
           kind: 'kho tweak', id: 'Mã gói', version: 'Phiên bản', section: 'Mục',
           compat: 'Tương thích', source: 'Nguồn',
+          tabInfo: 'Chi tiết', tabLog: 'Nhật ký thay đổi',
           steps: ['Mở Sileo hoặc Zebra.',
                   'Sang mục Nguồn, bấm thêm, dán địa chỉ trên.',
                   'Tải gói bạn muốn.'],
@@ -61,6 +63,7 @@ const UI = {
           copied: 'Copied', manual: 'Select it', details: 'Details',
           kind: 'tweak repo', id: 'Identifier', version: 'Version', section: 'Section',
           compat: 'Compatibility', source: 'Links',
+          tabInfo: 'Details', tabLog: 'Changelog',
           steps: ['Open Sileo or Zebra.',
                   'Go to Sources, add, and paste the address above.',
                   'Install the package you want.'],
@@ -95,7 +98,42 @@ fetch('packages.json?v=' + SCHEMA)
   .then((data) => {
     const p = data.packages.find((item) => item.id === wanted);
     if (!p) {
-      page.innerHTML = `<div class="glass card"><p>${escape(u('missing'))}</p></div>`;
+      // Hai tab: mô tả gói, và nhật ký từng bản.
+    //
+    // Nhật ký nằm cùng một file dữ liệu với mọi thứ khác, nên phát hành bản mới
+    // là sửa đúng một chỗ. Chép tay sang trang riêng là cách chắc chắn để trang
+    // và gói nói hai phiên bản khác nhau.
+    const tabBar = `
+      <div class="tabs">
+        <button type="button" data-tab="info"${TAB === 'info' ? ' class="on"' : ''}>${escape(u('tabInfo'))}</button>
+        <button type="button" data-tab="log"${TAB === 'log' ? ' class="on"' : ''}>${escape(u('tabLog'))}</button>
+      </div>`;
+
+    const details = `
+      <section class="glass card body">
+        ${t(p.description).map((line) => `<p>${escape(line)}</p>`).join('')}
+      </section>
+
+      <section class="glass card">
+        <h3>${escape(u('details'))}</h3>
+        <div class="meta">
+          <div><span>${escape(u('id'))}</span><span>${escape(p.id)}</span></div>
+          <div><span>${escape(u('version'))}</span><span>${escape(p.version)}</span></div>
+          <div><span>${escape(u('section'))}</span><span>${escape(p.section)}</span></div>
+          <div><span>${escape(u('compat'))}</span><span>${escape(t(p.compatibility))}</span></div>
+        </div>
+      </section>`;
+
+    const changelog = `
+      <section class="glass card body">
+        ${(p.changelog || []).map((entry) => `
+          <div class="release">
+            <h4>${escape(entry.version)}<span>${escape(entry.date || '')}</span></h4>
+            <ul>${t(entry.notes).map((n) => `<li>${escape(n)}</li>`).join('')}</ul>
+          </div>`).join('') || `<p>${escape(u('failed'))}</p>`}
+      </section>`;
+
+    page.innerHTML = `<div class="glass card"><p>${escape(u('missing'))}</p></div>`;
       return;
     }
     document.title = p.name + ' — PitroyTech';
@@ -141,20 +179,15 @@ fetch('packages.json?v=' + SCHEMA)
         </div>
       </section>
 
-      <section class="glass card body">
-        ${t(p.description).map((line) => `<p>${escape(line)}</p>`).join('')}
-      </section>
-
-      <section class="glass card">
-        <h3>${escape(u('details'))}</h3>
-        <div class="meta">
-          <div><span>${escape(u('id'))}</span><span>${escape(p.id)}</span></div>
-          <div><span>${escape(u('version'))}</span><span>${escape(p.version)}</span></div>
-          <div><span>${escape(u('section'))}</span><span>${escape(p.section)}</span></div>
-          <div><span>${escape(u('compat'))}</span><span>${escape(t(p.compatibility))}</span></div>
-        </div>
-      </section>
+      ${tabBar}
+      ${TAB === 'log' ? changelog : details}
       ${pro}`;
+
+    // Chuyển tab mà KHÔNG dựng lại cả trang từ đầu: `render()` gọi lại chính
+    // nó, nên chỉ cần nhớ tab đang chọn rồi vẽ lại. Đổi ngôn ngữ cũng đi qua
+    // `render()`, nên tab được giữ nguyên thay vì nhảy về đầu.
+    page.querySelectorAll('.tabs button').forEach((b) =>
+      b.addEventListener('click', () => { TAB = b.dataset.tab; render(); }));
     };
     langSwitch(render);
     render();
