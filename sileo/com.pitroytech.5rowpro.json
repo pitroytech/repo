@@ -1,0 +1,123 @@
+{
+  "minVersion": "0.1",
+  "tintColor": "#0a84ff",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## 5Row Pro\nA fifth row on the stock keyboard"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Everything in the free build, with the parts it keeps locked opened up."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Pro adds"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Edit all ten keys on both rows, including the characters they show on Shift.\n\nChoose which row appears in each situation: normally, on Shift, and on 123.\n\nAdjust the keyboard height.\n\nKeep five rows when switching with 123 or ABC."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Availability"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Not released yet. This repo carries the free build only."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Details"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.16.5"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Section",
+          "text": "Keyboard"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "Paid"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Identifier",
+          "text": "com.pitroytech.5rowpro"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15 and later. Separate Rootless and RootHide packages. Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0."
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "PitroyTech",
+          "action": "https://github.com/pitroytech"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "pitroytech.github.io/repo",
+          "action": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support",
+          "action": "mailto:asdlkjlkjasd@gmail.com"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.16.5  ·  2026-09-24"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Minor fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.16.2  ·  2026-09-24"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Shift and 123 now show the punctuation row you actually use (fixes the doubled number row)\n- Rename the ABC and 123 keys, up to five characters each\n- Added a reset-to-defaults button\n- Always show five rows is now on by default\n- Better diagnostic logging, plus a support email\n- Various interface and stability fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.08~beta3  ·  2026-09-22"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- First public beta, posted on r/jailbreak"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ]
+}

@@ -22,6 +22,8 @@ import sys
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 FOLDER = ROOT / "descriptions"
+SILEO = ROOT / "sileo"
+BASE = "https://pitroytech.github.io/repo/sileo"
 
 
 def as_field(text):
@@ -39,6 +41,17 @@ def rewrite(index_text):
         block = block.rstrip("\n")
         name = re.search(r"^Package: (\S+)$", block, re.M)
         source = FOLDER / f"{name.group(1)}.txt" if name else None
+        # `SileoDepiction` cũng viết đè ở đây, cùng lý do: nó nằm trong `.deb`,
+        # mà thứ cần đổi chỉ là một URL. Trỏ sang depiction gốc dạng JSON —
+        # khuôn lấy từ template chính thức Sidia. Trước đây nó trỏ vào trang
+        # HTML, và Sileo không dựng gì từ đó: trang gói chỉ còn `Description:`.
+        if name and (SILEO / f"{name.group(1)}.json").is_file():
+            url = f"{BASE}/{name.group(1)}.json"
+            block, hit = re.subn(r"^SileoDepiction: .*$", f"SileoDepiction: {url}",
+                                 block, flags=re.M)
+            if not hit:
+                block += f"\nSileoDepiction: {url}"
+
         if source and source.is_file():
             # Trường `Description` kéo dài tới dòng tiếp theo KHÔNG bắt đầu bằng
             # dấu cách. Cắt đúng vùng đó rồi thay, để không đụng trường khác.
