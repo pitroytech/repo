@@ -71,7 +71,11 @@
             "First public beta, posted on r/jailbreak"
           ]
         }
-      ]
+      ],
+      "older": {
+        "version": "1.16.2",
+        "note": "Kept on the repo as a fallback. Pick it in Sileo or Zebra if the newest build misbehaves on your device."
+      }
     },
     {
       "id": "com.pitroytech.5rowpro",

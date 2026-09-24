@@ -78,6 +78,7 @@ fetch('packages.json?v=' + SCHEMA)
             <div><span>Version</span><span>${escape(p.version)}</span></div>
             <div><span>Section</span><span>${escape(p.section)}</span></div>
             <div><span>Compatibility</span><span>${escape(p.compatibility)}</span></div>
+            ${p.older ? `<div><span>Also on the repo</span><span>${escape(p.older.version)}</span></div>` : ''}
           </div>
         </section>`;
 
@@ -110,6 +111,8 @@ fetch('packages.json?v=' + SCHEMA)
           <button type="button" data-tab="log"${TAB === 'log' ? ' class="on"' : ''}>Changelog</button>
         </div>
         ${TAB === 'log' ? changelog : details}
+
+        ${p.older ? `<section class="glass card"><p class="avail">${escape(p.older.note)}</p></section>` : ''}
 
         <section class="glass card">
           <h3>Links</h3>
