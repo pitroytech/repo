@@ -52,7 +52,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.16.5"
+          "text": "1.16.7"
         },
         {
           "class": "DepictionTableTextView",
@@ -72,12 +72,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "iOS 15 and later. Separate Rootless and RootHide packages. Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0."
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Also on the repo",
-          "text": "1.16.2"
+          "text": "iOS 15 and later. Current package: Rootless only."
         },
         {
           "class": "DepictionTableButtonView",
@@ -100,6 +95,17 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "1.16.7  ·  2026-09-27"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Improved stability and fixed cases where the fifth number row could disappear."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionHeaderView",
           "title": "1.16.5  ·  2026-09-24"

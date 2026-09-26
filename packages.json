@@ -49,7 +49,7 @@
           "version": "1.16.7",
           "date": "2026-09-27",
           "notes": [
-            "Settings refinements and a new support shortcut."
+            "Improved stability and fixed cases where the fifth number row could disappear."
           ]
         },
         {
