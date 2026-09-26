@@ -1,141 +1,5 @@
 Package: com.pitroytech.5row
 Architecture: iphoneos-arm64
-Version: 1.16.2
-Section: Keyboard
-Maintainer: PitroyTech
-Installed-Size: 508
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.16.2_iphoneos-arm64.deb
-Size: 56002
-MD5sum: d38201c3e2fe109b7e0dac1e87166c01
-SHA1: b97b718336d45d5df029ad627f12d3d1fa17e855
-SHA256: 6fe36ee3d3020438b4298ff46f201158c19bde1da2017b6f38bf5f31fafe0169
-SHA512: cd93606e545ef16029e6519dbc67bfeee36e9bde792afa4b1c7cae38f3ab47fe3cd6d353b08013b99aa8f03faf47ac838b9e4a0244615c7f2b8107a9c1a08019
-Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
- Features:
- Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
- Rename the ABC and 123 keys, up to five characters each.
- Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
- Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
- Pro adds:
- All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
- Separate packages are available for Rootless and RootHide.
- Notes:
- iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
- Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
- If the newest build misbehaves on your device, 1.16.2 is still on this repo — pick it from the version list.
-Name: 5Row
-Author: PitroyTech
-Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
-SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
-Icon: https://pitroytech.github.io/repo/icons/5row.png
-
-Package: com.pitroytech.5row
-Architecture: iphoneos-arm64e
-Version: 1.16.2
-Section: Keyboard
-Maintainer: PitroyTech
-Installed-Size: 508
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.16.2_iphoneos-arm64e.deb
-Size: 56076
-MD5sum: 97bc39df4683e77f6986d8e58ad16045
-SHA1: 589a5a30991ed4b5d0fafe14ba422ce64049b729
-SHA256: 3bb1b5101242a7056f43def1852aff4ed49cfda4a08fb20c3ba2ad29c32d55eb
-SHA512: 8c7e45ba044f649ad403f3cfb733cd67f4eeea0ea586dd8b0db45ffcaa37b45f66b967ca76bb07b6f49d63f0a8211c910d782fc0445f5e547a42194d00306d7e
-Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
- Features:
- Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
- Rename the ABC and 123 keys, up to five characters each.
- Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
- Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
- Pro adds:
- All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
- Separate packages are available for Rootless and RootHide.
- Notes:
- iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
- Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
- If the newest build misbehaves on your device, 1.16.2 is still on this repo — pick it from the version list.
-Name: 5Row
-Author: PitroyTech
-Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
-SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
-Icon: https://pitroytech.github.io/repo/icons/5row.png
-
-Package: com.pitroytech.5row
-Architecture: iphoneos-arm64
-Version: 1.16.5
-Section: Keyboard
-Maintainer: PitroyTech
-Installed-Size: 508
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.16.5_iphoneos-arm64.deb
-Size: 56088
-MD5sum: 0712efc69b0a774bfebd34914c1f2b08
-SHA1: d0fbb32a5af05037ad33a703aa559afcbe005d95
-SHA256: b55e90b06d9b3e17c37951381681a987416336cb5c442e681591a564021e44f3
-SHA512: a16672c8177e0dfc27a6e272b395fd3bd8dd4e5aee4bdd9dca9d8ad080b9c0f427ccf93ec175ef1df8257f6313fbafb8ce941687e28f17be1351e10aaf3ad337
-Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
- Features:
- Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
- Rename the ABC and 123 keys, up to five characters each.
- Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
- Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
- Pro adds:
- All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
- Separate packages are available for Rootless and RootHide.
- Notes:
- iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
- Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
- If the newest build misbehaves on your device, 1.16.2 is still on this repo — pick it from the version list.
-Name: 5Row
-Author: PitroyTech
-Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
-SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
-Icon: https://pitroytech.github.io/repo/icons/5row.png
-
-Package: com.pitroytech.5row
-Architecture: iphoneos-arm64e
-Version: 1.16.5
-Section: Keyboard
-Maintainer: PitroyTech
-Installed-Size: 508
-Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
-Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
-Filename: debs/com.pitroytech.5row_1.16.5_iphoneos-arm64e.deb
-Size: 56106
-MD5sum: d801b9dfac97fd7bf6f321819720a06b
-SHA1: 8370470a0ea6694d8eb4746e8663a28581789312
-SHA256: 382b0bd657fd46e37eb46d060a3421ada424f7f66bc7406f11c097fc827f1f27
-SHA512: b3f24bbd5f0a33e823a6ead860e37aa8041d7233b53a8dfbc3e936235e79b93e3cf2291a8f8a4b8aae0153b92c44a05f476a02489938aee409087f4434ea8f0a
-Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
- Features:
- Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
- Rename the ABC and 123 keys, up to five characters each.
- Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
- Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
- Pro adds:
- All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
- Separate packages are available for Rootless and RootHide.
- Notes:
- iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
- Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
- If the newest build misbehaves on your device, 1.16.2 is still on this repo — pick it from the version list.
-Name: 5Row
-Author: PitroyTech
-Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
-SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
-Icon: https://pitroytech.github.io/repo/icons/5row.png
-
-Package: com.pitroytech.5row
-Architecture: iphoneos-arm64
 Version: 1.16.7
 Section: Keyboard
 Maintainer: PitroyTech
@@ -157,11 +21,10 @@ Description: Adds the fifth number row Apple still hasn't brought to the iPhone 
  Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
  Pro adds:
  All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
- Separate packages are available for Rootless and RootHide.
+ The current package is available for Rootless.
  Notes:
  iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
  Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
- If the newest build misbehaves on your device, 1.16.2 is still on this repo — pick it from the version list.
 Name: 5Row
 Author: PitroyTech
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
