@@ -133,3 +133,37 @@ Author: PitroyTech
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
 Icon: https://pitroytech.github.io/repo/icons/5row.png
+
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64
+Version: 1.16.7
+Section: Keyboard
+Maintainer: PitroyTech
+Installed-Size: 552
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: debs/com.pitroytech.5row_1.16.7_iphoneos-arm64.deb
+Size: 102236
+MD5sum: ca8bc872ec5a77a1f4fc869654fc562e
+SHA1: 5bd72d981e0316288fa30dc731f9e0b206919fcc
+SHA256: 67270854b8fd5a0697d697485e7b2a382d09e4b6063dd5b1629e283ed8bf1663
+SHA512: 3b331b7d78aa2b7022cbfe0b2d366430f58b7b52cbac8b7c912cbfbdf289a8b37a92b3eda402f262dd0f70857a31848e3e613e9407ed35ea1fea5928dd0fa750
+Description: Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.
+ Features:
+ Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use, so you never get a doubled number row.
+ Rename the ABC and 123 keys, up to five characters each.
+ Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.
+ Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.
+ Pro adds:
+ All ten keys on both rows, which row appears in each situation, the keyboard height, and the always-five-rows switch.
+ Separate packages are available for Rootless and RootHide.
+ Notes:
+ iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.
+ Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.
+ If the newest build misbehaves on your device, 1.16.2 is still on this repo — pick it from the version list.
+Name: 5Row
+Author: PitroyTech
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
+Icon: https://pitroytech.github.io/repo/icons/5row.png
