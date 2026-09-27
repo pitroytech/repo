@@ -72,7 +72,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "iOS 15 and later. Current package: Rootless only."
+          "text": "iOS 15 and later. Separate Rootless and RootHide packages."
         },
         {
           "class": "DepictionTableButtonView",

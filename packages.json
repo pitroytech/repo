@@ -12,7 +12,7 @@
       "version": "1.16.7",
       "section": "Keyboard",
       "price": "Free",
-      "compatibility": "iOS 15 and later. Current package: Rootless only.",
+      "compatibility": "iOS 15 and later. Separate Rootless and RootHide packages.",
       "description": [
         "Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.",
         "Features:",
