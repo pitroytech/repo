@@ -1,0 +1,7 @@
+OhMyRotate - smarter rotation, especially for video.
+
+Automatically disable portrait lock for selected apps, unlock rotation during supported video playback, and keep videos landscape while watching.
+
+Completely free. iPhone on iOS 16-17; iOS 15 is not supported. Rootless and RootHide builds. This is a release candidate; RootHide device validation is pending.
+
+Buy me a coffee: https://www.paypal.me/pitroy

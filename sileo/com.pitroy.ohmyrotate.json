@@ -1,0 +1,41 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#0a84ff",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "## OhMyRotate\nSmarter rotation, especially for video."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Take control of portrait and landscape rotation without constantly opening Control Center.\n\nAutomatically disable portrait lock for selected apps, unlock rotation during supported video playback, and keep videos landscape while you watch.\n\nCompletely free. Configure in Settings, with English and Vietnamese support.\n\nLandscape hold uses an empty whitelist by default: select the apps you want it to apply to. Playback detection and fullscreen behavior depend on the app.\n\nRelease candidate: you may need to pause video before switching apps if landscape lock persists. iOS 15 is not supported."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iPhone, iOS 16-17. Rootless and RootHide. iOS 15 is not supported. Release candidate; RootHide device validation is pending."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0-RC"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "Free"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Buy me a coffee",
+          "action": "https://www.paypal.me/pitroy"
+        }
+      ]
+    }
+  ]
+}
