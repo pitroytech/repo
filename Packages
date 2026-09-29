@@ -1,3 +1,53 @@
+Package: com.pitroy.ohmyrotate
+Architecture: iphoneos-arm64
+Version: 1.0-RC
+Section: Tweaks
+Maintainer: Pitroy
+Installed-Size: 680
+Depends: firmware (>= 16.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.pitroy.ohmyrotate_1.0-RC_iphoneos-arm64.deb
+Size: 73528
+MD5sum: 47b413f2c6cd92d858af6233b0243330
+SHA1: 14c5d3298643d78d45e7d4ec0298b68fb4bb236a
+SHA256: 7cb285f156de1fdd36478ad94601d3b5e6094744ca9fe37c4f5466a66da9a0a7
+SHA512: 0f73676bf227ea7b9e4e518ddc1559107003081e247fbed834d76107d83c0ebc1505729d3cd96826db833dec765fc2197bc1cf8b0ce154411d3470c0c6964bc7
+Description: OhMyRotate - smarter rotation, especially for video.
+ .
+ Automatically disable portrait lock for selected apps, unlock rotation during supported video playback, and keep videos landscape while watching.
+ .
+ Completely free. iPhone on iOS 16-17; iOS 15 is not supported. Rootless and RootHide builds. This is a release candidate; RootHide device validation is pending.
+ .
+ Buy me a coffee: https://www.paypal.me/pitroy
+Name: OhMyRotate
+Author: Pitroy
+Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+
+Package: com.pitroy.ohmyrotate
+Architecture: iphoneos-arm64e
+Version: 1.0-RC
+Section: Tweaks
+Maintainer: Pitroy
+Installed-Size: 680
+Depends: firmware (>= 16.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.pitroy.ohmyrotate_1.0-RC_iphoneos-arm64e.deb
+Size: 73212
+MD5sum: df82165da0029434cef1e7012132e287
+SHA1: 5283fcdafe8815a0263630a09ea3e759bcafd9fd
+SHA256: a13641e5f2d1954fb922901427891dd6e33a5f0d95146c7fef98a6c045da7053
+SHA512: 6faa9fa2a23d30ba0df1960d47b94df419b89670e65d9ef44daf6ccaab289d183ec7f029cf99cb9fc579cb3d5f8fe7ac812c0138e560b2617c49e46bee96cb30
+Description: OhMyRotate - smarter rotation, especially for video.
+ .
+ Automatically disable portrait lock for selected apps, unlock rotation during supported video playback, and keep videos landscape while watching.
+ .
+ Completely free. iPhone on iOS 16-17; iOS 15 is not supported. Rootless and RootHide builds. This is a release candidate; RootHide device validation is pending.
+ .
+ Buy me a coffee: https://www.paypal.me/pitroy
+Name: OhMyRotate
+Author: Pitroy
+Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+
 Package: com.pitroytech.5row
 Architecture: iphoneos-arm64
 Version: 1.16.7
