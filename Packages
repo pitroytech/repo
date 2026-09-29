@@ -13,11 +13,19 @@ SHA256: 7cb285f156de1fdd36478ad94601d3b5e6094744ca9fe37c4f5466a66da9a0a7
 SHA512: 0f73676bf227ea7b9e4e518ddc1559107003081e247fbed834d76107d83c0ebc1505729d3cd96826db833dec765fc2197bc1cf8b0ce154411d3470c0c6964bc7
 Description: OhMyRotate - smarter rotation, especially for video.
  .
- Automatically disable portrait lock for selected apps, unlock rotation during supported video playback, and keep videos landscape while watching.
+ Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D
  .
- Completely free. iPhone on iOS 16-17; iOS 15 is not supported. Rootless and RootHide builds. This is a release candidate; RootHide device validation is pending.
+ - Automatically disable portrait lock for selected apps.
+ - Unlock rotation during supported video playback.
+ - Even keep videos locked in landscape while you watch.
  .
- Buy me a coffee: https://www.paypal.me/pitroy
+ Completely free.
+ English and Vietnamese support.
+ For iPhone on iOS 16-17, with Rootless and RootHide support.
+ .
+ If you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.
+ .
+ Buy me a coffee if you enjoy it: https://www.paypal.me/pitroy
 Name: OhMyRotate
 Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
@@ -38,11 +46,19 @@ SHA256: a13641e5f2d1954fb922901427891dd6e33a5f0d95146c7fef98a6c045da7053
 SHA512: 6faa9fa2a23d30ba0df1960d47b94df419b89670e65d9ef44daf6ccaab289d183ec7f029cf99cb9fc579cb3d5f8fe7ac812c0138e560b2617c49e46bee96cb30
 Description: OhMyRotate - smarter rotation, especially for video.
  .
- Automatically disable portrait lock for selected apps, unlock rotation during supported video playback, and keep videos landscape while watching.
+ Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D
  .
- Completely free. iPhone on iOS 16-17; iOS 15 is not supported. Rootless and RootHide builds. This is a release candidate; RootHide device validation is pending.
+ - Automatically disable portrait lock for selected apps.
+ - Unlock rotation during supported video playback.
+ - Even keep videos locked in landscape while you watch.
  .
- Buy me a coffee: https://www.paypal.me/pitroy
+ Completely free.
+ English and Vietnamese support.
+ For iPhone on iOS 16-17, with Rootless and RootHide support.
+ .
+ If you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.
+ .
+ Buy me a coffee if you enjoy it: https://www.paypal.me/pitroy
 Name: OhMyRotate
 Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
