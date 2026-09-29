@@ -153,19 +153,23 @@
       "version": "1.0-RC",
       "section": "Tweaks",
       "price": "Free",
-      "compatibility": "iPhone, iOS 16-17. Rootless and RootHide. iOS 15 is not supported. Release candidate; RootHide device validation is pending.",
+      "compatibility": "iPhone, iOS 16-17. Rootless and RootHide. iOS 15 is not supported.",
       "description": [
-        "Take control of portrait and landscape rotation without constantly opening Control Center.",
-        "Automatically disable portrait lock for selected apps, unlock rotation during supported video playback, and keep videos landscape while you watch.",
-        "Completely free. Configure in Settings, with English and Vietnamese support.",
-        "Landscape hold uses an empty whitelist by default: select the apps you want it to apply to. Playback detection and fullscreen behavior depend on the app.",
-        "Release candidate: you may need to pause video before switching apps if landscape lock persists. iOS 15 is not supported."
+        "Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D",
+        "• Automatically disable portrait lock for selected apps.",
+        "• Unlock rotation during supported video playback.",
+        "• Even keep videos locked in landscape while you watch.",
+        "Completely free.",
+        "English and Vietnamese support.",
+        "For iPhone on iOS 16-17, with Rootless and RootHide support.",
+        "If you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.",
+        "Buy me a coffee if you enjoy it!"
       ],
       "icon": "icons/ohmyrotate.png",
       "links": [
         {
           "kind": "support",
-          "label": "Buy me a coffee",
+          "label": "☕",
           "url": "https://www.paypal.me/pitroy"
         },
         {
