@@ -8,7 +8,7 @@ Take control of portrait and landscape rotation without constantly opening Contr
 
 Completely free.  
 English and Vietnamese support.  
-For iPhone on iOS 16-17, with Rootless and RootHide support.
+For iPhone, with Rootless and RootHide support.
 
 If you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.
 

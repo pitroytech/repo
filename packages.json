@@ -150,10 +150,10 @@
       "id": "com.pitroy.ohmyrotate",
       "name": "OhMyRotate",
       "tagline": "Smarter rotation, especially for video",
-      "version": "1.0-RC",
+      "version": "1.01-RC",
       "section": "Tweaks",
       "price": "Free",
-      "compatibility": "iPhone, iOS 16-17. Rootless and RootHide. iOS 15 is not supported.",
+      "compatibility": "iPhone. Rootless and RootHide.",
       "description": [
         "Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D",
         "• Automatically disable portrait lock for selected apps.",
@@ -161,7 +161,7 @@
         "• Even keep videos locked in landscape while you watch.",
         "Completely free.",
         "English and Vietnamese support.",
-        "For iPhone on iOS 16-17, with Rootless and RootHide support.",
+        "For iPhone, with Rootless and RootHide support.",
         "If you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.",
         "Buy me a coffee if you enjoy it!"
       ],
@@ -179,6 +179,14 @@
         }
       ],
       "changelog": [
+        {
+          "version": "1.01-RC",
+          "date": "2026-09-29",
+          "notes": [
+            "Simplified introduction and Settings explanations.",
+            "Package installation range extended through iOS 18.x; runtime verification on iOS 18 is pending."
+          ]
+        },
         {
           "version": "1.0-RC",
           "date": "2026-09-29",

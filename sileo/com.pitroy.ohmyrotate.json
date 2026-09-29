@@ -13,17 +13,17 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D\n\n- Automatically disable portrait lock for selected apps.\n- Unlock rotation during supported video playback.\n- Even keep videos locked in landscape while you watch.\n\nCompletely free.  \nEnglish and Vietnamese support.  \nFor iPhone on iOS 16-17, with Rootless and RootHide support.\n\nIf you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.\n\nBuy me a [☕](https://www.paypal.me/pitroy) if you enjoy it!"
+          "markdown": "Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D\n\n- Automatically disable portrait lock for selected apps.\n- Unlock rotation during supported video playback.\n- Even keep videos locked in landscape while you watch.\n\nCompletely free.  \nEnglish and Vietnamese support.  \nFor iPhone, with Rootless and RootHide support.\n\nIf you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.\n\nBuy me a [☕](https://www.paypal.me/pitroy) if you enjoy it!"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "iPhone, iOS 16-17. Rootless and RootHide. iOS 15 is not supported."
+          "text": "iPhone. Rootless and RootHide."
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0-RC"
+          "text": "1.01-RC"
         },
         {
           "class": "DepictionTableTextView",
