@@ -130,6 +130,72 @@ Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
 
+Package: com.pitroy.ohmyrotate
+Architecture: iphoneos-arm64
+Version: 1.03-beta
+Section: Tweaks
+Maintainer: Pitroy
+Installed-Size: 716
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.pitroy.ohmyrotate_1.03-beta_iphoneos-arm64.deb
+Size: 83374
+MD5sum: 901c87bc8fe75b1d4cb184cf25bdda99
+SHA1: 42729ec33fe0a0c73c9eaa8c06c00028db2e5b6b
+SHA256: b063f274b06973a7ce180df95a32336f3a1f8d32992cdc1efb1e65bd1e511f17
+SHA512: aa94fd78986f24c6d191eee0d1cfa0f281a054407c82d4355dbe3e4bd1fc8b780d10e2e2c37ff52f74d1f0a113212551d5345e469332c940bdbab00b28c25afe
+Description: OhMyRotate - smarter rotation, especially for video.
+ .
+ Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D
+ .
+ - Automatically disable portrait lock for selected apps.
+ - Unlock rotation during supported video playback.
+ - Even keep videos locked in landscape while you watch.
+ .
+ Completely free.
+ English and Vietnamese support.
+ For iPhone, with Rootless and RootHide support.
+ .
+ If you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.
+ .
+ Buy me a coffee if you enjoy it: https://www.paypal.me/pitroy
+Name: OhMyRotate
+Author: Pitroy
+Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+
+Package: com.pitroy.ohmyrotate
+Architecture: iphoneos-arm64e
+Version: 1.03-beta
+Section: Tweaks
+Maintainer: Pitroy
+Installed-Size: 716
+Depends: firmware (>= 16.0), firmware (<< 19.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.pitroy.ohmyrotate_1.03-beta_iphoneos-arm64e.deb
+Size: 82606
+MD5sum: c709c9820de8d8769ff10d8060474696
+SHA1: 954768b43f78a40c435dcdadf3a1ecb32cfb50ca
+SHA256: ada284ff98d7978a8fd62008131a007032179c4bb059af0755981164fe3fd9ef
+SHA512: 5ed82f906d0424b3def518d705580247d01a911450ab941fbfcec5f4c31aa57291174584d00792667f8e54d81652d670b86f9659f0f5907b206346500983a51d
+Description: OhMyRotate - smarter rotation, especially for video.
+ .
+ Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D
+ .
+ - Automatically disable portrait lock for selected apps.
+ - Unlock rotation during supported video playback.
+ - Even keep videos locked in landscape while you watch.
+ .
+ Completely free.
+ English and Vietnamese support.
+ For iPhone, with Rootless and RootHide support.
+ .
+ If you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.
+ .
+ Buy me a coffee if you enjoy it: https://www.paypal.me/pitroy
+Name: OhMyRotate
+Author: Pitroy
+Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+
 Package: com.pitroytech.5row
 Architecture: iphoneos-arm64
 Version: 1.16.7
