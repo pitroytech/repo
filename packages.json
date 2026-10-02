@@ -183,11 +183,8 @@
           "version": "1.03-beta",
           "date": "2026-10-02",
           "notes": [
-            "Switching apps or going Home while a video is held in landscape now actually releases the landscape lock. The portrait lock is applied as a separate step and checked against the hardware orientation, not just the setting.",
-            "Short pauses while holding landscape (buffering, ads, the next video starting) no longer drop the hold. It waits 2.5 seconds and checks playback again before letting go.",
-            "Apps set to Unlock now start unlocked directly instead of briefly locking to portrait first.",
-            "Settings are saved to one dedicated preference file with atomic writes.",
-            "The RootHide build comes from the same source but has not been tested on a RootHide device yet."
+            "Improved the landscape hold.",
+            "Minor fixes and stability improvements."
           ]
         },
         {
