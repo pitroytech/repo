@@ -30,7 +30,7 @@
         "- Adjust the key height to your liking while the keyboard keeps Apple's layout and proportions. A small setting that makes typing noticeably more comfortable, especially for different hand sizes",
         "- Keep five rows on the 123 plane, or drop back to the stock four",
         "Support:",
-        "In 5Row's settings, turn on the diagnostic log, reproduce the issue, then copy the log and email it to me (address in the tweak's settings) together with your iOS version and jailbreak."
+        "In 5Row's settings, turn on the diagnostic log, reproduce the issue, then copy the log and email it to pitroytechcode@gmail.com together with your iOS version and jailbreak."
       ],
       "icon": "icons/5row.png",
       "links": [
@@ -43,6 +43,11 @@
           "kind": "repo",
           "label": "pitroytech.github.io/repo",
           "url": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "kind": "support",
+          "label": "Support",
+          "url": "mailto:pitroytechcode@gmail.com"
         }
       ],
       "changelog": [
@@ -111,7 +116,7 @@
         "Activation:",
         "Sign in to Havoc in Sileo or Zebra on this device, then buy the tweak. 5Row Pro asks once to activate; tap Activate and respring. Done.",
         "Support:",
-        "In 5Row Pro's settings, turn on the diagnostic log, reproduce the issue, then copy or export the log and email it to me (address in the tweak's settings) together with your iOS version and jailbreak. The log is encrypted; it shows which apps loaded the tweak and how the keyboard was built, never what you typed."
+        "In 5Row Pro's settings, turn on the diagnostic log, reproduce the issue, then copy or export the log and email it to pitroytechcode@gmail.com together with your iOS version and jailbreak. The log is encrypted; it shows which apps loaded the tweak and how the keyboard was built, never what you typed."
       ],
       "links": [
         {
@@ -123,6 +128,11 @@
           "kind": "repo",
           "label": "pitroytech.github.io/repo",
           "url": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "kind": "support",
+          "label": "Support",
+          "url": "mailto:pitroytechcode@gmail.com"
         }
       ],
       "availability": "Sold on Havoc. This repo carries the free 5Row.",
@@ -194,7 +204,7 @@
         {
           "kind": "support",
           "label": "Support",
-          "url": "mailto:asdlkjlkjasd@gmail.com"
+          "url": "mailto:pitroytechcode@gmail.com"
         }
       ],
       "changelog": [
