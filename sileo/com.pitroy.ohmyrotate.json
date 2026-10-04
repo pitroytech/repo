@@ -8,17 +8,28 @@
       "class": "DepictionStackView",
       "views": [
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "## OhMyRotate\nSmarter rotation, especially for video."
+          "class": "DepictionSubheaderView",
+          "title": "Smarter rotation, especially for video",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description"
+        },
+        {
+          "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D\n\n- Automatically disable portrait lock for selected apps.\n- Unlock rotation during supported video playback.\n- Even keep videos locked in landscape while you watch.\n\nCompletely free.  \nEnglish and Vietnamese support.  \nFor iPhone, with Rootless and RootHide support.\n\nIf you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.\n\nBuy me a [☕](https://www.paypal.me/pitroy) if you enjoy it!"
+          "markdown": "Take control of portrait and landscape rotation without constantly opening Control Center. Honestly, I think it's smarter than Apple's approach - and most rotation tweaks I've seen in years. :D\n\n• Automatically disable portrait lock for selected apps.\n\n• Unlock rotation during supported video playback.\n\n• Even keep videos locked in landscape while you watch.\n\nCompletely free.\n\nEnglish and Vietnamese support.\n\nFor iPhone, with Rootless and RootHide support.\n\nIf you run into any issues, please enable logging in the tweak's settings, reproduce the issue, and send me the log.\n\nBuy me a coffee if you enjoy it!",
+          "useSpacing": true
         },
         {
-          "class": "DepictionTableTextView",
-          "title": "Compatibility",
-          "text": "iPhone. Rootless and RootHide."
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionTableTextView",
@@ -31,9 +42,113 @@
           "text": "Free"
         },
         {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iPhone. Rootless and RootHide."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "PitroyTech"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Identifier",
+          "text": "com.pitroy.ohmyrotate"
+        },
+        {
           "class": "DepictionTableButtonView",
           "title": "☕",
           "action": "https://www.paypal.me/pitroy"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support",
+          "action": "mailto:asdlkjlkjasd@gmail.com"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "OhMyRotate 1.03-beta",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-02",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Improved the landscape hold.\n- Minor fixes and stability improvements."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "OhMyRotate 1.01-RC",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-29",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Simplified introduction and Settings explanations.\n- Package installation range extended through iOS 18.x; runtime verification on iOS 18 is pending."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "OhMyRotate 1.0-RC",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-29",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- First release candidate for iOS 16-17.\n- Per-app portrait unlock, video unlock, and optional landscape hold.\n- Empty-whitelist defaults, EN/VI Settings and optional encrypted diagnostics."
+        },
+        {
+          "class": "DepictionSeparatorView"
         }
       ]
     }

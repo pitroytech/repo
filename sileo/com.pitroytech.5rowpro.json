@@ -2,54 +2,40 @@
   "minVersion": "0.1",
   "class": "DepictionTabView",
   "tintColor": "#0a84ff",
+  "headerImage": "https://pitroytech.github.io/repo/banners/5rowpro.jpg",
   "tabs": [
     {
       "tabname": "Details",
       "class": "DepictionStackView",
       "views": [
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "## 5Row Pro\nA fifth row on the stock keyboard"
+          "class": "DepictionSubheaderView",
+          "title": "Unlock the number row for iPhone, and more…",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Everything in the free build, with the parts it keeps locked opened up."
+          "markdown": "5Row Pro adds a number row to the stock iOS keyboard. A simple thing that makes a real difference, and one Apple keeps choosing to forget.\n\nMore than a number row, 5Row also adds a row of the symbols you use most (press Shift or 123), so you type faster. It also supports Latin keyboards and many non-Latin layouts.\n\n## Read before buying\n\n- Tested by me on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). Users have reported it working on 15.4, 16.4–16.7 and 17.0. Rootless and RootHide builds are both available.\n- **iPhone only, portrait keyboard only.** Handwriting and third-party keyboards are not supported.\n\n## Features\n\n- Adds a number row (1–0) above the letters\n- Adds a symbol row (. , ? @ ! : - / ( )) when you press Shift or 123\n- Rename the 123 and ABC keys\n- Exclude apps that should keep the stock keyboard\n\n## Only in Pro\n\n- Set every key of the number row and the symbol row to whatever you like, emoji and accented letters included\n- Choose which row shows on the normal keyboard, with Shift and on the 123 plane, in any combination\n- Adjust the key height to your liking while the keyboard keeps Apple's layout and proportions. A small setting that makes typing noticeably more comfortable, especially for different hand sizes\n- Keep five rows on the 123 plane, or drop back to the stock four\n- Activate once and you're done, even if you use it offline afterwards\n\n## Activation\n\nSign in to Havoc in Sileo or Zebra on this device, then buy the tweak. 5Row Pro asks once to activate; tap Activate and respring. Done.\n\n## Support\n\nIn 5Row Pro's settings, turn on the diagnostic log, reproduce the issue, then copy or export the log and email it to me (address in the tweak's settings) together with your iOS version and jailbreak. The log is encrypted; it shows which apps loaded the tweak and how the keyboard was built, never what you typed.",
+          "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Pro adds"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Edit all ten keys on both rows, including the characters they show on Shift.\n\nChoose which row appears in each situation: normally, on Shift, and on 123.\n\nAdjust the keyboard height.\n\nKeep five rows when switching with 123 or ABC."
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Availability"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Not released yet. This repo carries the free build only."
+          "title": "Information"
         },
         {
           "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Details"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.16.5"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Section",
-          "text": "Keyboard"
+          "text": "1.18.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -58,13 +44,23 @@
         },
         {
           "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iPhone, iOS 15 and later. Rootless and RootHide."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "PitroyTech"
+        },
+        {
+          "class": "DepictionTableTextView",
           "title": "Identifier",
           "text": "com.pitroytech.5rowpro"
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Compatibility",
-          "text": "iOS 15 and later. Separate Rootless and RootHide packages. Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0."
+          "title": "Availability",
+          "text": "Sold on Havoc. This repo carries the free 5Row."
         },
         {
           "class": "DepictionTableButtonView",
@@ -75,11 +71,6 @@
           "class": "DepictionTableButtonView",
           "title": "pitroytech.github.io/repo",
           "action": "https://pitroytech.github.io/repo/"
-        },
-        {
-          "class": "DepictionTableButtonView",
-          "title": "Support",
-          "action": "mailto:asdlkjlkjasd@gmail.com"
         }
       ]
     },
@@ -88,8 +79,49 @@
       "class": "DepictionStackView",
       "views": [
         {
-          "class": "DepictionHeaderView",
-          "title": "1.16.5  ·  2026-09-24"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row Pro 1.18.0",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-04",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release on Havoc.\n- Reworked the core so the fifth row is added to the stock keyboard more accurately and more efficiently\n- Steadier activation: activate once and you're done, even if you use the tweak offline afterwards"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row Pro 1.16.5",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-24",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -99,8 +131,23 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "1.16.2  ·  2026-09-24"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row Pro 1.16.2",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-24",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -110,8 +157,23 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "1.08~beta3  ·  2026-09-22"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row Pro 1.08~beta3",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-22",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",

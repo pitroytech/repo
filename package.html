@@ -27,7 +27,7 @@
 // Sileo vẽ trang gói từ `SileoDepiction`, và khi URL đó trả HTML thì nó dựng
 // một webview hẹp. Nên mọi thứ ở đây phải bọc chữ theo bề ngang máy và không
 // dựa vào chỗ trống — không cột đôi, không chữ cố định pixel.
-const SCHEMA = 8;
+const SCHEMA = 9;
 const escape = (s) => String(s).replace(/[&<>"']/g,
   (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
@@ -44,6 +44,24 @@ fetch('packages.json?v=' + SCHEMA)
       return;
     }
     document.title = p.name + ' — PitroyTech';
+
+    // Dòng kết thúc bằng ":" là tiêu đề, dòng "- " là một ý trong danh sách,
+    // còn lại là đoạn văn. Cùng quy tắc với tools/build-sileo-depictions.py,
+    // để Zebra (trang này) và Sileo (JSON) đọc ra đúng một nội dung.
+    const inline = (s) => escape(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    const describe = (lines) => {
+      let html = '', list = [];
+      const flush = () => { if (list.length) html += `<ul>${list.join('')}</ul>`; list = []; };
+      for (const line of lines) {
+        if (line.startsWith('- ')) { list.push(`<li>${inline(line.slice(2))}</li>`); continue; }
+        flush();
+        html += line.trimEnd().endsWith(':')
+          ? `<h4>${inline(line.trimEnd().slice(0, -1))}</h4>`
+          : `<p>${inline(line)}</p>`;
+      }
+      flush();
+      return html;
+    };
 
     const render = () => {
       // Nguồn, kèm icon GitHub vẽ thẳng bằng SVG.
@@ -66,9 +84,7 @@ fetch('packages.json?v=' + SCHEMA)
 
       const details = `
         <section class="glass card body">
-          ${p.description.map((line) => line.trimEnd().endsWith(':')
-              ? `<h4>${escape(line)}</h4>`
-              : `<p>${escape(line)}</p>`).join('')}
+          ${describe(p.description)}
         </section>
 
         <section class="glass card">
@@ -92,6 +108,7 @@ fetch('packages.json?v=' + SCHEMA)
         </section>`;
 
       page.innerHTML = `
+        ${p.banner ? `<img class="banner" src="${escape(p.banner)}" alt="">` : ''}
         <section class="glass card">
           <div class="pkg-top">
             <img class="glyph" src="${escape(p.icon)}" alt="" width="62" height="62">

@@ -2,52 +2,35 @@
   "minVersion": "0.1",
   "class": "DepictionTabView",
   "tintColor": "#0a84ff",
+  "headerImage": "https://pitroytech.github.io/repo/banners/5row.jpg",
   "tabs": [
     {
       "tabname": "Details",
       "class": "DepictionStackView",
       "views": [
         {
-          "class": "DepictionMarkdownView",
-          "markdown": "## 5Row\nA fifth row on the stock keyboard"
+          "class": "DepictionSubheaderView",
+          "title": "Unlock the number row for iPhone.",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Adds the fifth number row Apple still hasn't brought to the iPhone after all these years."
+          "markdown": "5Row adds a number row to the stock iOS keyboard. A simple thing that makes a real difference, and one Apple keeps choosing to forget.\n\nMore than a number row, 5Row also adds a row of the symbols you use most (press Shift or 123), so you type faster. It also supports Latin keyboards and many non-Latin layouts.\n\n## Read before installing\n\n- Tested by me on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). Users have reported it working on 15.4, 16.4–16.7 and 17.0. Rootless and RootHide builds are both available.\n- **iPhone only, portrait keyboard only.** Handwriting and third-party keyboards are not supported.\n\n## Features\n\n- Adds a number row (1–0) above the letters\n- Adds a symbol row (. , ? @ ! : - / ( )) when you press Shift or 123\n- Rename the 123 and ABC keys\n- Exclude apps that should keep the stock keyboard\n\n## 5Row Pro on Havoc adds\n\n- Set every key of the number row and the symbol row to whatever you like, emoji and accented letters included\n- Choose which row shows on the normal keyboard, with Shift and on the 123 plane, in any combination\n- Adjust the key height to your liking while the keyboard keeps Apple's layout and proportions. A small setting that makes typing noticeably more comfortable, especially for different hand sizes\n- Keep five rows on the 123 plane, or drop back to the stock four\n\n## Support\n\nIn 5Row's settings, turn on the diagnostic log, reproduce the issue, then copy the log and email it to me (address in the tweak's settings) together with your iOS version and jailbreak.",
+          "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "Features"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use — no more doubled number row.\n\nRename the ABC and 123 keys, up to five characters each.\n\nSupports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.\n\nTurn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap."
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Pro adds"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "All ten keys on both rows, which row appears in each situation, keyboard height, and the always-five-rows switch."
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Notes"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.\n\nIf something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com."
+          "title": "Information"
         },
         {
           "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "Details"
         },
         {
           "class": "DepictionTableTextView",
@@ -56,23 +39,23 @@
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Section",
-          "text": "Keyboard"
-        },
-        {
-          "class": "DepictionTableTextView",
           "title": "Price",
           "text": "Free"
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Identifier",
-          "text": "com.pitroytech.5row"
+          "title": "Compatibility",
+          "text": "iPhone, iOS 15 and later. Rootless and RootHide."
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Compatibility",
-          "text": "iOS 15 and later. Separate Rootless and RootHide packages."
+          "title": "Developer",
+          "text": "PitroyTech"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Identifier",
+          "text": "com.pitroytech.5row"
         },
         {
           "class": "DepictionTableButtonView",
@@ -83,11 +66,6 @@
           "class": "DepictionTableButtonView",
           "title": "pitroytech.github.io/repo",
           "action": "https://pitroytech.github.io/repo/"
-        },
-        {
-          "class": "DepictionTableButtonView",
-          "title": "Support",
-          "action": "mailto:asdlkjlkjasd@gmail.com"
         }
       ]
     },
@@ -96,8 +74,23 @@
       "class": "DepictionStackView",
       "views": [
         {
-          "class": "DepictionHeaderView",
-          "title": "1.16.7  ·  2026-09-27"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row 1.16.7",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-27",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -107,8 +100,23 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "1.16.5  ·  2026-09-24"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row 1.16.5",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-24",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -118,8 +126,23 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "1.16.2  ·  2026-09-24"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row 1.16.2",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-24",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -129,8 +152,23 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "1.08~beta3  ·  2026-09-22"
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row 1.08~beta3",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-09-22",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",

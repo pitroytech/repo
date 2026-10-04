@@ -26,41 +26,49 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 TINT = "#0a84ff"
 
 
-def markdown(text):
-    return {"class": "DepictionMarkdownView", "markdown": text}
+BASE = "https://pitroytech.github.io/repo/"
+
+
+def describe(lines):
+    """Mô tả thành MỘT khối markdown, cùng quy tắc với package.html.
+
+    Dòng kết thúc bằng ":" là tiêu đề `##`, dòng "- " là ý trong danh sách,
+    còn lại là đoạn văn. Một khối duy nhất như depiction của Irisin
+    (apt.owngoal.dev): Sileo tự dựng bullet, tự bọc chữ, và khoảng cách giữa
+    các phần đều nhau. Nhiều view rời thì khoảng cách doãng ra.
+    """
+    out = []
+    for line in lines:
+        if line.startswith("- "):
+            if out and not out[-1].startswith("- "):
+                out.append("")
+            out.append(line)
+        else:
+            if out:
+                out.append("")
+            out.append("## " + line.rstrip()[:-1] if line.rstrip().endswith(":") else line)
+    return "\n".join(out)
 
 
 def details_tab(package):
-    views = [markdown(f"## {package['name']}\n{package['tagline']}"),
+    # Bố cục theo Irisin: tagline in đậm, "Description", thân markdown,
+    # rồi bảng "Information". Banner nằm ở `headerImage` của gốc.
+    views = [{"class": "DepictionSubheaderView", "title": package["tagline"], "useBoldText": True},
+             {"class": "DepictionHeaderView", "title": "Description"},
+             {"class": "DepictionSeparatorView"},
+             {"class": "DepictionMarkdownView", "markdown": describe(package["description"]),
+              "useSpacing": True},
+             {"class": "DepictionHeaderView", "title": "Information"},
              {"class": "DepictionSeparatorView"}]
-
-    # Gom các câu liền nhau thành MỘT khối markdown, tiêu đề thành heading.
-    # Mỗi câu một view thì khoảng cách giữa chúng doãng ra rất xa.
-    buffer = []
-    for line in package["description"]:
-        if line.rstrip().endswith(":"):
-            if buffer:
-                views.append(markdown("\n\n".join(buffer)))
-                buffer = []
-            views.append({"class": "DepictionHeaderView", "title": line.rstrip(":")})
-        else:
-            buffer.append(line)
-    if buffer:
-        views.append(markdown("\n\n".join(buffer)))
-
-    views.append({"class": "DepictionSeparatorView"})
-    views.append({"class": "DepictionHeaderView", "title": "Details"})
-    for title, text in [("Version", package["version"]),
-                        ("Section", package["section"]),
-                        ("Price", package["price"]),
-                        ("Identifier", package["id"])]:
-        views.append({"class": "DepictionTableTextView", "title": title, "text": text})
-    views.append({"class": "DepictionTableTextView", "title": "Compatibility",
-                  "text": package["compatibility"]})
+    rows = [("Version", package["version"]), ("Price", package["price"]),
+            ("Compatibility", package["compatibility"]), ("Developer", "PitroyTech"),
+            ("Identifier", package["id"])]
+    if package.get("availability"):
+        rows.append(("Availability", package["availability"]))
     if package.get("older"):
-        views.append({"class": "DepictionTableTextView", "title": "Also on the repo",
-                      "text": package["older"]["version"]})
-
+        rows.append(("Also on the repo", package["older"]["version"]))
+    views += [{"class": "DepictionTableTextView", "title": title, "text": text}
+              for title, text in rows]
     for link in package.get("links", []):
         views.append({"class": "DepictionTableButtonView",
                       "title": link["label"], "action": link["url"]})
@@ -68,14 +76,19 @@ def details_tab(package):
 
 
 def changelog_tab(package):
+    # Mỗi bản: tên bản bên trái, ngày bên phải (alignment 2), rồi các ý.
     views = []
     for entry in package.get("changelog", []):
-        heading = f"{entry['version']}  ·  {entry.get('date', '')}".strip(" ·")
-        views.append({"class": "DepictionHeaderView", "title": heading})
-        # Một khối markdown cho cả danh sách: Sileo tự dựng bullet và tự bọc chữ.
-        views.append(markdown("\n".join("- " + note for note in entry["notes"])))
+        views.append({"class": "DepictionLayerView", "views": [
+            {"class": "DepictionLabelView", "text": f"{package['name']} {entry['version']}",
+             "fontWeight": "bold", "fontSize": 16},
+            {"class": "DepictionLabelView", "text": entry.get("date", ""),
+             "fontWeight": "semibold", "fontSize": 16, "textColor": "#696969", "alignment": 2},
+        ]})
+        views.append({"class": "DepictionMarkdownView",
+                      "markdown": "\n".join("- " + note for note in entry["notes"])})
         views.append({"class": "DepictionSeparatorView"})
-    return views or [markdown("No changelog yet.")]
+    return views or [{"class": "DepictionMarkdownView", "markdown": "No changelog yet."}]
 
 
 def build(package):
@@ -91,6 +104,7 @@ def build(package):
         "minVersion": "0.1",
         "class": "DepictionTabView",
         "tintColor": TINT,
+        **({"headerImage": BASE + package["banner"]} if package.get("banner") else {}),
         "tabs": [
             {"tabname": "Details", "class": "DepictionStackView",
              "views": details_tab(package)},

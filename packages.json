@@ -8,23 +8,29 @@
     {
       "id": "com.pitroytech.5row",
       "name": "5Row",
-      "tagline": "A fifth row on the stock keyboard",
+      "tagline": "Unlock the number row for iPhone.",
       "version": "1.16.7",
       "section": "Keyboard",
       "price": "Free",
-      "compatibility": "iOS 15 and later. Separate Rootless and RootHide packages.",
+      "compatibility": "iPhone, iOS 15 and later. Rootless and RootHide.",
       "description": [
-        "Adds the fifth number row Apple still hasn't brought to the iPhone after all these years.",
+        "5Row adds a number row to the stock iOS keyboard. A simple thing that makes a real difference, and one Apple keeps choosing to forget.",
+        "More than a number row, 5Row also adds a row of the symbols you use most (press Shift or 123), so you type faster. It also supports Latin keyboards and many non-Latin layouts.",
+        "Read before installing:",
+        "- Tested by me on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). Users have reported it working on 15.4, 16.4–16.7 and 17.0. Rootless and RootHide builds are both available.",
+        "- **iPhone only, portrait keyboard only.** Handwriting and third-party keyboards are not supported.",
         "Features:",
-        "Adds an extra row that feels at home on the stock keyboard. Press Shift or 123 and it becomes the punctuation you actually use — no more doubled number row.",
-        "Rename the ABC and 123 keys, up to five characters each.",
-        "Supports Latin keyboards and many non-Latin layouts. Available layouts may vary by iOS version.",
-        "Turn the tweak on or off, exclude individual apps, and reset everything to defaults in one tap.",
-        "Pro adds:",
-        "All ten keys on both rows, which row appears in each situation, keyboard height, and the always-five-rows switch.",
-        "Notes:",
-        "iPhone only. Portrait keyboards only. Handwriting and third-party keyboards are not supported.",
-        "If something goes wrong, turn on the diagnostic log in Settings, reproduce the problem, then copy the log and email it to asdlkjlkjasd@gmail.com."
+        "- Adds a number row (1–0) above the letters",
+        "- Adds a symbol row (. , ? @ ! : - / ( )) when you press Shift or 123",
+        "- Rename the 123 and ABC keys",
+        "- Exclude apps that should keep the stock keyboard",
+        "5Row Pro on Havoc adds:",
+        "- Set every key of the number row and the symbol row to whatever you like, emoji and accented letters included",
+        "- Choose which row shows on the normal keyboard, with Shift and on the 123 plane, in any combination",
+        "- Adjust the key height to your liking while the keyboard keeps Apple's layout and proportions. A small setting that makes typing noticeably more comfortable, especially for different hand sizes",
+        "- Keep five rows on the 123 plane, or drop back to the stock four",
+        "Support:",
+        "In 5Row's settings, turn on the diagnostic log, reproduce the issue, then copy the log and email it to me (address in the tweak's settings) together with your iOS version and jailbreak."
       ],
       "icon": "icons/5row.png",
       "links": [
@@ -37,11 +43,6 @@
           "kind": "repo",
           "label": "pitroytech.github.io/repo",
           "url": "https://pitroytech.github.io/repo/"
-        },
-        {
-          "kind": "support",
-          "label": "Support",
-          "url": "mailto:asdlkjlkjasd@gmail.com"
         }
       ],
       "changelog": [
@@ -78,26 +79,39 @@
             "First public beta, posted on r/jailbreak"
           ]
         }
-      ]
+      ],
+      "banner": "banners/5row.jpg"
     },
     {
       "id": "com.pitroytech.5rowpro",
       "name": "5Row Pro",
-      "tagline": "A fifth row on the stock keyboard",
-      "version": "1.16.5",
+      "tagline": "Unlock the number row for iPhone, and more…",
+      "version": "1.18.0",
       "section": "Keyboard",
       "price": "Paid",
       "icon": "icons/5rowpro.png",
-      "compatibility": "iOS 15 and later. Separate Rootless and RootHide packages. Confirmed by users on iOS 15.4, 16.4, 16.5, 16.6, 16.7 and 17.0.",
+      "compatibility": "iPhone, iOS 15 and later. Rootless and RootHide.",
       "description": [
-        "Everything in the free build, with the parts it keeps locked opened up.",
-        "Pro adds:",
-        "Edit all ten keys on both rows, including the characters they show on Shift.",
-        "Choose which row appears in each situation: normally, on Shift, and on 123.",
-        "Adjust the keyboard height.",
-        "Keep five rows when switching with 123 or ABC.",
-        "Availability:",
-        "Not released yet. This repo carries the free build only."
+        "5Row Pro adds a number row to the stock iOS keyboard. A simple thing that makes a real difference, and one Apple keeps choosing to forget.",
+        "More than a number row, 5Row also adds a row of the symbols you use most (press Shift or 123), so you type faster. It also supports Latin keyboards and many non-Latin layouts.",
+        "Read before buying:",
+        "- Tested by me on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). Users have reported it working on 15.4, 16.4–16.7 and 17.0. Rootless and RootHide builds are both available.",
+        "- **iPhone only, portrait keyboard only.** Handwriting and third-party keyboards are not supported.",
+        "Features:",
+        "- Adds a number row (1–0) above the letters",
+        "- Adds a symbol row (. , ? @ ! : - / ( )) when you press Shift or 123",
+        "- Rename the 123 and ABC keys",
+        "- Exclude apps that should keep the stock keyboard",
+        "Only in Pro:",
+        "- Set every key of the number row and the symbol row to whatever you like, emoji and accented letters included",
+        "- Choose which row shows on the normal keyboard, with Shift and on the 123 plane, in any combination",
+        "- Adjust the key height to your liking while the keyboard keeps Apple's layout and proportions. A small setting that makes typing noticeably more comfortable, especially for different hand sizes",
+        "- Keep five rows on the 123 plane, or drop back to the stock four",
+        "- Activate once and you're done, even if you use it offline afterwards",
+        "Activation:",
+        "Sign in to Havoc in Sileo or Zebra on this device, then buy the tweak. 5Row Pro asks once to activate; tap Activate and respring. Done.",
+        "Support:",
+        "In 5Row Pro's settings, turn on the diagnostic log, reproduce the issue, then copy or export the log and email it to me (address in the tweak's settings) together with your iOS version and jailbreak. The log is encrypted; it shows which apps loaded the tweak and how the keyboard was built, never what you typed."
       ],
       "links": [
         {
@@ -109,15 +123,19 @@
           "kind": "repo",
           "label": "pitroytech.github.io/repo",
           "url": "https://pitroytech.github.io/repo/"
-        },
-        {
-          "kind": "support",
-          "label": "Support",
-          "url": "mailto:asdlkjlkjasd@gmail.com"
         }
       ],
-      "availability": "Not released yet. This repo carries the free build only.",
+      "availability": "Sold on Havoc. This repo carries the free 5Row.",
       "changelog": [
+        {
+          "version": "1.18.0",
+          "date": "2026-10-04",
+          "notes": [
+            "Initial release on Havoc.",
+            "Reworked the core so the fifth row is added to the stock keyboard more accurately and more efficiently",
+            "Steadier activation: activate once and you're done, even if you use the tweak offline afterwards"
+          ]
+        },
         {
           "version": "1.16.5",
           "date": "2026-09-24",
@@ -144,7 +162,8 @@
             "First public beta, posted on r/jailbreak"
           ]
         }
-      ]
+      ],
+      "banner": "banners/5rowpro.jpg"
     },
     {
       "id": "com.pitroy.ohmyrotate",

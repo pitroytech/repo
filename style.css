@@ -435,3 +435,10 @@ body.depiction .wrap { padding: 16px 14px 40px; }
 body.depiction::before { display: none; }
 
 .meta div span:last-child { overflow-wrap: anywhere; }
+
+/* Ảnh đầu trang gói, như headerImage của Sileo. */
+.banner { display: block; width: 100%; aspect-ratio: 1460 / 680; object-fit: cover;
+          border-radius: 22px; margin: 0 0 14px; background: #161618; }
+.body ul { margin: 0 0 12px; padding-left: 20px; font-size: 16px; }
+.body li { margin: 0 0 6px; }
+.body ul:last-child { margin-bottom: 0; }
