@@ -35,7 +35,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.16.7"
+          "text": "1.18.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -78,6 +78,32 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "5Row 1.18.4",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-05",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Rebuilt how the fifth row is added to Apple's keyboard, same core as 5Row Pro\n- Fixed keys showing the wrong characters after switching planes\n- Encrypted diagnostic log you can copy or export from Settings\n- New icon\n- Support email is now pitroytechcode@gmail.com"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [

@@ -35,7 +35,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.18.0"
+          "text": "1.19.0"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,13 +88,13 @@
           "views": [
             {
               "class": "DepictionLabelView",
-              "text": "5Row Pro 1.18.0",
+              "text": "5Row Pro 1.19.0",
               "fontWeight": "bold",
               "fontSize": 16
             },
             {
               "class": "DepictionLabelView",
-              "text": "2026-10-04",
+              "text": "2026-10-05",
               "fontWeight": "semibold",
               "fontSize": 16,
               "textColor": "#696969",

@@ -9,7 +9,7 @@
       "id": "com.pitroytech.5row",
       "name": "5Row",
       "tagline": "Unlock the number row for iPhone.",
-      "version": "1.16.7",
+      "version": "1.18.4",
       "section": "Keyboard",
       "price": "Free",
       "compatibility": "iPhone, iOS 15 and later. Rootless and RootHide.",
@@ -52,6 +52,17 @@
       ],
       "changelog": [
         {
+          "version": "1.18.4",
+          "date": "2026-10-05",
+          "notes": [
+            "Rebuilt how the fifth row is added to Apple's keyboard, same core as 5Row Pro",
+            "Fixed keys showing the wrong characters after switching planes",
+            "Encrypted diagnostic log you can copy or export from Settings",
+            "New icon",
+            "Support email is now pitroytechcode@gmail.com"
+          ]
+        },
+        {
           "version": "1.16.7",
           "date": "2026-09-27",
           "notes": [
@@ -91,7 +102,7 @@
       "id": "com.pitroytech.5rowpro",
       "name": "5Row Pro",
       "tagline": "Unlock the number row for iPhone, and more…",
-      "version": "1.18.0",
+      "version": "1.19.0",
       "section": "Keyboard",
       "price": "Paid",
       "icon": "icons/5rowpro.png",
@@ -138,8 +149,8 @@
       "availability": "Sold on Havoc. This repo carries the free 5Row.",
       "changelog": [
         {
-          "version": "1.18.0",
-          "date": "2026-10-04",
+          "version": "1.19.0",
+          "date": "2026-10-05",
           "notes": [
             "Initial release on Havoc.",
             "Reworked the core so the fifth row is added to the stock keyboard more accurately and more efficiently",
