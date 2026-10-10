@@ -283,3 +283,47 @@ Author: PitroyTech
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
 Icon: https://pitroytech.github.io/repo/icons/5row.png
+
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64
+Version: 1.19.0
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 556
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: debs/com.pitroytech.5row_1.19.0_iphoneos-arm64.deb
+Size: 107996
+MD5sum: 5402dd890326a4e6ce36bec50143e945
+SHA1: b97cc633fd3b3482333614414fcc550a002fbbe5
+SHA256: 5d3a347aec8717e51d7e8ffa61ae5a3913d14db11621e1ccfb03e73d94554db4
+SHA512: 844b090ba2a052726c876ca815acd01382fbe38e1c6aeabfb6a8ff5455f3bfc3ff4fb764f09110febc82c04f02826809d03982fc29ba44a1a83f9a65d106654f
+Description: Unlock the number row for iPhone.
+Name: 5Row
+Author: PitroyTech
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
+Icon: https://pitroytech.github.io/repo/icons/5row.png
+
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64e
+Version: 1.19.0
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 556
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: debs/com.pitroytech.5row_1.19.0_iphoneos-arm64e.deb
+Size: 108122
+MD5sum: 00aacd7ef6506d37511d618f0ae756e0
+SHA1: b53f93b93eb1671b591ed02f4cd087ee31132a04
+SHA256: 2e4325454bb47361605ff3660dcffb32d29812fc5a19a30af64497049b2d5922
+SHA512: 1bf242bdbcd3e3d753aae7e8373e212c35a80da12a3c2450fdeced04245595a2ec0e55ace2eeb1a7d8feda28c6a1597b55d929b9d3fb2e3f9c90b244acde91bd
+Description: Unlock the number row for iPhone.
+Name: 5Row
+Author: PitroyTech
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
+Icon: https://pitroytech.github.io/repo/icons/5row.png
