@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Codename: ios
 Components: main
-Date: Thu, 08 Oct 2026 05:30:39 +0000
+Date: Sat, 10 Oct 2026 22:38:04 +0000
 Description: Tweaks by PitroyTech
 Label: PitroyTech
 Origin: PitroyTech
@@ -10,20 +10,20 @@ Version: 1.0
 MD5Sum:
  b0819e41ef16d5d7026e652a2c4fcab3            13045 Packages
  083c2713bdd9ea978ec80d7b0866bd8e             3134 Packages.bz2
- 67d0eb79ec93ba85396ab07127df0821             2833 Packages.gz
+ c48597ca03e76c5287a23712ae964e20             2833 Packages.gz
  fdd388a3ed176beaf3aca77db482b32d             2644 Packages.xz
 SHA1:
  721326eee6b62b93adac2a941fb72f7fa05ee49c            13045 Packages
  2c9b49dff97b8f1b771ddfa66ba47605295bc742             3134 Packages.bz2
- da79ba6676de2d666053a777a699f542be38dc23             2833 Packages.gz
+ 6003f2eb33f3492208940b2060a986f652165427             2833 Packages.gz
  1522122b609938286574cddbf1b97d52776fd181             2644 Packages.xz
 SHA256:
  f4b6b83c391f21ac52bc475a957d13bce56401a58cf5fc8d9369edf672f63dbf            13045 Packages
  9f7e36f83afd6467b412b8c8b5f3dbf28050f1c861aca6bd43b1f6c5509b4192             3134 Packages.bz2
- 40a6e823f02b5066777ac1bccc39e8544c983eb21892e8f04a65814bcaf974cf             2833 Packages.gz
+ 31d6e5f8ce7b5c99ba6426a7f4c2733ba34c2cf84654c6ff311c669758c013e4             2833 Packages.gz
  eee64e4c89d88820dede7ae5d3e33cc394ccf0afab4c80e74993473abf245f97             2644 Packages.xz
 SHA512:
  430b146e2bf71697481146e2441e9db587c86752141c7d3daadcd550925ad3709b154b1dea1c9e269f5b21547cfce7d7ee961b5524f5ed5c5ee903f7c9734606            13045 Packages
  7488f77087cfd021bf60da12a2fc75de60967bd9a8392a80b7398d1300a0edc7aee518db6246d4899fd6b71465cbd4e4845b6602da28b531ffe1127edf4b095c             3134 Packages.bz2
- dbff6f96599c6891151a7476a9e1268eef07f3efbe581d68cd5e033e69e150e3620d3213c69b41aba66a23e8710621e9f18108f8352401be7cfa4ae328846969             2833 Packages.gz
+ 3e505a4f7eba5c11df1eefb2433da532175288b3328e153b8e5a7796bafdcdafed40fd775682722a2f526c285f332c404d4d8f13661f1f953f8eb94f1e5fba27             2833 Packages.gz
  a029da4d0ace250c4563acf078d90844d5e858721873ceeb60fbf30fc6a8ab4fe122fbcd3a8dbb99a73985c5312afab9aa550b58b828c81f20b60f575dbe6d07             2644 Packages.xz
