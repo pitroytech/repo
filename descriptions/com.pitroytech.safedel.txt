@@ -1,12 +1,14 @@
 SafeDel - offload apps from the Home Screen, keep their data.
 
-SafeDel puts iOS's own Offload App in the Home Screen icon menu. The app's install is removed while its documents and data stay on the phone. Reinstall it from the App Store and you pick up where you left off.
+SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache...).
 
-It uses the same system offload as Settings > General > iPhone Storage. If iOS refuses, you see iOS's reason; SafeDel never deletes instead.
+Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen.
 
-- Orange Offload App item, next to Share and Remove App
-- Optional: show the space freed, hide Remove App, make the Home Screen X offload
-- English and Vietnamese
+- Add an orange Offload App item to the icon menu
+- Hide Remove App from the menu
+- Make the X button offload the app instead of deleting it
+- Show how much space offloading or deleting will free
 
-Tested on iOS 17.2.1 (Dopamine, rootless). Rootless only.
-Completely free. Buy me a coffee if you enjoy it: https://www.paypal.me/pitroy
+Simple, but handy. Enjoy!
+Tested on iOS 17.2.1 (Dopamine), rootless only.
+Buy me a coffee: https://www.paypal.me/pitroy
