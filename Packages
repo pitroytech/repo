@@ -333,3 +333,34 @@ Author: PitroyTech
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
 Icon: https://pitroytech.github.io/repo/icons/5row.png
+
+Package: com.pitroytech.safedel
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.pitroytech.safedel_1.0.1_iphoneos-arm64.deb
+Size: 34510
+MD5sum: 0d21a9a0e6bc1691cde31365a6d2f4a8
+SHA1: 8808d43c5d7154e8021605c13f9fe022c39a317e
+SHA256: 0b2b2d18574ad16471a2f3a1586f3e8f23a86803e0b95f157702724962815e79
+SHA512: eb0f1ed8e95b1b232756aef9e2a6541312658ec09c9d732ca071ca54603316f14ddf9e0df94e5cdcab1fd053c7d8dd5b34fa7c666c3128d7920e6f015c607593
+Description: SafeDel - offload apps from the Home Screen, keep their data.
+ .
+ SafeDel puts iOS's own Offload App in the Home Screen icon menu. The app's install is removed while its documents and data stay on the phone. Reinstall it from the App Store and you pick up where you left off.
+ .
+ It uses the same system offload as Settings > General > iPhone Storage. If iOS refuses, you see iOS's reason; SafeDel never deletes instead.
+ .
+ - Orange Offload App item, next to Share and Remove App
+ - Optional: show the space freed, hide Remove App, make the Home Screen X offload
+ - English and Vietnamese
+ .
+ Tested on iOS 17.2.1 (Dopamine, rootless). Rootless only.
+ Completely free. Buy me a coffee if you enjoy it: https://www.paypal.me/pitroy
+Name: SafeDel
+Author: PitroyTech
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.safedel.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.safedel
+Icon: https://pitroytech.github.io/repo/icons/safedel.png
