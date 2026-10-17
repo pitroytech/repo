@@ -30,6 +30,7 @@ Name: OhMyRotate
 Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroy.ohmyrotate
 
 Package: com.pitroy.ohmyrotate
 Architecture: iphoneos-arm64e
@@ -63,6 +64,7 @@ Name: OhMyRotate
 Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroy.ohmyrotate
 
 Package: com.pitroy.ohmyrotate
 Architecture: iphoneos-arm64
@@ -96,6 +98,7 @@ Name: OhMyRotate
 Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroy.ohmyrotate
 
 Package: com.pitroy.ohmyrotate
 Architecture: iphoneos-arm64e
@@ -129,6 +132,7 @@ Name: OhMyRotate
 Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroy.ohmyrotate
 
 Package: com.pitroy.ohmyrotate
 Architecture: iphoneos-arm64
@@ -162,6 +166,7 @@ Name: OhMyRotate
 Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroy.ohmyrotate
 
 Package: com.pitroy.ohmyrotate
 Architecture: iphoneos-arm64e
@@ -195,6 +200,7 @@ Name: OhMyRotate
 Author: Pitroy
 Icon: https://pitroytech.github.io/repo/icons/ohmyrotate.png
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroy.ohmyrotate.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroy.ohmyrotate
 
 Package: com.pitroytech.5row
 Architecture: iphoneos-arm64
