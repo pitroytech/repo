@@ -27,7 +27,7 @@
 // Sileo vẽ trang gói từ `SileoDepiction`, và khi URL đó trả HTML thì nó dựng
 // một webview hẹp. Nên mọi thứ ở đây phải bọc chữ theo bề ngang máy và không
 // dựa vào chỗ trống — không cột đôi, không chữ cố định pixel.
-const SCHEMA = 10;
+const SCHEMA = 11;
 const escape = (s) => String(s).replace(/[&<>"']/g,
   (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 

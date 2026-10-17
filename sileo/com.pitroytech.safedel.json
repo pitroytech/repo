@@ -28,10 +28,10 @@
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 12,
-          "itemSize": "{180, 324}",
+          "itemSize": "{200, 300}",
           "screenshots": [
             {
-              "url": "https://pitroytech.github.io/repo/screenshots/safedel-menu.jpg",
+              "url": "https://pitroytech.github.io/repo/screenshots/safedel-menu-en.jpg",
               "accessibilityText": "Offload App in the icon menu, with the space freed"
             },
             {

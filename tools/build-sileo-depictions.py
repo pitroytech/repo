@@ -61,7 +61,7 @@ def details_tab(package):
     # Ảnh chụp ngay dưới mô tả, như trang Zebra. Một cỡ ô cho mọi ảnh.
     if package.get("screenshots"):
         views.append({"class": "DepictionScreenshotsView", "itemCornerRadius": 12,
-                      "itemSize": "{180, 324}",
+                      "itemSize": "{200, 300}",
                       "screenshots": [{"url": BASE + shot["url"], "accessibilityText": shot.get("caption", "")}
                                       for shot in package["screenshots"]]})
     views += [
