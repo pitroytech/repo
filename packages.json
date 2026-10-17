@@ -6,6 +6,63 @@
   },
   "packages": [
     {
+      "id": "com.pitroytech.safedel",
+      "name": "SafeDel",
+      "tagline": "Offload apps from the Home Screen, keep their data",
+      "version": "1.0.1",
+      "section": "Tweaks",
+      "price": "Free",
+      "compatibility": "iPhone, tested on iOS 17.2.1. Rootless.",
+      "description": [
+        "SafeDel puts iOS's own Offload App in the Home Screen icon menu. Press and hold an app, tap Offload App, and its install is removed while its documents and data stay on the phone. Reinstall it from the App Store and you pick up where you left off: still signed in, settings intact.",
+        "It is the same offload as Settings › General › iPhone Storage › Offload App. SafeDel calls the system API that Settings calls, so nothing is deleted by hand. If iOS refuses (system apps, apps not from the App Store), you get iOS's reason. SafeDel never falls back to deleting.",
+        "Read before installing:",
+        "- Tested by me on iOS 17.2.1 (Dopamine, rootless), iPhone 15 Pro Max. Other versions are untested. If the system methods look different, SafeDel turns itself off rather than guess.",
+        "- **Rootless only.**",
+        "- Space freed is worked out by a quick scan of the app. On big apps the first press and hold may not show it yet: press and hold the icon again, 2–3 times, and it appears.",
+        "Features:",
+        "- Orange Offload App item with a cloud icon, next to Share and Remove App",
+        "- Asks before doing anything; Cancel leaves the app alone",
+        "- Show space freed: Offload App (+1.1GB) counts the install, Remove App (+1.3GB) counts install and data",
+        "- Optional: hide Remove App from the icon menu",
+        "- Optional: the Home Screen X offloads instead of deleting. Apps that can't be offloaded keep the normal delete prompt.",
+        "- English and Vietnamese, following the system language",
+        "- No network access, no analytics, no logs",
+        "Settings:",
+        "Everything is in Settings › SafeDel and applies right away, no respring.",
+        "Notes:",
+        "- Remove App's size leaves out App Group containers. They are shared with the developer's other apps, and iOS keeps them until the last app of the group is gone.",
+        "- Sizes use decimal units like iPhone Storage (1 GB = 1000 MB), with one decimal.",
+        "Completely free. Buy me a coffee if you enjoy it!"
+      ],
+      "icon": "icons/safedel.png",
+      "banner": "banners/safedel.jpg",
+      "links": [
+        {
+          "kind": "repo",
+          "label": "pitroytech.github.io/repo",
+          "url": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "kind": "support",
+          "label": "☕ Buy me a coffee",
+          "url": "https://www.paypal.me/pitroy"
+        }
+      ],
+      "changelog": [
+        {
+          "version": "1.0.1",
+          "date": "2026-10-17",
+          "notes": [
+            "Initial release.",
+            "Offload App in the Home Screen icon menu, using the system offload that Settings uses",
+            "Options: hide Remove App, X button offloads, show space freed",
+            "English and Vietnamese"
+          ]
+        }
+      ]
+    },
+    {
       "id": "com.pitroytech.5row",
       "name": "5Row",
       "tagline": "Unlock the number row for iPhone.",

@@ -1,0 +1,105 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#0a84ff",
+  "headerImage": "https://pitroytech.github.io/repo/banners/safedel.jpg",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Offload apps from the Home Screen, keep their data",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "SafeDel puts iOS's own Offload App in the Home Screen icon menu. Press and hold an app, tap Offload App, and its install is removed while its documents and data stay on the phone. Reinstall it from the App Store and you pick up where you left off: still signed in, settings intact.\n\nIt is the same offload as Settings › General › iPhone Storage › Offload App. SafeDel calls the system API that Settings calls, so nothing is deleted by hand. If iOS refuses (system apps, apps not from the App Store), you get iOS's reason. SafeDel never falls back to deleting.\n\n## Read before installing\n\n- Tested by me on iOS 17.2.1 (Dopamine, rootless), iPhone 15 Pro Max. Other versions are untested. If the system methods look different, SafeDel turns itself off rather than guess.\n- **Rootless only.**\n- Space freed is worked out by a quick scan of the app. On big apps the first press and hold may not show it yet: press and hold the icon again, 2–3 times, and it appears.\n\n## Features\n\n- Orange Offload App item with a cloud icon, next to Share and Remove App\n- Asks before doing anything; Cancel leaves the app alone\n- Show space freed: Offload App (+1.1GB) counts the install, Remove App (+1.3GB) counts install and data\n- Optional: hide Remove App from the icon menu\n- Optional: the Home Screen X offloads instead of deleting. Apps that can't be offloaded keep the normal delete prompt.\n- English and Vietnamese, following the system language\n- No network access, no analytics, no logs\n\n## Settings\n\nEverything is in Settings › SafeDel and applies right away, no respring.\n\n## Notes\n\n- Remove App's size leaves out App Group containers. They are shared with the developer's other apps, and iOS keeps them until the last app of the group is gone.\n- Sizes use decimal units like iPhone Storage (1 GB = 1000 MB), with one decimal.\n\nCompletely free. Buy me a coffee if you enjoy it!",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "Free"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iPhone, tested on iOS 17.2.1. Rootless."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "PitroyTech"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Identifier",
+          "text": "com.pitroytech.safedel"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "pitroytech.github.io/repo",
+          "action": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "☕ Buy me a coffee",
+          "action": "https://www.paypal.me/pitroy"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SafeDel 1.0.1",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-17",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release.\n- Offload App in the Home Screen icon menu, using the system offload that Settings uses\n- Options: hide Remove App, X button offloads, show space freed\n- English and Vietnamese"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ]
+}

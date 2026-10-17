@@ -16,6 +16,7 @@ Gói nào không có file mô tả thì giữ nguyên trường cũ.
 cách**, và dòng trống được viết là một dấu chấm. File nguồn viết bằng văn xuôi
 thường; hàm dưới lo phần thụt lề.
 """
+import json
 import pathlib
 import re
 import sys
@@ -24,6 +25,9 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 FOLDER = ROOT / "descriptions"
 SILEO = ROOT / "sileo"
 BASE = "https://pitroytech.github.io/repo/sileo"
+PAGE = "https://pitroytech.github.io/repo/package.html"
+PACKAGES = {entry["id"]: entry for entry in
+            json.loads((ROOT / "packages.json").read_text(encoding="utf-8"))["packages"]}
 
 
 def as_field(text):
@@ -51,6 +55,16 @@ def rewrite(index_text):
                                  block, flags=re.M)
             if not hit:
                 block += f"\nSileoDepiction: {url}"
+
+        # `Depiction` (trang HTML cho Zebra) và `Icon` chỉ THÊM khi `.deb` không
+        # có, lấy từ `packages.json`. Gói đã ghi sẵn thì giữ nguyên chữ của nó.
+        # SafeDel 1.0.1 được đóng trước khi có trang repo nên thiếu cả hai.
+        entry = PACKAGES.get(name.group(1)) if name else None
+        if entry:
+            if not re.search(r"^Depiction: ", block, re.M):
+                block += f"\nDepiction: {PAGE}?id={entry['id']}"
+            if entry.get("icon") and not re.search(r"^Icon: ", block, re.M):
+                block += f"\nIcon: {PAGE.rsplit('/', 1)[0]}/{entry['icon']}"
 
         if source and source.is_file():
             # Trường `Description` kéo dài tới dòng tiếp theo KHÔNG bắt đầu bằng
