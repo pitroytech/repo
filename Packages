@@ -366,3 +366,69 @@ Author: PitroyTech
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.safedel.json
 Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.safedel
 Icon: https://pitroytech.github.io/repo/icons/safedel.png
+
+Package: com.pitroytech.safedel
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 404
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.pitroytech.safedel_1.0.2_iphoneos-arm64.deb
+Size: 34666
+MD5sum: 6b9671df4eee9fb3e59ccd0e41b42bbc
+SHA1: c75fb11e73eb9cd8b82f98583e2e72ef60cc38bf
+SHA256: adf0f22c4aba7e474dd47b63d269b539a515876f6c77222f1d238b6d0b2f9743
+SHA512: 6f686d876604355355b3451b04cd5cf33832eba2c9be6098e18ad9553289d093d27cba95524d408762597dc89e3ec381c2be4a596ddfb21fb3213640354a3978
+Description: SafeDel - offload apps from the Home Screen, keep their data.
+ .
+ SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache...).
+ .
+ Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen.
+ .
+ - Add an orange Offload App item to the icon menu
+ - Hide Remove App from the menu
+ - Make the X button offload the app instead of deleting it
+ - Show how much space offloading or deleting will free
+ .
+ Simple, but handy. Enjoy!
+ Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide.
+ Buy me a coffee: https://www.paypal.me/pitroy
+Name: SafeDel
+Author: PitroyTech
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.safedel.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.safedel
+Icon: https://pitroytech.github.io/repo/icons/safedel.png
+
+Package: com.pitroytech.safedel
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.pitroytech.safedel_1.0.2_iphoneos-arm64e.deb
+Size: 34732
+MD5sum: 884a3bd9729de91365e03552b4bbf704
+SHA1: 5bd957f6daa3cb47b095a939e93f7d41cd5cdc83
+SHA256: d873600d62dc322a185e9c8e8b4daa10a6393ef8e28a592adf9bcf656da5fed9
+SHA512: 290c11e6b455d6ea0a497d58aa6c6960cfad791b89e438c383f59f975b7538ee27a36ad5df749f7eef13aec41ffaad60127cc4812e8b8d9c03d3614823723ba9
+Description: SafeDel - offload apps from the Home Screen, keep their data.
+ .
+ SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache...).
+ .
+ Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen.
+ .
+ - Add an orange Offload App item to the icon menu
+ - Hide Remove App from the menu
+ - Make the X button offload the app instead of deleting it
+ - Show how much space offloading or deleting will free
+ .
+ Simple, but handy. Enjoy!
+ Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide.
+ Buy me a coffee: https://www.paypal.me/pitroy
+Name: SafeDel
+Author: PitroyTech
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.safedel.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.safedel
+Icon: https://pitroytech.github.io/repo/icons/safedel.png
