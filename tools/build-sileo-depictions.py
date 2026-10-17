@@ -57,7 +57,14 @@ def details_tab(package):
              {"class": "DepictionHeaderView", "title": "Description"},
              {"class": "DepictionSeparatorView"},
              {"class": "DepictionMarkdownView", "markdown": describe(package["description"]),
-              "useSpacing": True},
+              "useSpacing": True}]
+    # Ảnh chụp ngay dưới mô tả, như trang Zebra. Một cỡ ô cho mọi ảnh.
+    if package.get("screenshots"):
+        views.append({"class": "DepictionScreenshotsView", "itemCornerRadius": 12,
+                      "itemSize": "{180, 324}",
+                      "screenshots": [{"url": BASE + shot["url"], "accessibilityText": shot.get("caption", "")}
+                                      for shot in package["screenshots"]]})
+    views += [
              {"class": "DepictionHeaderView", "title": "Information"},
              {"class": "DepictionSeparatorView"}]
     rows = [("Version", package["version"]), ("Price", package["price"]),

@@ -10,5 +10,5 @@ Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Stora
 - Show how much space offloading or deleting will free
 
 Simple, but handy. Enjoy!
-Tested on iOS 17.2.1 (Dopamine), rootless only.
+Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide.
 Buy me a coffee: https://www.paypal.me/pitroy

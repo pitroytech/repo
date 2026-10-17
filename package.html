@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="CydiaIcon.png">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=10">
 </head>
 <body class="depiction">
 <div class="wrap">
@@ -27,7 +27,7 @@
 // Sileo vẽ trang gói từ `SileoDepiction`, và khi URL đó trả HTML thì nó dựng
 // một webview hẹp. Nên mọi thứ ở đây phải bọc chữ theo bề ngang máy và không
 // dựa vào chỗ trống — không cột đôi, không chữ cố định pixel.
-const SCHEMA = 9;
+const SCHEMA = 10;
 const escape = (s) => String(s).replace(/[&<>"']/g,
   (c) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
@@ -82,10 +82,19 @@ fetch('packages.json?v=' + SCHEMA)
           ${l.kind === 'github' ? GITHUB : ''}<span>${escape(l.label)}</span>
         </a>`).join('');
 
+      // Ảnh chụp: một dải cuộn ngang, ảnh giữ tỉ lệ thật, không cắt.
+      const shots = (p.screenshots || []).length ? `
+        <section class="glass card">
+          <div class="shots">${p.screenshots.map((s) => `
+            <img src="${escape(s.url)}" alt="${escape(s.caption || '')}" loading="lazy">`).join('')}
+          </div>
+        </section>` : '';
+
       const details = `
         <section class="glass card body">
           ${describe(p.description)}
         </section>
+        ${shots}
 
         <section class="glass card">
           <h3>Details</h3>

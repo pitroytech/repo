@@ -9,10 +9,10 @@
       "id": "com.pitroytech.safedel",
       "name": "SafeDel",
       "tagline": "Offload apps from the Home Screen, keep their data",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "section": "Tweaks",
       "price": "Free",
-      "compatibility": "iPhone, tested on iOS 17.2.1. Rootless.",
+      "compatibility": "iPhone, tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide.",
       "description": [
         "SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache…).",
         "Nothing fancy here. It simply brings iOS's own Settings › General › iPhone Storage › Offload App to the Home Screen.",
@@ -22,10 +22,20 @@
         "- Make the X button offload the app instead of deleting it",
         "- Show how much space offloading or deleting will free",
         "Simple, but handy. Enjoy!",
-        "Tested on iOS 17.2.1 (Dopamine), rootless only. On big apps you may need to press and hold the icon 2–3 times before the size shows up."
+        "Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). On big apps you may need to press and hold the icon 2–3 times before the size shows up."
       ],
       "icon": "icons/safedel.png",
       "banner": "banners/safedel.jpg",
+      "screenshots": [
+        {
+          "url": "screenshots/safedel-menu.jpg",
+          "caption": "Offload App in the icon menu, with the space freed"
+        },
+        {
+          "url": "screenshots/safedel-settings.jpg",
+          "caption": "Settings › SafeDel"
+        }
+      ],
       "links": [
         {
           "kind": "repo",
@@ -39,6 +49,14 @@
         }
       ],
       "changelog": [
+        {
+          "version": "1.0.2",
+          "date": "2026-10-17",
+          "notes": [
+            "Added iOS 15 support (offloads the way iOS 15 Settings does)",
+            "Added a RootHide build"
+          ]
+        },
         {
           "version": "1.0.1",
           "date": "2026-10-17",

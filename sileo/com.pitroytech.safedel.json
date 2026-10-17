@@ -22,8 +22,23 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache…).\n\nNothing fancy here. It simply brings iOS's own Settings › General › iPhone Storage › Offload App to the Home Screen.\n\n## What it can do\n\n- Add an orange Offload App item to the icon menu\n- Hide Remove App from the menu\n- Make the X button offload the app instead of deleting it\n- Show how much space offloading or deleting will free\n\nSimple, but handy. Enjoy!\n\nTested on iOS 17.2.1 (Dopamine), rootless only. On big apps you may need to press and hold the icon 2–3 times before the size shows up.",
+          "markdown": "SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache…).\n\nNothing fancy here. It simply brings iOS's own Settings › General › iPhone Storage › Offload App to the Home Screen.\n\n## What it can do\n\n- Add an orange Offload App item to the icon menu\n- Hide Remove App from the menu\n- Make the X button offload the app instead of deleting it\n- Show how much space offloading or deleting will free\n\nSimple, but handy. Enjoy!\n\nTested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). On big apps you may need to press and hold the icon 2–3 times before the size shows up.",
           "useSpacing": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 12,
+          "itemSize": "{180, 324}",
+          "screenshots": [
+            {
+              "url": "https://pitroytech.github.io/repo/screenshots/safedel-menu.jpg",
+              "accessibilityText": "Offload App in the icon menu, with the space freed"
+            },
+            {
+              "url": "https://pitroytech.github.io/repo/screenshots/safedel-settings.jpg",
+              "accessibilityText": "Settings › SafeDel"
+            }
+          ]
         },
         {
           "class": "DepictionHeaderView",
@@ -35,7 +50,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.1"
+          "text": "1.0.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -45,7 +60,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "iPhone, tested on iOS 17.2.1. Rootless."
+          "text": "iPhone, tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide."
         },
         {
           "class": "DepictionTableTextView",
@@ -73,6 +88,32 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SafeDel 1.0.2",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-17",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added iOS 15 support (offloads the way iOS 15 Settings does)\n- Added a RootHide build"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [

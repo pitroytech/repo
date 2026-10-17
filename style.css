@@ -442,3 +442,9 @@ body.depiction::before { display: none; }
 .body ul { margin: 0 0 12px; padding-left: 20px; font-size: 16px; }
 .body li { margin: 0 0 6px; }
 .body ul:last-child { margin-bottom: 0; }
+
+/* Screenshots: horizontal strip, true aspect ratio, snaps per image. */
+.shots { display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch; padding-bottom: 4px; }
+.shots img { flex: 0 0 auto; height: min(460px, 62vh); width: auto; max-width: 85%;
+  object-fit: contain; border-radius: 16px; scroll-snap-align: start; }
