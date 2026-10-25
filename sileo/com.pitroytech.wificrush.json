@@ -1,0 +1,125 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#0a84ff",
+  "headerImage": "https://pitroytech.github.io/repo/banners/wificrush.jpg",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Stay close to your Wi-Fi crush. Too far? Let go.",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "The iOS Wi-Fi engine has a funny habit: it holds on to a Wi-Fi network for as long as it can, even when only one bar is left. Videos stall, pages hang, and the only fix is to open the Wi-Fi list and pick a network by hand, again and again. There is no way to tell iOS \"this Wi-Fi is too weak, use 5G now\". You just hope for the best, even in the middle of an important Wi-Fi call.\n\nWifiCrush gives you that control. Pick the network you love (your crush) and your iPhone sticks with it. When your crush gets too weak, WifiCrush moves you to a stronger saved network for a while, then brings you back. Say your favourite is a fast 5 GHz network with a short range: walk a little further away and WifiCrush hops to the 2.4 GHz one with the better signal, then returns to 5 GHz once you are close again.\n\nThe best part is mobile data. Choose the signal level you are happy with, and the moment every Wi-Fi around you drops below it, WifiCrush lets go of Wi-Fi and turns 4G/5G on, quickly and decisively. That makes all the difference on long FaceTime or Wi-Fi Calling calls, especially when you keep talking while you walk out the door.\n\nBack in good Wi-Fi, WifiCrush turns mobile data off again to save battery. Simple, quiet and automatic.\n\n## Read before buying\n\n- Rootless and RootHide jailbreaks, iOS 15 and later. Tested by me on iOS 17.2.1 Dopamine (iPhone 15 Pro Max), iOS 15.2 RootHide (iPhone 12 Pro Max) and iOS 15.3.1 rootless (iPhone 6s).\n- WifiCrush switches between your saved Wi-Fi networks and mobile data to keep you connected as seamlessly as possible. It doesn't make your Wi-Fi stronger or faster - that depends on your router and Internet provider.\n- Needs PreferenceLoader. The Control Center tile needs CCSupport (optional).\n\n## Special offer\n\nAlready own 5Row Pro? WifiCrush is $1 off for you: $1.49 instead of $2.49.\n\n## Features\n\n- A friendly page for your saved networks: your iPhone in the middle, networks around it by signal\n- Pick up to 3 crush networks. You stay with your crush, even when a network nearby is a little stronger\n- Weak Wi-Fi: moves to a clearly stronger saved network, and goes back to your crush once it is strong again\n- Every Wi-Fi weak: 4G/5G comes on within seconds. A minute later WifiCrush checks Wi-Fi again and picks the best next step\n- On a call: if every Wi-Fi is weak, the call goes to 4G/5G right away, and Wi-Fi only comes back after you hang up, so the call carries on\n- Mobile data goes off only after 30 s of good Wi-Fi, and only after a quick check with Google, Cloudflare and Apple servers that you really have Internet\n- 5 GHz preferred over 2.4 GHz when the gap is small\n- Strongest mode: one tap joins the strongest saved Wi-Fi around you for the time you set\n- Control Center tile (CCSupport): tap for the Wi-Fi list, hold to open the app. Control Center's own Wi-Fi button can turn Wi-Fi fully off (optional)\n\n## Activation & privacy\n\nSign in to Havoc in your package manager, buy WifiCrush, then open the WifiCrush app and tap Activate, done. WifiCrush sends nothing else: no Wi-Fi names, no location, no usage. Once activated it works offline.\n\n## Support\n\nEmail me at pitroytechcode@gmail.com with your iOS version, jailbreak and what happened. If activation fails, the activation screen shows your device code and an email button; please include the code.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "$2.49 on Havoc"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iPhone, iOS 15 and later. Rootless and RootHide."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "PitroyTech"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Identifier",
+          "text": "com.pitroytech.wificrush"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Availability",
+          "text": "Sold on Havoc."
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "See it side by side with a stock iPhone",
+          "action": "https://pitroytech.github.io/wificrush-landing/"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Video",
+          "action": "https://www.youtube.com/watch?v=Tju8PySPVTw"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "PitroyTech",
+          "action": "https://github.com/pitroytech"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "pitroytech.github.io/repo",
+          "action": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support",
+          "action": "mailto:pitroytechcode@gmail.com"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "WifiCrush 1.0",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-10-25",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release on Havoc.\n- Stays on your crush Wi-Fi while it is strong, moves to a stronger saved network when it fades, and comes back by itself\n- Turns 4G/5G on as soon as every Wi-Fi is weak, and rejoins Wi-Fi by itself\n- Hands a call over to 4G/5G when Wi-Fi gets weak mid-call\n- Turns mobile data off again only once Wi-Fi is good and has Internet\n- Strongest mode, the orbit page, a status line with what comes next, Control Center tile (CCSupport)"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ]
+}
