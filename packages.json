@@ -166,7 +166,7 @@
       "id": "com.pitroytech.5row",
       "name": "5Row",
       "tagline": "Unlock the number row for iPhone.",
-      "version": "1.19.0",
+      "version": "1.20.0",
       "section": "Keyboard",
       "price": "Free",
       "compatibility": "iPhone, iOS 15 and later. Rootless and RootHide.",
@@ -182,8 +182,8 @@
         "- Works in landscape too",
         "- Rename the 123 and ABC keys",
         "- Exclude apps that should keep the stock keyboard",
+        "- Smart Shift: when iOS capitalizes the start of a sentence, the row stays on your default row, so the numbers are there when you need them. On by default",
         "5Row Pro on Havoc adds:",
-        "- Smart Shift: when iOS capitalizes the start of a sentence, the row stays on your default row, so the numbers are there when you need them",
         "- Set every key of the number row and the symbol row to whatever you like, emoji and accented letters included",
         "- Choose which row shows on the normal keyboard, with Shift and on the 123 plane, in any combination",
         "- Adjust the key height to your liking while the keyboard keeps Apple's layout and proportions. A small setting that makes typing noticeably more comfortable, especially for different hand sizes",
@@ -210,6 +210,15 @@
         }
       ],
       "changelog": [
+        {
+          "version": "1.20.0",
+          "date": "2026-10-30",
+          "notes": [
+            "Added Smart Shift from 5Row Pro, on by default",
+            "Fixed the number row not showing in Home Screen web apps",
+            "Works in more situations, plus a few small fixes"
+          ]
+        },
         {
           "version": "1.19.0",
           "date": "2026-10-11",
