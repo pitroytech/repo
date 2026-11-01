@@ -334,6 +334,50 @@ Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
 SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
 Icon: https://pitroytech.github.io/repo/icons/5row.png
 
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64
+Version: 1.20.0
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 588
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: debs/com.pitroytech.5row_1.20.0_iphoneos-arm64.deb
+Size: 114140
+MD5sum: e47d0d3781e029e3bfad6e3b0753bc55
+SHA1: 9e13d0e83115eb5366bac88ba8d488de01b0e1f5
+SHA256: fdc0c6090bdb8abc050e9ee7862e5fe0736e4ba145de3e0777991509aa41944d
+SHA512: 44c57ea1e08a9370ce4ff9847eb679af464211bb7e348802fdbda1e5f86e934dfdb6eb381933c31e6817b0e66d2a81142094bb922cacc3f58683bb7b6bea712e
+Description: Unlock the number row for iPhone.
+Name: 5Row
+Author: PitroyTech
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
+Icon: https://pitroytech.github.io/repo/icons/5row.png
+
+Package: com.pitroytech.5row
+Architecture: iphoneos-arm64e
+Version: 1.20.0
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 588
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Replaces: com.pitroytech.5rowpro, com.pitroy.fifthrow
+Filename: debs/com.pitroytech.5row_1.20.0_iphoneos-arm64e.deb
+Size: 114060
+MD5sum: 4c57c1958dbbaee1d28b9301b23fdc05
+SHA1: 70860d30729e1b9a62b5abbfa62c67e39dff05f9
+SHA256: e6d41024bcbe33b73397f7f532b3e769abc728c98e351a7e3af3ed09fa6c11e5
+SHA512: 7fd62ffc38cb0bca6e097399834742f5c6bc5f490cdb40af7f5da1bf3a95c6f548f0661a959d0a180b9af1726217295e4d5e5c0fa00bd2e722cfb399d3b9443e
+Description: Unlock the number row for iPhone.
+Name: 5Row
+Author: PitroyTech
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.5row
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.5row.json
+Icon: https://pitroytech.github.io/repo/icons/5row.png
+
 Package: com.pitroytech.safedel
 Architecture: iphoneos-arm64
 Version: 1.0.1
