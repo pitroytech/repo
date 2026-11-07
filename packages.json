@@ -105,7 +105,7 @@
       "version": "1.1.2",
       "section": "Tweaks",
       "price": "Free",
-      "compatibility": "iPhone, iOS 15 and later. Rootless and RootHide.",
+      "compatibility": "iPhone, iOS 15–18+. Rootless and RootHide.",
       "description": [
         "The stock iOS text selection menu buries the buttons you actually use (like Translate, Find Selection, or Look Up) behind pages of arrows, while cluttering the first page with items you never touch (like New Quick Note). And in many text fields, selecting text only shows the blue handles until you tap the text a second time.",
         "SimpleRightMenu fixes that across all apps, with no respring needed.",
@@ -136,12 +136,38 @@
           "version": "1.1.2",
           "date": "2026-11-07",
           "notes": [
-            "Initial public release (Rootless & RootHide)",
-            "Drag-and-drop reordering and show/hide toggles for all iOS text selection menu items",
-            "Text, Icon + Text, and compact Icon Only display styles (including composite dual icon for Paste and Search)",
-            "Auto-Show Menu on Selection option with ~0.35s debounce delay",
-            "Extra actions: Search Google / Open Link, Google Translate, and Always Show Select All",
-            "English and Vietnamese localization"
+            "Fix MobileSafari crash on iOS 18 RootHide caused by WebKit synchronous selection getters (EXC_BREAKPOINT)."
+          ]
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-11-07",
+          "notes": [
+            "Fix Auto-Show Menu on Selection so the menu pops up immediately after dragging selection handles or using Spacebar trackpad without an extra tap."
+          ]
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-11-07",
+          "notes": [
+            "Automatically dismiss the edit menu when selected text is cleared/deleted (no longer leaves a lone Select All button)."
+          ]
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-11-07",
+          "notes": [
+            "Add Auto-Show Menu on Selection toggle in Settings."
+          ]
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-11-07",
+          "notes": [
+            "Initial public release (Rootless & RootHide).",
+            "Drag-and-drop reordering and show/hide toggles for all iOS text selection menu items.",
+            "Text, Icon + Text, and compact Icon Only display styles (including composite dual icon for Paste and Search).",
+            "Extra actions: Search Google / Open Link in default browser, Google Translate, and Always Show Select All."
           ]
         }
       ]

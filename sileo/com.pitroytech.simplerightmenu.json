@@ -94,7 +94,111 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Initial public release (Rootless & RootHide)\n- Drag-and-drop reordering and show/hide toggles for all iOS text selection menu items\n- Text, Icon + Text, and compact Icon Only display styles (including composite dual icon for Paste and Search)\n- Auto-Show Menu on Selection option with ~0.35s debounce delay\n- Extra actions: Search Google / Open Link, Google Translate, and Always Show Select All\n- English and Vietnamese localization"
+          "markdown": "- Fix MobileSafari crash on iOS 18 RootHide caused by WebKit synchronous selection getters (`EXC_BREAKPOINT`)."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SimpleRightMenu 1.1.0",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-07",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fix **Auto-Show Menu on Selection** so the menu pops up immediately after dragging selection handles or using Spacebar trackpad without needing an extra tap."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SimpleRightMenu 1.0.9",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-07",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Automatically dismiss the edit menu when selected text is deleted/cleared (fixes lone Select All button staying on empty text fields)."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SimpleRightMenu 1.0.8",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-07",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Add **Auto-Show Menu on Selection** toggle in Settings."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SimpleRightMenu 1.0.7",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-07",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial public release (Rootless & RootHide)\n- Drag-and-drop reordering and show/hide toggles for all iOS text selection menu items\n- Text, Icon + Text, and compact Icon Only display styles (with composite dual icon for Paste and Search)\n- Extra actions: Search Google / Open Link, Google Translate, and Always Show Select All\n- English and Vietnamese localization"
         },
         {
           "class": "DepictionSeparatorView"
