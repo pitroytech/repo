@@ -545,17 +545,17 @@ Icon: https://pitroytech.github.io/repo/icons/safedel.png
 
 Package: com.pitroytech.simplerightmenu
 Architecture: iphoneos-arm64
-Version: 1.1.1
+Version: 1.1.2
 Section: Tweaks
 Maintainer: PitroyTech
 Installed-Size: 500
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), firmware (>= 15.0)
-Filename: debs/com.pitroytech.simplerightmenu_1.1.1_iphoneos-arm64.deb
-Size: 61560
-MD5sum: 19acc17bb9f07e2bb800ab0b8e0de96e
-SHA1: 26fe9d6533c5710b209fe6d093b3b6fbdf774ecd
-SHA256: 81e7811d0dcbf7bbdb6514f126d90cfa1a391fd97607ac32215f606d9ac6d004
-SHA512: bc539cb70c3d8ea92351bd84d0135ac4aaaf286f94f8410ffe01b312469b177a721585b7098974c2f2c2a0380b0443311abe724bd92768590ce1e0b14d1609cd
+Filename: debs/com.pitroytech.simplerightmenu_1.1.2_iphoneos-arm64.deb
+Size: 60860
+MD5sum: cc7eaf533a828537c69ab3a3d9690730
+SHA1: 865b6ef4da1983f7cbc6fcb1207c220df9dd9310
+SHA256: 1ddb7f1a56214b69dd46d01c3726ffba2698515511bbf4923e1e80238d4d35f5
+SHA512: 1f52a797387de7644c3473833ef0145bcad1dbf91ad3a862c2c7584945e033993766d186917648de3aa74ddd43ce37257ee34569987f4dbab758350d7ff2a886
 Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
  The stock iOS text selection menu buries the buttons you actually use (like Translate, Find Selection, or Look Up) behind pages of arrows, while cluttering the first page with items you never touch (like New Quick Note). And in many text fields, selecting text only shows the blue handles until you tap the text a second time.
@@ -578,17 +578,17 @@ Icon: https://pitroytech.github.io/repo/icons/simplerightmenu.png
 
 Package: com.pitroytech.simplerightmenu
 Architecture: iphoneos-arm64e
-Version: 1.1.1
+Version: 1.1.2
 Section: Tweaks
 Maintainer: PitroyTech
 Installed-Size: 500
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), firmware (>= 15.0)
-Filename: debs/com.pitroytech.simplerightmenu_1.1.1_iphoneos-arm64e.deb
-Size: 61666
-MD5sum: 95e9a5106a886c6525cd08fa827f2706
-SHA1: 5d6f447fe9ebd68e684e38fe4287dff419be76d6
-SHA256: cc963f399bfda4d6fa5adce4ca8212a8cdd6e38e21d19404650c64adda0a70a2
-SHA512: d42bf00832d1bd0b607e3c61759c8ff784d47574bd98060273d9d6eb15843ca033c127b41d0eff90b451d32a072cb46005860361f8b86caffee58921f2d22c75
+Filename: debs/com.pitroytech.simplerightmenu_1.1.2_iphoneos-arm64e.deb
+Size: 60912
+MD5sum: e3c7ddaa75aea178da9266034f64129e
+SHA1: 004973c2dd11d29a9ce8af975382012b225b036f
+SHA256: 7b88c10efeeca97a5de626f62d49140fa54f038abc6a0a76831296a2997a8180
+SHA512: 37d5d27073e8e79f0601e2723d03d4ba8b3a57cf322748d139356142792edb2d6c91ec86971babdd33c6aff6c9d86c01421ce1e8f76c14010ff2913b4df6e525
 Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
  The stock iOS text selection menu buries the buttons you actually use (like Translate, Find Selection, or Look Up) behind pages of arrows, while cluttering the first page with items you never touch (like New Quick Note). And in many text fields, selecting text only shows the blue handles until you tap the text a second time.
