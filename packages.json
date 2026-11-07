@@ -102,20 +102,20 @@
       "id": "com.pitroytech.safedel",
       "name": "SafeDel",
       "tagline": "Offload apps from the Home Screen, keep their data",
-      "version": "1.0.2",
+      "version": "1.0.4",
       "section": "Tweaks",
       "price": "Free",
       "compatibility": "iPhone, tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide.",
       "description": [
         "SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache…).",
-        "Nothing fancy here. It simply brings iOS's own Settings › General › iPhone Storage › Offload App to the Home Screen.",
+        "Nothing fancy here. It simply brings iOS's own Settings › General › iPhone Storage › Offload App to the Home Screen, App Library, and Spotlight search.",
         "What it can do:",
-        "- Add an orange Offload App item to the icon menu",
+        "- Add a vibrant green Offload App item to the icon menu (Home Screen, App Library, and Spotlight)",
         "- Hide Remove App from the menu",
         "- Make the X button offload the app instead of deleting it",
         "- Show how much space offloading or deleting will free",
         "Simple, but handy. Enjoy!",
-        "Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). On big apps you may need to press and hold the icon 2–3 times before the size shows up."
+        "Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless)."
       ],
       "icon": "icons/safedel.png",
       "banner": "banners/safedel.jpg",
@@ -142,6 +142,16 @@
         }
       ],
       "changelog": [
+        {
+          "version": "1.0.4",
+          "date": "2026-11-07",
+          "notes": [
+            "Added Spotlight search support: long-pressing an app in Spotlight now shows Offload App and the space freed on both Offload App and Remove App",
+            "Changed the Offload App menu item and confirmation tint to a vibrant green (#2EE05E), matched in brightness with iOS's red Remove App row so the two actions never blend together",
+            "Fixed a bug where selecting Remove App from the long-press menu triggered Offload App when X Button Offloads App was enabled",
+            "Faster space-freed lookup using LaunchServices' dynamic disk usage"
+          ]
+        },
         {
           "version": "1.0.2",
           "date": "2026-10-17",

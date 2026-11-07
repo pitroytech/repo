@@ -22,7 +22,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache…).\n\nNothing fancy here. It simply brings iOS's own Settings › General › iPhone Storage › Offload App to the Home Screen.\n\n## What it can do\n\n- Add an orange Offload App item to the icon menu\n- Hide Remove App from the menu\n- Make the X button offload the app instead of deleting it\n- Show how much space offloading or deleting will free\n\nSimple, but handy. Enjoy!\n\nTested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). On big apps you may need to press and hold the icon 2–3 times before the size shows up.",
+          "markdown": "SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache…).\n\nNothing fancy here. It simply brings iOS's own Settings › General › iPhone Storage › Offload App to the Home Screen, App Library, and Spotlight search.\n\n## What it can do\n\n- Add a vibrant green Offload App item to the icon menu (Home Screen, App Library, and Spotlight)\n- Hide Remove App from the menu\n- Make the X button offload the app instead of deleting it\n- Show how much space offloading or deleting will free\n\nSimple, but handy. Enjoy!\n\nTested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless).",
           "useSpacing": true
         },
         {
@@ -50,7 +50,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.2"
+          "text": "1.0.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -88,6 +88,32 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SafeDel 1.0.4",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-07",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added Spotlight search support: long-pressing an app in Spotlight now shows Offload App and the space freed on both Offload App and Remove App\n- Changed the Offload App menu item and confirmation tint to a vibrant green (#2EE05E), matched in brightness with iOS's red Remove App row so the two actions never blend together\n- Fixed a bug where selecting Remove App from the long-press menu triggered Offload App when X Button Offloads App was enabled\n- Faster space-freed lookup using LaunchServices' dynamic disk usage"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [
