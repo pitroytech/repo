@@ -1,0 +1,105 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#0a84ff",
+  "headerImage": "https://pitroytech.github.io/repo/banners/simplerightmenu.jpg",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Reorder, hide, and compact the iOS text selection menu",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "The stock iOS text selection menu buries the buttons you actually use (like Translate, Find Selection, or Look Up) behind pages of arrows, while cluttering the first page with items you never touch (like New Quick Note). And in many text fields, selecting text only shows the blue handles until you tap the text a second time.\n\nSimpleRightMenu fixes that across all apps, with no respring needed.\n\n## What it can do\n\n- **Drag & drop reorder:** Put any action (Translate, Find Selection, Search Google, AutoFill…) in the exact order you want on the first page\n- **Hide unwanted items:** Toggle off anything you don't use (New Quick Note is hidden by default)\n- **3 display styles:** Classic Text, Icon + Text, or compact Icon Only (fits 6–8 buttons at once, with a distinct dual icon for Paste and Search)\n- **Auto-Show Menu on Selection:** Automatically pops up the menu (~0.35s after you finish dragging the selection handles) without needing an extra tap on the selected text\n- **Extra actions:** Search Google / Open Link in your default browser, Quick Google Translate, and Always Show Select All\n\nTested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). English and Vietnamese.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.8"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Price",
+          "text": "Free"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iPhone, iOS 15 and later. Rootless and RootHide."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "PitroyTech"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Identifier",
+          "text": "com.pitroytech.simplerightmenu"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "pitroytech.github.io/repo",
+          "action": "https://pitroytech.github.io/repo/"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "☕ Buy me a coffee",
+          "action": "https://www.paypal.me/pitroy"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SimpleRightMenu 1.0.8",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-07",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial public release (Rootless & RootHide)\n- Drag-and-drop reordering and show/hide toggles for all iOS text selection menu items\n- Text, Icon + Text, and compact Icon Only display styles (including composite dual icon for Paste and Search)\n- Auto-Show Menu on Selection option with ~0.35s debounce delay\n- Extra actions: Search Google / Open Link, Google Translate, and Always Show Select All\n- English and Vietnamese localization"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        }
+      ]
+    }
+  ]
+}

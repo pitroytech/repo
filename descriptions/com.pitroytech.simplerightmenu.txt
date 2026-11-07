@@ -1,0 +1,14 @@
+SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
+
+The stock iOS text selection menu buries the buttons you actually use (like Translate, Find Selection, or Look Up) behind pages of arrows, while cluttering the first page with items you never touch (like New Quick Note). And in many text fields, selecting text only shows the blue handles until you tap the text a second time.
+
+SimpleRightMenu fixes that across all apps, with no respring needed:
+
+- Drag and drop to reorder any menu item in a single unified list (bring Translate, Find Selection, or Search Google right next to Copy on Page 1)
+- Hide any default action you don't use (New Quick Note is hidden by default)
+- 3 display modes: Text, Icon + Text, or compact Icon Only (fits 6-8 buttons on screen at once, with a distinct dual icon for Paste and Search)
+- Auto-Show Menu on Selection: automatically pops up the menu (~0.35s after you finish dragging the selection handles) without needing an extra tap
+- Extra actions: Search Google / Open Link in your default browser, Quick Google Translate, and Always Show Select All
+
+Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide.
+Buy me a coffee: https://www.paypal.me/pitroy
