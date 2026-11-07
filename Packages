@@ -395,9 +395,9 @@ Description: SafeDel - offload apps from the Home Screen, keep their data.
  .
  SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache...).
  .
- Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen.
+ Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen, App Library, and Spotlight search.
  .
- - Add an orange Offload App item to the icon menu
+ - Add a vibrant green Offload App item to the icon menu (Home Screen, App Library, and Spotlight)
  - Hide Remove App from the menu
  - Make the X button offload the app instead of deleting it
  - Show how much space offloading or deleting will free
@@ -428,9 +428,9 @@ Description: SafeDel - offload apps from the Home Screen, keep their data.
  .
  SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache...).
  .
- Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen.
+ Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen, App Library, and Spotlight search.
  .
- - Add an orange Offload App item to the icon menu
+ - Add a vibrant green Offload App item to the icon menu (Home Screen, App Library, and Spotlight)
  - Hide Remove App from the menu
  - Make the X button offload the app instead of deleting it
  - Show how much space offloading or deleting will free
@@ -461,9 +461,75 @@ Description: SafeDel - offload apps from the Home Screen, keep their data.
  .
  SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache...).
  .
- Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen.
+ Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen, App Library, and Spotlight search.
  .
- - Add an orange Offload App item to the icon menu
+ - Add a vibrant green Offload App item to the icon menu (Home Screen, App Library, and Spotlight)
+ - Hide Remove App from the menu
+ - Make the X button offload the app instead of deleting it
+ - Show how much space offloading or deleting will free
+ .
+ Simple, but handy. Enjoy!
+ Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide.
+ Buy me a coffee: https://www.paypal.me/pitroy
+Name: SafeDel
+Author: PitroyTech
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.safedel.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.safedel
+Icon: https://pitroytech.github.io/repo/icons/safedel.png
+
+Package: com.pitroytech.safedel
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.pitroytech.safedel_1.0.4_iphoneos-arm64.deb
+Size: 36612
+MD5sum: 937956f203bbd56a56ef07e78bcc6133
+SHA1: 1704bb1bba5c9064fe67c23bc25889deab212494
+SHA256: 67b2f9696c36354e258ac1c072e93c1e656532aa7b5f48615cabfc24e50e1383
+SHA512: bc6f7b6dd59e9e8b736b76c172c526cce5b8e84a9752b21113b6844c023db6f506b9e30c8626656d2c206b9533691d3a634a12456d412b8496f6532f716a38aa
+Description: SafeDel - offload apps from the Home Screen, keep their data.
+ .
+ SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache...).
+ .
+ Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen, App Library, and Spotlight search.
+ .
+ - Add a vibrant green Offload App item to the icon menu (Home Screen, App Library, and Spotlight)
+ - Hide Remove App from the menu
+ - Make the X button offload the app instead of deleting it
+ - Show how much space offloading or deleting will free
+ .
+ Simple, but handy. Enjoy!
+ Tested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine). Rootless and RootHide.
+ Buy me a coffee: https://www.paypal.me/pitroy
+Name: SafeDel
+Author: PitroyTech
+SileoDepiction: https://pitroytech.github.io/repo/sileo/com.pitroytech.safedel.json
+Depiction: https://pitroytech.github.io/repo/package.html?id=com.pitroytech.safedel
+Icon: https://pitroytech.github.io/repo/icons/safedel.png
+
+Package: com.pitroytech.safedel
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Section: Tweaks
+Maintainer: PitroyTech
+Installed-Size: 408
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.pitroytech.safedel_1.0.4_iphoneos-arm64e.deb
+Size: 36716
+MD5sum: bd87db01e1ddbc936b3a4078ddc29a7f
+SHA1: 2689f2094f31a0f8d314459d19e4c7e3e7c612ab
+SHA256: d54ead954369b26c2c91d4a8e5d5b7bb14ef248d75a7f37c6d4f568ca1ad077b
+SHA512: 92b07b6d99bca506e0de03345838bf532727d23f9da2490ce06d0bc7a54cbb36720375dc993fd79f6c2313b93a3e2c58e7c00af2fc6db9c48170c246b41ad3fe
+Description: SafeDel - offload apps from the Home Screen, keep their data.
+ .
+ SafeDel saves you from a small disaster: deleting an app by mistake and losing all of its data. It adds a menu that removes only the app itself and keeps its data (everything you did in the app, sign-ins, settings, cache...).
+ .
+ Nothing fancy here. It simply brings iOS's own Settings > General > iPhone Storage > Offload App to the Home Screen, App Library, and Spotlight search.
+ .
+ - Add a vibrant green Offload App item to the icon menu (Home Screen, App Library, and Spotlight)
  - Hide Remove App from the menu
  - Make the X button offload the app instead of deleting it
  - Show how much space offloading or deleting will free
