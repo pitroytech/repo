@@ -35,7 +35,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.8"
+          "text": "1.0.9"
         },
         {
           "class": "DepictionTableTextView",
@@ -78,7 +78,7 @@
           "views": [
             {
               "class": "DepictionLabelView",
-              "text": "SimpleRightMenu 1.0.8",
+              "text": "SimpleRightMenu 1.0.9",
               "fontWeight": "bold",
               "fontSize": 16
             },
