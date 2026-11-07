@@ -102,7 +102,7 @@
       "id": "com.pitroytech.simplerightmenu",
       "name": "SimpleRightMenu",
       "tagline": "Reorder, hide, and compact the iOS text selection menu",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "section": "Tweaks",
       "price": "Free",
       "compatibility": "iPhone, iOS 15 and later. Rootless and RootHide.",
@@ -133,7 +133,7 @@
       ],
       "changelog": [
         {
-          "version": "1.1.0",
+          "version": "1.1.1",
           "date": "2026-11-07",
           "notes": [
             "Initial public release (Rootless & RootHide)",
