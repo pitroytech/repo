@@ -556,25 +556,30 @@ MD5sum: cc7eaf533a828537c69ab3a3d9690730
 SHA1: 865b6ef4da1983f7cbc6fcb1207c220df9dd9310
 SHA256: 1ddb7f1a56214b69dd46d01c3726ffba2698515511bbf4923e1e80238d4d35f5
 SHA512: 1f52a797387de7644c3473833ef0145bcad1dbf91ad3a862c2c7584945e033993766d186917648de3aa74ddd43ce37257ee34569987f4dbab758350d7ff2a886
-Description: SimpleRightMenu - reorder, hide, and compact the native iOS text selection menu.
+Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
- Customize the native horizontal iOS text selection menu while keeping its normal presentation and supported app actions.
+ Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add useful search tools.
  .
- What it can do:
+ What you can do:
  .
- - Drag and drop to reorder supported menu items in one list, and hide unwanted actions.
+ - Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection and Look Up into your preferred order.
  .
- - Choose Text, Icon + Text, or compact Icon Only, including distinct Paste and Search icons.
+ - Less clutter: Hide actions you do not use. New Quick Note is hidden by default.
  .
- - Add Search Google / Open Link, Google Translate and validated Select All actions.
+ - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so it is easy to tell apart from Paste.
  .
- - On supported iOS 16+ edit menus, Search with AI opens an editable popup containing the selected text and a prompt. Only Send opens Google AI Mode with the complete edited query. Browser routing includes a Safari fallback.
+ - Search with AI: On supported iOS 16+ edit menus, open a small editable popup with your selected text and an English or Vietnamese prompt. Adjust the request before sending it. Only Send opens Google AI Mode in the browser with the complete edited query, with a Safari fallback. The prompt does not force the response language.
  .
- - English and Vietnamese interface; the AI prompt no longer forces the response language.
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address.
  .
- Automatic menu-show and experimental vertical-menu behavior have been removed. Availability of native actions depends on the current app and text context.
+ - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- Requires iOS 15 or later. Rootless and RootHide packages are available. Release 1.1.4 has passed source/packaging checks; device behavior of this exact release is not yet confirmed.
+ - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ .
+ - Localized settings: English and Vietnamese settings make it easy to reorder actions, control visibility and toggle extra tools. Preference updates apply immediately, with no respring required.
+ .
+ Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
+ .
  Buy me a coffee: https://www.paypal.me/pitroy
 Name: SimpleRightMenu
 Author: PitroyTech
@@ -595,25 +600,30 @@ MD5sum: e3c7ddaa75aea178da9266034f64129e
 SHA1: 004973c2dd11d29a9ce8af975382012b225b036f
 SHA256: 7b88c10efeeca97a5de626f62d49140fa54f038abc6a0a76831296a2997a8180
 SHA512: 37d5d27073e8e79f0601e2723d03d4ba8b3a57cf322748d139356142792edb2d6c91ec86971babdd33c6aff6c9d86c01421ce1e8f76c14010ff2913b4df6e525
-Description: SimpleRightMenu - reorder, hide, and compact the native iOS text selection menu.
+Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
- Customize the native horizontal iOS text selection menu while keeping its normal presentation and supported app actions.
+ Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add useful search tools.
  .
- What it can do:
+ What you can do:
  .
- - Drag and drop to reorder supported menu items in one list, and hide unwanted actions.
+ - Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection and Look Up into your preferred order.
  .
- - Choose Text, Icon + Text, or compact Icon Only, including distinct Paste and Search icons.
+ - Less clutter: Hide actions you do not use. New Quick Note is hidden by default.
  .
- - Add Search Google / Open Link, Google Translate and validated Select All actions.
+ - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so it is easy to tell apart from Paste.
  .
- - On supported iOS 16+ edit menus, Search with AI opens an editable popup containing the selected text and a prompt. Only Send opens Google AI Mode with the complete edited query. Browser routing includes a Safari fallback.
+ - Search with AI: On supported iOS 16+ edit menus, open a small editable popup with your selected text and an English or Vietnamese prompt. Adjust the request before sending it. Only Send opens Google AI Mode in the browser with the complete edited query, with a Safari fallback. The prompt does not force the response language.
  .
- - English and Vietnamese interface; the AI prompt no longer forces the response language.
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address.
  .
- Automatic menu-show and experimental vertical-menu behavior have been removed. Availability of native actions depends on the current app and text context.
+ - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- Requires iOS 15 or later. Rootless and RootHide packages are available. Release 1.1.4 has passed source/packaging checks; device behavior of this exact release is not yet confirmed.
+ - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ .
+ - Localized settings: English and Vietnamese settings make it easy to reorder actions, control visibility and toggle extra tools. Preference updates apply immediately, with no respring required.
+ .
+ Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
+ .
  Buy me a coffee: https://www.paypal.me/pitroy
 Name: SimpleRightMenu
 Author: PitroyTech
@@ -634,25 +644,30 @@ MD5sum: 9dd10e8f7500a14c2b61970ec4de0bfd
 SHA1: 3f5c1f204e3aceba7a2c0891ba31f010ab883956
 SHA256: 7fd26204c0cabebf3ee2394597265ef86ced69274b69cc04a33b56c8bc7af4b0
 SHA512: 3a4f2792bf3347b548c39ac754153972bbe1ef1392109bfe7325a5b7547abaab8ad8516738fcc04495bf369351710aac542106a554805a4ddb6c4692057f39f2
-Description: SimpleRightMenu - reorder, hide, and compact the native iOS text selection menu.
+Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
- Customize the native horizontal iOS text selection menu while keeping its normal presentation and supported app actions.
+ Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add useful search tools.
  .
- What it can do:
+ What you can do:
  .
- - Drag and drop to reorder supported menu items in one list, and hide unwanted actions.
+ - Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection and Look Up into your preferred order.
  .
- - Choose Text, Icon + Text, or compact Icon Only, including distinct Paste and Search icons.
+ - Less clutter: Hide actions you do not use. New Quick Note is hidden by default.
  .
- - Add Search Google / Open Link, Google Translate and validated Select All actions.
+ - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so it is easy to tell apart from Paste.
  .
- - On supported iOS 16+ edit menus, Search with AI opens an editable popup containing the selected text and a prompt. Only Send opens Google AI Mode with the complete edited query. Browser routing includes a Safari fallback.
+ - Search with AI: On supported iOS 16+ edit menus, open a small editable popup with your selected text and an English or Vietnamese prompt. Adjust the request before sending it. Only Send opens Google AI Mode in the browser with the complete edited query, with a Safari fallback. The prompt does not force the response language.
  .
- - English and Vietnamese interface; the AI prompt no longer forces the response language.
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address.
  .
- Automatic menu-show and experimental vertical-menu behavior have been removed. Availability of native actions depends on the current app and text context.
+ - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- Requires iOS 15 or later. Rootless and RootHide packages are available. Release 1.1.4 has passed source/packaging checks; device behavior of this exact release is not yet confirmed.
+ - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ .
+ - Localized settings: English and Vietnamese settings make it easy to reorder actions, control visibility and toggle extra tools. Preference updates apply immediately, with no respring required.
+ .
+ Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
+ .
  Buy me a coffee: https://www.paypal.me/pitroy
 Name: SimpleRightMenu
 Author: PitroyTech
@@ -673,25 +688,30 @@ MD5sum: 976667725e1c7a677413a2ccaa0eb2cb
 SHA1: da6aa68cd0f93ebbe60b6e40f3bd34352c8cafaf
 SHA256: e32f9c0b5bc2fea6c02a478d800397dd111820822ec4736a4a200a36cabfaaf0
 SHA512: cbe6f2c5cbe115dfb670402152b5b4aebb1b3a0c4b6bfce17f0d2099bb78f415a936628fe626f2df2b60d145843d368dbbe01530750ea8bebe6a98ee95e889cf
-Description: SimpleRightMenu - reorder, hide, and compact the native iOS text selection menu.
+Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
- Customize the native horizontal iOS text selection menu while keeping its normal presentation and supported app actions.
+ Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add useful search tools.
  .
- What it can do:
+ What you can do:
  .
- - Drag and drop to reorder supported menu items in one list, and hide unwanted actions.
+ - Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection and Look Up into your preferred order.
  .
- - Choose Text, Icon + Text, or compact Icon Only, including distinct Paste and Search icons.
+ - Less clutter: Hide actions you do not use. New Quick Note is hidden by default.
  .
- - Add Search Google / Open Link, Google Translate and validated Select All actions.
+ - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so it is easy to tell apart from Paste.
  .
- - On supported iOS 16+ edit menus, Search with AI opens an editable popup containing the selected text and a prompt. Only Send opens Google AI Mode with the complete edited query. Browser routing includes a Safari fallback.
+ - Search with AI: On supported iOS 16+ edit menus, open a small editable popup with your selected text and an English or Vietnamese prompt. Adjust the request before sending it. Only Send opens Google AI Mode in the browser with the complete edited query, with a Safari fallback. The prompt does not force the response language.
  .
- - English and Vietnamese interface; the AI prompt no longer forces the response language.
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address.
  .
- Automatic menu-show and experimental vertical-menu behavior have been removed. Availability of native actions depends on the current app and text context.
+ - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- Requires iOS 15 or later. Rootless and RootHide packages are available. Release 1.1.4 has passed source/packaging checks; device behavior of this exact release is not yet confirmed.
+ - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ .
+ - Localized settings: English and Vietnamese settings make it easy to reorder actions, control visibility and toggle extra tools. Preference updates apply immediately, with no respring required.
+ .
+ Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
+ .
  Buy me a coffee: https://www.paypal.me/pitroy
 Name: SimpleRightMenu
 Author: PitroyTech
