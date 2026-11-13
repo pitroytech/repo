@@ -22,7 +22,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "The stock iOS text selection menu buries the buttons you actually use (like Translate, Find Selection, or Look Up) behind pages of arrows, while cluttering the first page with items you never touch (like New Quick Note). And in many text fields, selecting text only shows the blue handles until you tap the text a second time.\n\nSimpleRightMenu fixes that across all apps, with no respring needed.\n\n## What it can do\n\n- **Drag & drop reorder:** Put any action (Translate, Find Selection, Search Google, AutoFill…) in the exact order you want on the first page\n- **Hide unwanted items:** Toggle off anything you don't use (New Quick Note is hidden by default)\n- **3 display styles:** Classic Text, Icon + Text, or compact Icon Only (fits 6–8 buttons at once, with a distinct dual icon for Paste and Search)\n- **Auto-Show Menu on Selection:** Automatically pops up the menu (~0.35s after you finish dragging the selection handles) without needing an extra tap on the selected text\n- **Extra actions:** Search Google / Open Link in your default browser, Quick Google Translate, and Always Show Select All\n\nTested on iOS 15.0.2 (RootHide) and 17.2.1 (Dopamine, rootless). English and Vietnamese.",
+          "markdown": "Customize the native horizontal iOS text selection menu while keeping its normal presentation and supported app actions.\n\n## What it can do\n\n- Drag and drop to reorder supported menu items in one list, and hide unwanted actions.\n- Choose Text, Icon + Text, or compact Icon Only, including distinct Paste and Search icons.\n- Add Search Google / Open Link, Google Translate and validated Select All actions.\n- On supported iOS 16+ edit menus, Search with AI opens an editable popup containing the selected text and a prompt. Only Send opens Google AI Mode with the complete edited query. Browser routing includes a Safari fallback.\n- English and Vietnamese interface; the AI prompt no longer forces the response language.\n\nAutomatic menu-show and experimental vertical-menu behavior have been removed. Availability of native actions depends on the current app and text context.\n\nRequires iOS 15 or later. Rootless and RootHide packages are available. Release 1.1.4 has passed source/packaging checks; device behavior of this exact release is not yet confirmed.",
           "useSpacing": true
         },
         {
@@ -35,7 +35,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.2"
+          "text": "1.1.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -45,7 +45,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Compatibility",
-          "text": "iPhone, iOS 15 and later. Rootless and RootHide."
+          "text": "iPhone, iOS 15–18+. Rootless and RootHide."
         },
         {
           "class": "DepictionTableTextView",
@@ -73,6 +73,32 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SimpleRightMenu 1.1.4",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-13",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Remove automatic menu-show and experimental vertical-menu behavior; preserve native horizontal menus.\n- Add editable Search with AI on supported iOS 16+ edit menus with full-query Google AI Mode and browser/Safari routing instead of ordinary universal-link routing.\n- Remove forced English/Vietnamese output language from the AI prompt.\n- Preserve native correction suggestions and validate Select All for supported nonsecure text inputs; retrieve WebKit selection asynchronously without stale clipboard fallback."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [
