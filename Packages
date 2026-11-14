@@ -552,11 +552,11 @@ Installed-Size: 832
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), firmware (>= 15.0)
 Recommends: com.opa334.ccsupport
 Filename: debs/com.pitroytech.simplerightmenu_1.1.10_iphoneos-arm64.deb
-Size: 102696
-MD5sum: 069cef1ac748819f662eee1f802fd39a
-SHA1: df43e9cb72d0335ec2e987e4643a2d7da8eb7b00
-SHA256: b7920616d9e851c4628ef79d181196dd6ccaaab75f1010db740583c3182ebe1e
-SHA512: 196eaa990fa03ad7c583f1968ea13b70e1477a8d43acc479afffe7f52dbaffaca1601096f30472b24060c90d74b2438eed755d401d61d8018725cd2e1089d18e
+Size: 104568
+MD5sum: 8678c2cd9c8303a209f8ae3f004edde6
+SHA1: f0b38feeddfde42d13353de45ecf9ce4254fb984
+SHA256: bc5ddf7b4cafaba0cdc13c9a4dc6aed3e9ae79f693b98b9222ed2bef789beadc
+SHA512: 90eb10f00253e9179e67b260628f18c4fbb8d96f89179bb20055e1215a28840bd3bda81b4489b151b6e9cde3a208f0db6949365bf9d216efa0c4f22e7ce8f130
 Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
  Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add search and scratchpad tools.
@@ -569,17 +569,17 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
- - Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.
+ - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
- - Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address directly, including links with non-English Unicode characters.
  .
  - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ - Always Show Select All: Keep Select All available when part of the text is selected in supported, nonsecure text fields.
  .
- - Localized settings: English and Vietnamese settings apply immediately without a respring.
+ - In-Settings Language Switcher (Auto / English / Vietnamese): Switch the tweak and Settings interface between Auto, English, and Vietnamese at any time. When using the default AI prompt, the prompt language follows this setting automatically. Changes apply immediately without a respring.
  .
  Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
  .
@@ -599,11 +599,11 @@ Installed-Size: 832
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), firmware (>= 15.0)
 Recommends: com.opa334.ccsupport
 Filename: debs/com.pitroytech.simplerightmenu_1.1.10_iphoneos-arm64e.deb
-Size: 102574
-MD5sum: b64d1b6a0d55fb7775172ba833db2c15
-SHA1: ca98a7e91e74e33ce0482b8bae0d7cdc25b370f0
-SHA256: ed090acedeaf2018387569f8f4782ad067d5306c2be07e9dc7313cd56a0b4f3d
-SHA512: 0a55f2b73fd46bcefccdf842026809cc026f7a39b89ee7903f2b5de3f546f61618bdafed284b2b31b5c00024abb51319df83ec033d911865235b10e1b29b3f30
+Size: 105102
+MD5sum: aa6d8f4fa5c2be8ffdaef5d34b8d9450
+SHA1: 1e12a4c43563419f751135e5a0cc9b8bfb3b4e06
+SHA256: 0ee6a6e9fa80ddbff90e87d6b6c7bf8b7b7f5fa4fc062ea722d9ce59f360b018
+SHA512: 95ab5fa354c12fa62074e36735220afb6360f21c532c819f1845617609a16dad59aebccb1f4f9cf24e3ad97721e717f8fcf2ea7cef5842f20b5d2777f2912005
 Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
  Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add search and scratchpad tools.
@@ -616,17 +616,17 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
- - Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.
+ - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
- - Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address directly, including links with non-English Unicode characters.
  .
  - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ - Always Show Select All: Keep Select All available when part of the text is selected in supported, nonsecure text fields.
  .
- - Localized settings: English and Vietnamese settings apply immediately without a respring.
+ - In-Settings Language Switcher (Auto / English / Vietnamese): Switch the tweak and Settings interface between Auto, English, and Vietnamese at any time. When using the default AI prompt, the prompt language follows this setting automatically. Changes apply immediately without a respring.
  .
  Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
  .
@@ -662,17 +662,17 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
- - Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.
+ - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
- - Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address directly, including links with non-English Unicode characters.
  .
  - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ - Always Show Select All: Keep Select All available when part of the text is selected in supported, nonsecure text fields.
  .
- - Localized settings: English and Vietnamese settings apply immediately without a respring.
+ - In-Settings Language Switcher (Auto / English / Vietnamese): Switch the tweak and Settings interface between Auto, English, and Vietnamese at any time. When using the default AI prompt, the prompt language follows this setting automatically. Changes apply immediately without a respring.
  .
  Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
  .
@@ -708,17 +708,17 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
- - Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.
+ - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
- - Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address directly, including links with non-English Unicode characters.
  .
  - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ - Always Show Select All: Keep Select All available when part of the text is selected in supported, nonsecure text fields.
  .
- - Localized settings: English and Vietnamese settings apply immediately without a respring.
+ - In-Settings Language Switcher (Auto / English / Vietnamese): Switch the tweak and Settings interface between Auto, English, and Vietnamese at any time. When using the default AI prompt, the prompt language follows this setting automatically. Changes apply immediately without a respring.
  .
  Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
  .
@@ -754,17 +754,17 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
- - Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.
+ - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
- - Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address directly, including links with non-English Unicode characters.
  .
  - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ - Always Show Select All: Keep Select All available when part of the text is selected in supported, nonsecure text fields.
  .
- - Localized settings: English and Vietnamese settings apply immediately without a respring.
+ - In-Settings Language Switcher (Auto / English / Vietnamese): Switch the tweak and Settings interface between Auto, English, and Vietnamese at any time. When using the default AI prompt, the prompt language follows this setting automatically. Changes apply immediately without a respring.
  .
  Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
  .
@@ -800,17 +800,17 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
- - Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.
+ - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
- - Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).
+ - Search Google / Open Link: Search the web for selected text, or open a selected web address directly, including links with non-English Unicode characters.
  .
  - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
  .
- - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+ - Always Show Select All: Keep Select All available when part of the text is selected in supported, nonsecure text fields.
  .
- - Localized settings: English and Vietnamese settings apply immediately without a respring.
+ - In-Settings Language Switcher (Auto / English / Vietnamese): Switch the tweak and Settings interface between Auto, English, and Vietnamese at any time. When using the default AI prompt, the prompt language follows this setting automatically. Changes apply immediately without a respring.
  .
  Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
  .
