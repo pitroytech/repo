@@ -1,24 +1,26 @@
 SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
 
-Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add useful search tools.
+Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add search and scratchpad tools.
 
 What you can do:
 
-- Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection and Look Up into your preferred order.
+- Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection, AutoFill and Look Up into your preferred order.
 
 - Less clutter: Hide actions you do not use. New Quick Note is hidden by default.
 
-- Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so it is easy to tell apart from Paste.
+- Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
 
-- Search with AI: On supported iOS 16+ edit menus, open a small editable popup with your selected text and an English or Vietnamese prompt. Adjust the request before sending it. Only Send opens Google AI Mode in the browser with the complete edited query, with a Safari fallback. The prompt does not force the response language.
+- Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.
 
-- Search Google / Open Link: Search the web for selected text, or open a selected web address.
+- Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.
+
+- Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).
 
 - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
 
 - Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
 
-- Localized settings: English and Vietnamese settings make it easy to reorder actions, control visibility and toggle extra tools. Preference updates apply immediately, with no respring required.
+- Localized settings: English and Vietnamese settings apply immediately without a respring.
 
 Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
 

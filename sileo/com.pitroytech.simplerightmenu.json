@@ -22,7 +22,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add useful search tools.\n\n## What you can do\n\n- Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection and Look Up into your preferred order.\n- Less clutter: Hide actions you do not use. New Quick Note is hidden by default.\n- Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so it is easy to tell apart from Paste.\n- Search with AI: On supported iOS 16+ edit menus, open a small editable popup with your selected text and an English or Vietnamese prompt. Adjust the request before sending it. Only Send opens Google AI Mode in the browser with the complete edited query, with a Safari fallback. The prompt does not force the response language.\n- Search Google / Open Link: Search the web for selected text, or open a selected web address.\n- Google Translate: Open the selected text in Google Translate, using your device language as the target language.\n- Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.\n- Localized settings: English and Vietnamese settings make it easy to reorder actions, control visibility and toggle extra tools. Preference updates apply immediately, with no respring required.\n\nAvailable actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.",
+          "markdown": "Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add search and scratchpad tools.\n\n## What you can do\n\n- Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection, AutoFill and Look Up into your preferred order.\n- Less clutter: Hide actions you do not use. New Quick Note is hidden by default.\n- Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.\n- Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.\n- Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.\n- Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).\n- Google Translate: Open the selected text in Google Translate, using your device language as the target language.\n- Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.\n- Localized settings: English and Vietnamese settings apply immediately without a respring.\n\nAvailable actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.",
           "useSpacing": true
         },
         {
@@ -35,7 +35,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.4"
+          "text": "1.1.10"
         },
         {
           "class": "DepictionTableTextView",
@@ -73,6 +73,32 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "SimpleRightMenu 1.1.10",
+              "fontWeight": "bold",
+              "fontSize": 16
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "2026-11-14",
+              "fontWeight": "semibold",
+              "fontSize": 16,
+              "textColor": "#696969",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Add Quick Text Box to the edit menu and as a Control Center module (CCSupport): open a scratchpad draft to paste or edit text, copy on close, and automatically dismiss Control Center when closing the box.\n- Add an independent Icon Only toggle for Quick Text Box and enlarge the Control Center tile glyph to 24pt Semibold with haptic feedback.\n- Add Send Immediately, Attach Prompt toggle, and customizable English/Vietnamese default prompts for Search with AI.\n- Sanitize unpaired UTF-16 surrogates, control characters, and Unicode text with strict RFC 3986 URL encoding across Google Search, Open Link, Google Translate, and AI Search, plus menu rendering optimizations."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [
