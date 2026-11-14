@@ -10,17 +10,17 @@ What you can do:
 
 - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
 
-- Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile to paste, type, or edit text. Closing the box copies the entire draft to your clipboard and automatically dismisses Control Center when opened from the tile. Includes an optional setting to display Quick Text Box as an icon even when the rest of the menu uses text.
+- Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
 
-- Search with AI: On supported iOS 16+ edit menus, open an editable popup with your selected text and a customizable English or Vietnamese prompt, or turn on Send Immediately to open Google AI Mode right away. You can edit the default prompts or turn off prompt attachment in Settings.
+- Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
 
-- Search Google / Open Link: Search the web for selected text, or open a selected web address directly (including URLs containing Unicode characters).
+- Search Google / Open Link: Search the web for selected text, or open a selected web address directly, including links with non-English Unicode characters.
 
 - Google Translate: Open the selected text in Google Translate, using your device language as the target language.
 
-- Always Show Select All: Add Select All when part of the text is selected in supported, nonsecure text fields.
+- Always Show Select All: Keep Select All available when part of the text is selected in supported, nonsecure text fields.
 
-- Localized settings: English and Vietnamese settings apply immediately without a respring.
+- In-Settings Language Switcher (Auto / English / Vietnamese): Switch the tweak and Settings interface between Auto, English, and Vietnamese at any time. When using the default AI prompt, the prompt language follows this setting automatically. Changes apply immediately without a respring.
 
 Available actions depend on the current app, selection and field type. Requires iOS 15 or later. Rootless and RootHide packages are available.
 
