@@ -545,18 +545,18 @@ Icon: https://pitroytech.github.io/repo/icons/safedel.png
 
 Package: com.pitroytech.simplerightmenu
 Architecture: iphoneos-arm64
-Version: 1.1.10
+Version: 1.1.12
 Section: Tweaks
 Maintainer: PitroyTech
-Installed-Size: 832
+Installed-Size: 864
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), firmware (>= 15.0)
 Recommends: com.opa334.ccsupport
-Filename: debs/com.pitroytech.simplerightmenu_1.1.10_iphoneos-arm64.deb
-Size: 104568
-MD5sum: 8678c2cd9c8303a209f8ae3f004edde6
-SHA1: f0b38feeddfde42d13353de45ecf9ce4254fb984
-SHA256: bc5ddf7b4cafaba0cdc13c9a4dc6aed3e9ae79f693b98b9222ed2bef789beadc
-SHA512: 90eb10f00253e9179e67b260628f18c4fbb8d96f89179bb20055e1215a28840bd3bda81b4489b151b6e9cde3a208f0db6949365bf9d216efa0c4f22e7ce8f130
+Filename: debs/com.pitroytech.simplerightmenu_1.1.12_iphoneos-arm64.deb
+Size: 114176
+MD5sum: dfdb7a82d9cf7b7f70f3c0e75e7fae98
+SHA1: 58d82816e688a79c16effcbf2a82e14cdc526ddf
+SHA256: 7c8e9b423f8dae6fe16a08d18cd2cfe905e2a0e8b5c07c7f3e569e8c28580020
+SHA512: 9ec3e7c67c170c3e87a2c25a0d948cee3d9107d593bb2596f3fada17696d0768c4e4e4f37f4502763c27dcf4aef0c879cfc714db47be5fa15a772fa2693b5e85
 Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
  Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add search and scratchpad tools.
@@ -569,7 +569,7 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Selecting text and opening Quick Text Box from either the menu or Control Center automatically copies the selection into the box, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
  - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
@@ -592,18 +592,18 @@ Icon: https://pitroytech.github.io/repo/icons/simplerightmenu.png
 
 Package: com.pitroytech.simplerightmenu
 Architecture: iphoneos-arm64e
-Version: 1.1.10
+Version: 1.1.12
 Section: Tweaks
 Maintainer: PitroyTech
-Installed-Size: 832
+Installed-Size: 864
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), firmware (>= 15.0)
 Recommends: com.opa334.ccsupport
-Filename: debs/com.pitroytech.simplerightmenu_1.1.10_iphoneos-arm64e.deb
-Size: 105102
-MD5sum: aa6d8f4fa5c2be8ffdaef5d34b8d9450
-SHA1: 1e12a4c43563419f751135e5a0cc9b8bfb3b4e06
-SHA256: 0ee6a6e9fa80ddbff90e87d6b6c7bf8b7b7f5fa4fc062ea722d9ce59f360b018
-SHA512: 95ab5fa354c12fa62074e36735220afb6360f21c532c819f1845617609a16dad59aebccb1f4f9cf24e3ad97721e717f8fcf2ea7cef5842f20b5d2777f2912005
+Filename: debs/com.pitroytech.simplerightmenu_1.1.12_iphoneos-arm64e.deb
+Size: 113922
+MD5sum: 3428545e09f9b99c9c67977592eded00
+SHA1: c146074ce39f0de8f2c1c6587030e34839f8108f
+SHA256: b5278dc01c7b4b89bce3b0c62707770e21b7593e65d2e40c05fc59bdcb7aa35c
+SHA512: ab9e117d2797f266be4beafe679d537f5d4722068d15480ab7cecc7de3551c5e7fab62cfc1bedc36b63258fd05cd715548c155efdf3f3f141ac2dd2aef5aecc1
 Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection menu.
  .
  Put the text actions you use within easy reach. SimpleRightMenu lets you organize the native iOS text selection menu, reduce clutter, choose a compact look, and add search and scratchpad tools.
@@ -616,7 +616,7 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Selecting text and opening Quick Text Box from either the menu or Control Center automatically copies the selection into the box, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
  - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
@@ -662,7 +662,7 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Selecting text and opening Quick Text Box from either the menu or Control Center automatically copies the selection into the box, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
  - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
@@ -708,7 +708,7 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Selecting text and opening Quick Text Box from either the menu or Control Center automatically copies the selection into the box, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
  - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
@@ -754,7 +754,7 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Selecting text and opening Quick Text Box from either the menu or Control Center automatically copies the selection into the box, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
  - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
@@ -800,7 +800,7 @@ Description: SimpleRightMenu - reorder, hide, and compact the iOS text selection
  .
  - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
  .
- - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
+ - Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Selecting text and opening Quick Text Box from either the menu or Control Center automatically copies the selection into the box, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
  .
  - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
  .
