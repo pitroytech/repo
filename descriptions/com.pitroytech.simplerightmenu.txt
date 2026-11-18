@@ -10,7 +10,7 @@ What you can do:
 
 - Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.
 
-- Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
+- Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Selecting text and opening Quick Text Box from either the menu or Control Center automatically copies the selection into the box, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.
 
 - Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.
 

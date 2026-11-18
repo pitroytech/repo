@@ -102,7 +102,7 @@
       "id": "com.pitroytech.simplerightmenu",
       "name": "SimpleRightMenu",
       "tagline": "Reorder, hide, and compact the iOS text selection menu",
-      "version": "1.1.10",
+      "version": "1.1.12",
       "section": "Tweaks",
       "price": "Free",
       "compatibility": "iPhone, iOS 15–18+. Rootless and RootHide.",
@@ -112,7 +112,7 @@
         "- Your menu, your order: Drag and drop available native actions such as Copy, Translate, Find Selection, AutoFill and Look Up into your preferred order.",
         "- Less clutter: Hide actions you do not use. New Quick Note is hidden by default.",
         "- Three display styles: Choose Text, Icon + Text, or compact Icon Only. Paste and Search has a distinct clipboard-and-magnifier icon so you can tell it apart from Paste.",
-        "- Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Closing the box copies the entire draft to your clipboard, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.",
+        "- Quick Text Box (Menu & Control Center): Open an independent scratchpad from the edit menu or from the Control Center tile (requires CCSupport) to paste, type, or edit text. Selecting text and opening Quick Text Box from either the menu or Control Center automatically copies the selection into the box, and when opened from Control Center, closing the box also dismisses Control Center automatically. Includes an optional setting to display Quick Text Box as an icon only while keeping text labels on the rest of the menu.",
         "- Search with Google AI: On supported iOS 16+ edit menus, select text and tap Search with AI. By default, a small editable popup opens with your selection and a prepared prompt that asks Google AI Mode to search, explain, or follow your request using current information and reliable sources. You can also turn on Send Immediately in Settings to skip the popup and open Google AI Mode right away, turn prompt attachment off, or save your own custom prompt.",
         "- Search Google / Open Link: Search the web for selected text, or open a selected web address directly, including links with non-English Unicode characters.",
         "- Google Translate: Open the selected text in Google Translate, using your device language as the target language.",
@@ -136,12 +136,13 @@
       ],
       "changelog": [
         {
-          "version": "1.1.10",
-          "date": "2026-11-14",
+          "version": "1.1.12",
+          "date": "2026-11-19",
           "notes": [
+            "Fix Safari / WebKit edit menu hang ('Loading...') when using Search with Google AI, Search Google, or Google Translate on complex web pages.",
             "Add Search with Google AI on supported iOS 16+ edit menus: open an editable popup with your selection and a default English/Vietnamese prompt, or turn on Send Immediately to open Google AI Mode directly. Includes an Attach Prompt toggle and a single customizable prompt in Settings.",
-            "Add Quick Text Box to the edit menu and as a Control Center module (CCSupport): open a blank scratchpad to paste, type, or edit text, copy the draft on close, and automatically dismiss Control Center when closing the box.",
-            "Add an in-Settings Language selector (Auto / English / Tiếng Việt) that switches the interface, menu labels, and default AI prompt language on the fly, plus an independent Icon Only toggle for Quick Text Box.",
+            "Add Quick Text Box to the edit menu and as a Control Center module (CCSupport): selecting text and opening Quick Text Box from either the menu or Control Center automatically copies and populates the selection into the box, and closing the box from Control Center automatically dismisses Control Center.",
+            "Add an in-Settings Language selector (Auto / English / Tiếng Việt) that switches the interface, menu labels, Quick Text Box, and default AI prompt language on the fly, plus an independent Icon Only toggle for Quick Text Box.",
             "Sanitize unpaired UTF-16 surrogates, attachment characters, and non-ASCII URLs with strict RFC 3986 encoding across Google Search, Open Link, Google Translate, and AI Search, and remove experimental auto-show/vertical menu hooks."
           ]
         },
