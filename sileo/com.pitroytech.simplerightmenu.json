@@ -35,7 +35,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1.12"
+          "text": "1.1.14"
         },
         {
           "class": "DepictionTableTextView",
@@ -78,7 +78,7 @@
           "views": [
             {
               "class": "DepictionLabelView",
-              "text": "SimpleRightMenu 1.1.12",
+              "text": "SimpleRightMenu 1.1.14",
               "fontWeight": "bold",
               "fontSize": 16
             },
@@ -94,7 +94,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Fix Safari / WebKit edit menu hang ('Loading...') when using Search with Google AI, Search Google, or Google Translate on complex web pages.\n- Add Search with Google AI on supported iOS 16+ edit menus: open an editable popup with your selection and a default English/Vietnamese prompt, or turn on Send Immediately to open Google AI Mode directly. Includes an Attach Prompt toggle and a single customizable prompt in Settings.\n- Add Quick Text Box to the edit menu and as a Control Center module (CCSupport): selecting text and opening Quick Text Box from either the menu or Control Center automatically copies and populates the selection into the box, and closing the box from Control Center automatically dismisses Control Center.\n- Add an in-Settings Language selector (Auto / English / Tiếng Việt) that switches the interface, menu labels, Quick Text Box, and default AI prompt language on the fly, plus an independent Icon Only toggle for Quick Text Box.\n- Sanitize unpaired UTF-16 surrogates, attachment characters, and non-ASCII URLs with strict RFC 3986 encoding across Google Search, Open Link, Google Translate, and AI Search, and remove experimental auto-show/vertical menu hooks."
+          "markdown": "- Fix Search with Google AI hanging ('Loading...') when opening the edit menu.\n- Automatically copy and populate selected text into Quick Text Box when opening it from the edit menu or Control Center, and fix minor Quick Text Box issues.\n- Minor bug fixes and stability improvements."
         },
         {
           "class": "DepictionSeparatorView"
